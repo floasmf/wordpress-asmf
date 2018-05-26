@@ -12,11 +12,12 @@ class ASMF {
 
 		include_once plugin_dir_path( __FILE__ ).'Convocation.php';
 		new Convocation();
-		register_activation_hook(__FILE__, array('Convocation', 'install'));
-		register_uninstall_hook(__FILE__, array('Convocation', 'uninstall'));
 
 		include_once plugin_dir_path( __FILE__ ).'Event.php';
 		new Event();
+
+        include_once plugin_dir_path( __FILE__ ).'Player.php';
+        new Player();
 	}
 
 	public function add_admin_menu() {

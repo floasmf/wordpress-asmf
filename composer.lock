@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e3db4d9a4601ad8e825dc09e6b1966d",
+    "content-hash": "82be80bb73d6dd45c4366d6a84ad32d9",
     "packages": [
         {
             "name": "composer/installers",
@@ -402,6 +402,26 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/grand-media",
+            "version": "1.12.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/grand-media/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/grand-media.zip?timestamp=1525705789",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/grand-media/"
         }
     ],
     "packages-dev": [

@@ -42,7 +42,7 @@ class Event
 	        'hierarchical' => true,
 	        'description' => 'Events created',
 	        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'revisions' ),
-	        'taxonomies' => array( 'category' ),
+	        'taxonomies' => array(),
 	        'public' => true,
 	        'show_ui' => true,
 	        'show_in_menu' => true,
@@ -76,6 +76,6 @@ class Event
 		  'hierarchical' => true
 		  )
 		);
-	    register_taxonomy_for_object_type( 'couleur', 'event' );
+	    register_taxonomy_for_object_type( 'type', 'event' );
 	}
 }

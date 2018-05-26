@@ -8,18 +8,6 @@ class Convocation
 		add_action('admin_menu', array($this, 'add_admin_menu'), 20);
 	}
 
-	public static function install() {
-		global $wpdb;
-
-    	$wpdb->query("CREATE TABLE IF NOT EXISTS {$wpdb->prefix}players (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), first_name VARCHAR(255), email VARCHAR(255) NOT NULL);");
-    }
-
-    public static function uninstall() {
-    	global $wpdb;
-
-	    $wpdb->query("DROP TABLE IF EXISTS {$wpdb->prefix}players;");
-	}
-
 	public function add_admin_menu()
     {
         add_submenu_page('asmf', 'Convocations', 'Convocations', 'manage_options', 'asmf__convocations', array($this, 'page_html'));
