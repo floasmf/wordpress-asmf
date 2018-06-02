@@ -20,8 +20,8 @@ html {
   box-sizing: inherit;
 }
 
-@import "bootstrap/functions";
-@import "bootstrap/variables";
+@import "functions";
+@import "variables";
 
 //
 // Grid mixins
@@ -31,5 +31,5 @@ html {
 @import "mixins/grid-framework";
 @import "mixins/grid";
 
-@import "bootstrap/grid";
+@import "grid";
 @import "utilities/flex";
