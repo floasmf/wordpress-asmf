@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "503b75a815698a4a1690755a38ed5a76",
+    "content-hash": "552c760f1d2190674b37b5b789825a84",
     "packages": [
         {
             "name": "composer/installers",
@@ -355,16 +355,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.5.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "6ae3e2e6494bb5e58c2decadafc3de7f1453f70a"
+                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/6ae3e2e6494bb5e58c2decadafc3de7f1453f70a",
-                "reference": "6ae3e2e6494bb5e58c2decadafc3de7f1453f70a",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
+                "reference": "8abb4f9aa89ddea9d52112c65bbe8d0125e2fa8e",
                 "shasum": ""
             },
             "require": {
@@ -401,39 +401,19 @@
                 "env",
                 "environment"
             ],
-            "time": "2018-07-01T10:25:50+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/wp-photo-album-plus",
-            "version": "6.9.07.006",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-photo-album-plus/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-photo-album-plus.zip?timestamp=1532853578",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-photo-album-plus/"
+            "time": "2018-07-29T20:33:41+00:00"
         },
         {
             "name": "wpackagist-theme/oceanwp",
-            "version": "1.5.21",
+            "version": "1.5.23",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/oceanwp/",
-                "reference": "1.5.21"
+                "reference": "1.5.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/oceanwp.1.5.21.zip",
+                "url": "https://downloads.wordpress.org/theme/oceanwp.1.5.23.zip",
                 "reference": null,
                 "shasum": null
             },
