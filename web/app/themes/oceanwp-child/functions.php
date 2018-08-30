@@ -28,4 +28,5 @@ function oceanwp_child_enqueue_parent_style() {
 }
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 
-include 'config/events-widget.php';
+require_once 'config/events-widget.php';
+require_once 'config/logo.php';

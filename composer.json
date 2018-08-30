@@ -39,7 +39,10 @@
     "johnpbloch/wordpress": "4.9.6",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-theme/oceanwp": "^1.5"
+    "wpackagist-theme/oceanwp": "^1.5",
+    "wpackagist-plugin/advanced-custom-fields": "5.7.2",
+    "wpackagist-plugin/enable-media-replace": "3.2.7",
+    "wpackagist-plugin/wp-photo-album-plus": "6.9.11.011"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "552c760f1d2190674b37b5b789825a84",
+    "content-hash": "42a29faac2f3d21f5d3cb0a011caa1fc",
     "packages": [
         {
             "name": "composer/installers",
@@ -404,16 +404,76 @@
             "time": "2018-07-29T20:33:41+00:00"
         },
         {
-            "name": "wpackagist-theme/oceanwp",
-            "version": "1.5.23",
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "5.7.2",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/oceanwp/",
-                "reference": "1.5.23"
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/5.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/oceanwp.1.5.23.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/enable-media-replace",
+            "version": "3.2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/enable-media-replace/",
+                "reference": "tags/3.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.2.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/enable-media-replace/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-photo-album-plus",
+            "version": "6.9.11.011",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-photo-album-plus/",
+                "reference": "tags/6.9.11.011"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-photo-album-plus.6.9.11.011.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-photo-album-plus/"
+        },
+        {
+            "name": "wpackagist-theme/oceanwp",
+            "version": "1.5.26",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/oceanwp/",
+                "reference": "1.5.26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/oceanwp.1.5.26.zip",
                 "reference": null,
                 "shasum": null
             },
