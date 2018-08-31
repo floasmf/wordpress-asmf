@@ -1,0 +1,10 @@
+header {
+  &#site-header {
+    border: none;
+    ul {
+      &.sub-menu {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,kBAAc,CACZ,MAAM,CAAE,IAAI,CAEV,8BAAW,CACT,KAAK,CAAE,IAAI",
+"sources": ["sass/_header.scss"],
+"names": [],
+"file": "style.min.css"
+}
