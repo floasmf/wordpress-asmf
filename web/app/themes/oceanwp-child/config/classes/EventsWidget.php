@@ -13,12 +13,12 @@ class EventsWidget extends WP_Widget
     {
         parent::__construct(
         // Base ID of your widget
-            'asmf_events_widget',
+            'asmf_events',
 // Widget name will appear in UI
-            __('Events Widget', 'asmf_domain'),
+            __('Evénements à venir', 'asmf_domain'),
 
             // Widget description
-            array('description' => __('Sample widget based on WPBeginner Tutorial', 'asmf_domain'),)
+            array('description' => __('Widget pour afficher les événements à venir', 'asmf_domain'),)
         );
     }
 
@@ -43,7 +43,7 @@ class EventsWidget extends WP_Widget
         if (isset($instance['title'])) {
             $title = $instance['title'];
         } else {
-            $title = __('New title', 'asmf_domain');
+            $title = __('Évènements', 'asmf_domain');
         }
 // Widget admin form
         ?>

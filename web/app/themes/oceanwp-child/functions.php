@@ -29,5 +29,7 @@ function oceanwp_child_enqueue_parent_style() {
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' , 10);
 
 require_once 'config/css-js.php';
-require_once 'config/events-widget.php';
+require_once 'config/custom-widgets.php';
 require_once 'config/logo.php';
+require_once 'config/cptui.php';
+

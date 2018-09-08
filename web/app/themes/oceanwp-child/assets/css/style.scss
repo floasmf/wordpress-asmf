@@ -1,6 +1,13 @@
 // Import des mixins et des config de ocean wp
 @import "../../../oceanwp/sass/mixins";
-@import "../../../oceanwp/sass/mixins";
+@import "../../../oceanwp/sass/config";
 
-/****** HEADER ********/
+/******* VARIABLES *******/
+@import "sass/variables";
+
+/******** HEADER ********/
 @import "sass/header";
+
+/**** Widget ****/
+@import "sass/widget";
+@import "sass/widget-contact";

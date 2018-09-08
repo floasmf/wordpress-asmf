@@ -1,0 +1,7 @@
+.separate-layout {
+  .widget-area {
+    @media screen and (max-width: $screen-md) {
+      padding: 10px!important;
+    }
+  }
+}

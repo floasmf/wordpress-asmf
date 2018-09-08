@@ -12,9 +12,9 @@
 function remove_actions() {
     remove_action('ocean_header_inner_middle_content', 'oceanwp_header_logo',10);
 }
-add_action( 'init', 'remove_actions');
+//add_action( 'init', 'remove_actions');
 
 /**
  * Ajout du logo dans la top bar
  */
-add_action('ocean_before_top_bar_inner', 'oceanwp_header_logo', 1);
+//add_action('ocean_before_top_bar_inner', 'oceanwp_header_logo', 1);

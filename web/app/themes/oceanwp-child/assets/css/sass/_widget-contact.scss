@@ -1,0 +1,30 @@
+.widget_asmf_contact {
+  .team {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: $primary;
+    padding: 0 10px;
+  }
+  ul {
+    line-height: 1.4em;
+    li {
+      .name {
+        text-transform: uppercase;
+      }
+      .firstname {
+        text-transform: capitalize;
+        &:after {
+          content: ':';
+          margin: 0 2px;
+        }
+      }
+      @media screen and (max-width: $screen-xs){
+        strong {
+          display: block;
+        }
+      }
+    }
+  }
+}
