@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - OceanWP package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-27 17:50:19+0000\n"
+"PO-Revision-Date: 2018-09-05 07:32:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,11 +15,15 @@ msgstr ""
 msgid "OceanWP is the perfect theme for your project. Lightweight and highly extendable, it will enable you to create almost any type of website such a blog, portfolio, business website and WooCommerce storefront with a beautiful & professional design. Very fast, responsive, RTL & translation ready, best SEO practices, unique WooCommerce features to increase conversion and much more. You can even edit the settings on tablet & mobile so your site looks good on every device. Work with the most popular page builders as Elementor, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, etc... Developers will love his extensible codebase making it a joy to customize and extend. Best friend of Elementor & WooCommerce. Looking for a Multi-Purpose theme? Look no further! Check the demos to realize that it's the only theme you will ever need: https://oceanwp.org/demos/"
 msgstr "OceanWP est le thème parfait pour votre projet. Léger et hautement extensible, il vous permettra de créer presque n’importe quel type de site web tel qu’un blog, un portfolio, un site web professionnel ou une vitrine WooCommerce avec une conception superbe et professionnelle. Très rapide, responsive, RTL et prêt à traduire, meilleures pratiques SEO, fonctionnalités uniques WooCommerce pour augmenter la conversion et bien plus encore. Vous pouvez même modifier les réglages sur tablette et mobile pour que votre site soit impeccable sur tous les appareils. Travaillez avec les constructeurs de page les plus populaires comme Elementor, Beaver Builder, Brizy,Visual Composer, Divi, SiteOrigin, etc ... Les développeurs vont adorer sa base de code extensible ce qui en fait un plaisir à personnaliser et à étendre. Meilleur ami d’Elementor & WooCommerce. À la recherche d’un thème polyvalent ? Ne cherchez pas plus loin ! Regardez les démos pour vous rendre compte que c’est l’unique thème dont vous aurez besoin : https://oceanwp.org/demos/"
 
-#. #-#-#-#-#  oceanwp.pot (OceanWP 1.5.26)  #-#-#-#-#
+#. #-#-#-#-#  oceanwp.pot (OceanWP 1.5.27)  #-#-#-#-#
 #. Theme Name of the plugin/theme
-#: inc/helpers.php:3494
+#: inc/helpers.php:3536
 msgid "OceanWP"
 msgstr "OceanWP"
+
+#: inc/woocommerce/woocommerce-config.php:724
+msgid "View products"
+msgstr "Voir les produits"
 
 #: inc/customizer/settings/woocommerce.php:226
 msgid "Side by Side"
@@ -37,53 +41,53 @@ msgstr "Style de la page « Connexion/Inscription »"
 msgid "My Account Page"
 msgstr "Page « Mon compte »"
 
-#: inc/woocommerce/woocommerce-config.php:1922
+#: inc/woocommerce/woocommerce-config.php:1925
 msgid "Sale!"
 msgstr "Promo !"
 
-#: inc/woocommerce/woocommerce-config.php:1918
+#: inc/woocommerce/woocommerce-config.php:1921
 msgid "%s"
 msgstr "%s"
 
 #. translators: %s: field name
-#: inc/woocommerce/woocommerce-config.php:2154
+#: inc/woocommerce/woocommerce-config.php:2157
 msgid "%s is a required field."
 msgstr "%s est un champ obligatoire."
 
 #. translators: 1: state field 2: valid states
-#: inc/woocommerce/woocommerce-config.php:2147
+#: inc/woocommerce/woocommerce-config.php:2150
 msgid "%1$s is not valid. Please enter one of the following: %2$s"
 msgstr "%1$s n’est pas valide. Veuillez saisir un des suivants : %2$s"
 
 #. translators: %s: email address
-#: inc/woocommerce/woocommerce-config.php:2127
+#: inc/woocommerce/woocommerce-config.php:2130
 msgid "%s is not a valid email address."
 msgstr "%s n’est pas une adresse de messagerie valide."
 
 #. translators: %s: phone number
-#: inc/woocommerce/woocommerce-config.php:2118
+#: inc/woocommerce/woocommerce-config.php:2121
 msgid "%s is not a valid phone number."
 msgstr "%s n’est pas un numéro de téléphone valide."
 
-#: inc/woocommerce/woocommerce-config.php:2109
+#: inc/woocommerce/woocommerce-config.php:2112
 msgid "%s is not a valid postcode / ZIP."
 msgstr "%s n’est pas un code postal valide."
 
 #. translators: %s: field name
-#: inc/woocommerce/woocommerce-config.php:2100
+#: inc/woocommerce/woocommerce-config.php:2103
 msgid "Billing %s"
 msgstr "Facturation %s"
 
 #. translators: %s: field name
-#: inc/woocommerce/woocommerce-config.php:2096
+#: inc/woocommerce/woocommerce-config.php:2099
 msgid "Shipping %s"
 msgstr "Livraison %s"
 
-#: inc/woocommerce/woocommerce-config.php:1160
+#: inc/woocommerce/woocommerce-config.php:1163
 msgid "Previous Product"
 msgstr "Produit précédent"
 
-#: inc/woocommerce/woocommerce-config.php:1164
+#: inc/woocommerce/woocommerce-config.php:1167
 msgid "Next Product"
 msgstr "Produit suivant"
 
@@ -447,36 +451,36 @@ msgstr "Sous-total"
 msgid "Remove this item"
 msgstr "Retirer cet article"
 
-#: inc/woocommerce/woocommerce-config.php:1974
+#: inc/woocommerce/woocommerce-config.php:1977
 msgid "Register"
 msgstr "S’enregistrer"
 
-#: inc/woocommerce/woocommerce-config.php:1972
+#: inc/woocommerce/woocommerce-config.php:1975
 msgid "Or"
 msgstr "Ou"
 
-#: inc/woocommerce/woocommerce-config.php:1959
+#: inc/woocommerce/woocommerce-config.php:1962
 #: woocommerce/checkout/checkout-timeline.php:42
 msgid "Login"
 msgstr "Se connecter"
 
-#: inc/woocommerce/woocommerce-config.php:1213
+#: inc/woocommerce/woocommerce-config.php:1216
 msgid "Select Options"
 msgstr "Sélectionner les options"
 
-#: inc/woocommerce/woocommerce-config.php:1229
+#: inc/woocommerce/woocommerce-config.php:1232
 msgid "Out of stock"
 msgstr "En rupture de stock"
 
-#: inc/woocommerce/woocommerce-config.php:1219
+#: inc/woocommerce/woocommerce-config.php:1222
 msgid "Selected:"
 msgstr "Sélectionné :"
 
-#: inc/woocommerce/woocommerce-config.php:810
+#: inc/woocommerce/woocommerce-config.php:813
 msgid "Widgets in this area are used in the off canvas sidebar. To enable the Off Canvas filter, go to the WooCommerce > Archives section of the customizer and enable the Display Filter Button option."
 msgstr "Les widgets dans cette zone sont utilisés dans la colonne latérale hors canevas. Pour activer le filtre Hors canevas, allez à la section WooCommerce > Archives de l’outil de personnalisation et activez l’option du bouton de filtre d’affichage."
 
-#: inc/woocommerce/woocommerce-config.php:809
+#: inc/woocommerce/woocommerce-config.php:812
 msgid "Off-Canvas Filters"
 msgstr "Filtres hors-canevas"
 
@@ -542,7 +546,7 @@ msgid "Button: Background"
 msgstr "Bouton : arrière-plan"
 
 #: inc/customizer/settings/woocommerce.php:3391
-#: inc/woocommerce/woocommerce-config.php:1081
+#: inc/woocommerce/woocommerce-config.php:1084
 msgid "Quick View"
 msgstr "Vue rapide"
 
@@ -725,8 +729,8 @@ msgstr "Afficher le bouton de vue rapide"
 msgid "Filter Button Text"
 msgstr "Texte du bouton de filtre"
 
-#: inc/customizer/settings/woocommerce.php:1339 inc/helpers.php:3628
-#: inc/woocommerce/woocommerce-config.php:855
+#: inc/customizer/settings/woocommerce.php:1339 inc/helpers.php:3670
+#: inc/woocommerce/woocommerce-config.php:858
 msgid "Filter"
 msgstr "Filtre"
 
@@ -869,7 +873,7 @@ msgstr "Ce champ contrôle la largeur à laquelle vous voulez réduire l'en-têt
 msgid "Collapse Width (px)"
 msgstr "Réduire la largeur (px)"
 
-#: inc/woocommerce/woocommerce-config.php:2252
+#: inc/woocommerce/woocommerce-config.php:2255
 msgid "WooCommerce Product Price"
 msgstr "Prix de produit WooCommerce"
 
@@ -905,7 +909,7 @@ msgstr "Sélectionnez un logo rétina (2 fois la taille du logo normal) quand le
 msgid "Latest in"
 msgstr "Dernier dans"
 
-#: inc/woocommerce/woocommerce-config.php:2262
+#: inc/woocommerce/woocommerce-config.php:2265
 msgid "WooCommerce Product Add To Cart"
 msgstr "Ajouter le produit WooCommerce au panier"
 
@@ -1180,7 +1184,7 @@ msgid "Infinite Scroll: Error Text"
 msgstr "Défilement infini : texte d’erreur"
 
 #: inc/customizer/settings/blog.php:529
-#: inc/customizer/settings/woocommerce.php:1506 inc/helpers.php:3150
+#: inc/customizer/settings/woocommerce.php:1506 inc/helpers.php:3192
 #: inc/woocommerce/woocommerce-config.php:394
 msgid "No more pages to load"
 msgstr "Aucune page supplémentaire à charger"
@@ -1191,7 +1195,7 @@ msgid "Infinite Scroll: Last Text"
 msgstr "Défilement infini : texte Dernier"
 
 #: inc/customizer/settings/blog.php:511
-#: inc/customizer/settings/woocommerce.php:1488 inc/helpers.php:3145
+#: inc/customizer/settings/woocommerce.php:1488 inc/helpers.php:3187
 #: inc/woocommerce/woocommerce-config.php:389
 msgid "End of content"
 msgstr "Fin du contenu"
@@ -1351,123 +1355,123 @@ msgstr "Colonne latérale/colonne latérale/contenu"
 msgid "Both Sidebars: Style"
 msgstr "Deux colonnes latérales : style"
 
-#: inc/helpers.php:3570
+#: inc/helpers.php:3612
 msgid "Vortex Reverse"
 msgstr "Vortex inversé"
 
-#: inc/helpers.php:3569
+#: inc/helpers.php:3611
 msgid "Vortex"
 msgstr "Vortex"
 
-#: inc/helpers.php:3568
+#: inc/helpers.php:3610
 msgid "Squeeze"
 msgstr "Écraser"
 
-#: inc/helpers.php:3567
+#: inc/helpers.php:3609
 msgid "Stand Reverse"
 msgstr "Position inverse"
 
-#: inc/helpers.php:3566
+#: inc/helpers.php:3608
 msgid "Stand"
 msgstr "Position"
 
-#: inc/helpers.php:3565
+#: inc/helpers.php:3607
 msgid "Spring Reverse"
 msgstr "Ressort inverse"
 
-#: inc/helpers.php:3564
+#: inc/helpers.php:3606
 msgid "Spring"
 msgstr "Ressort"
 
-#: inc/helpers.php:3563
+#: inc/helpers.php:3605
 msgid "Spin Reverse"
 msgstr "Mélangeur inverse"
 
-#: inc/helpers.php:3562
+#: inc/helpers.php:3604
 msgid "Spin"
 msgstr "Mélangeur"
 
-#: inc/helpers.php:3561
+#: inc/helpers.php:3603
 msgid "Slider Reverse"
 msgstr "Diaporama inversé"
 
-#: inc/helpers.php:3560
+#: inc/helpers.php:3602
 msgid "Slider"
 msgstr "Diaporama"
 
-#: inc/helpers.php:3559
+#: inc/helpers.php:3601
 msgid "Minus"
 msgstr "Moins"
 
-#: inc/helpers.php:3558
+#: inc/helpers.php:3600
 msgid "Elastic Reverse"
 msgstr "Élastique inverse"
 
-#: inc/helpers.php:3557
+#: inc/helpers.php:3599
 msgid "Elastic"
 msgstr "Élastique"
 
-#: inc/helpers.php:3556
+#: inc/helpers.php:3598
 msgid "Collapse Reverse"
 msgstr "Repli inverse"
 
-#: inc/helpers.php:3555
+#: inc/helpers.php:3597
 msgid "Collapse"
 msgstr "Replier"
 
-#: inc/helpers.php:3554
+#: inc/helpers.php:3596
 msgid "Boring"
 msgstr "Ennuyeux"
 
-#: inc/helpers.php:3553
+#: inc/helpers.php:3595
 msgid "Arrowturn Reverse"
 msgstr "Flèche directionnelle inverse"
 
-#: inc/helpers.php:3552
+#: inc/helpers.php:3594
 msgid "Arrowturn"
 msgstr "Flèche directionnelle"
 
-#: inc/helpers.php:3551
+#: inc/helpers.php:3593
 msgid "Arrowalt Reverse"
 msgstr "Flèche alt inverse"
 
-#: inc/helpers.php:3550
+#: inc/helpers.php:3592
 msgid "Arrowalt"
 msgstr "Flèche alt"
 
-#: inc/helpers.php:3549
+#: inc/helpers.php:3591
 msgid "Arrow Reverse"
 msgstr "Flèche inversée"
 
-#: inc/customizer/settings/woocommerce.php:2297 inc/helpers.php:3548
+#: inc/customizer/settings/woocommerce.php:2297 inc/helpers.php:3590
 msgid "Arrow"
 msgstr "Flèche"
 
-#: inc/helpers.php:3547
+#: inc/helpers.php:3589
 msgid "3D XY Reverse"
 msgstr "3D XY inverse"
 
-#: inc/helpers.php:3546
+#: inc/helpers.php:3588
 msgid "3D XY"
 msgstr "3D XY"
 
-#: inc/helpers.php:3545
+#: inc/helpers.php:3587
 msgid "3D Y Reverse"
 msgstr "3D Y inverse"
 
-#: inc/helpers.php:3544
+#: inc/helpers.php:3586
 msgid "3D Y"
 msgstr "3D Y"
 
-#: inc/helpers.php:3543
+#: inc/helpers.php:3585
 msgid "3D X Reverse"
 msgstr "3D X inverse"
 
-#: inc/helpers.php:3542
+#: inc/helpers.php:3584
 msgid "3D X"
 msgstr "3D X"
 
-#: inc/helpers.php:3541
+#: inc/helpers.php:3583
 msgid "Default Icon"
 msgstr "Icône par défaut"
 
@@ -1491,7 +1495,7 @@ msgstr "Bouton hamburger personnalisé"
 msgid "Close Menu Text"
 msgstr "Texte Fermer le menu"
 
-#: inc/customizer/settings/header.php:3503 inc/helpers.php:3622
+#: inc/customizer/settings/header.php:3503 inc/helpers.php:3664
 #: partials/mobile/mobile-icon.php:42
 msgid "Close"
 msgstr "Fermer"
@@ -1958,31 +1962,31 @@ msgstr "0 commentaire"
 msgid "Placeholder Image"
 msgstr "Image indicative"
 
-#: inc/woocommerce/woocommerce-config.php:2241
+#: inc/woocommerce/woocommerce-config.php:2244
 msgid "WooCommerce Product Title"
 msgstr "Titre de produit WooCommerce"
 
-#: inc/edd/edd-config.php:372 inc/woocommerce/woocommerce-config.php:1795
+#: inc/edd/edd-config.php:372 inc/woocommerce/woocommerce-config.php:1798
 msgid "Your cart"
 msgstr "Votre panier"
 
-#: inc/woocommerce/woocommerce-config.php:1297
+#: inc/woocommerce/woocommerce-config.php:1300
 msgid "Logout"
 msgstr "Déconnexion"
 
-#: inc/woocommerce/woocommerce-config.php:1288
+#: inc/woocommerce/woocommerce-config.php:1291
 msgid "Welcome!"
 msgstr "Bienvenue !"
 
-#: inc/woocommerce/woocommerce-config.php:1031
+#: inc/woocommerce/woocommerce-config.php:1034
 msgid "Out of Stock"
 msgstr "Épuisé"
 
-#: inc/woocommerce/woocommerce-config.php:877
+#: inc/woocommerce/woocommerce-config.php:880
 msgid "List view"
 msgstr "Vue en liste"
 
-#: inc/woocommerce/woocommerce-config.php:876
+#: inc/woocommerce/woocommerce-config.php:879
 msgid "Grid view"
 msgstr "Vue en grille"
 
@@ -2388,141 +2392,141 @@ msgstr "Installer des extensions"
 msgid "Install Required Plugins"
 msgstr "Installer des extensions nécessaires"
 
-#: inc/helpers.php:3723
+#: inc/helpers.php:3765
 msgid "Email"
 msgstr "E-mail"
 
-#: inc/helpers.php:3719
+#: inc/helpers.php:3761
 msgid "RSS"
 msgstr "RSS"
 
-#: inc/helpers.php:3715
+#: inc/helpers.php:3757
 msgid "Tripadvisor"
 msgstr "Tripadvisor"
 
-#: inc/helpers.php:3711
+#: inc/helpers.php:3753
 msgid "Yelp"
 msgstr "Yelp"
 
-#: inc/helpers.php:3707
+#: inc/helpers.php:3749
 msgid "Xing"
 msgstr "Xing"
 
-#: inc/helpers.php:3703
+#: inc/helpers.php:3745
 msgid "Vine"
 msgstr "Vine"
 
-#: inc/helpers.php:3699
+#: inc/helpers.php:3741
 msgid "Vimeo"
 msgstr "Vimeo"
 
-#: inc/helpers.php:3695
+#: inc/helpers.php:3737
 msgid "Youtube"
 msgstr "YouTube"
 
-#: inc/helpers.php:3691
+#: inc/helpers.php:3733
 msgid "Skype"
 msgstr "Skype"
 
-#: inc/helpers.php:3687
+#: inc/helpers.php:3729
 msgid "Flickr"
 msgstr "Flickr"
 
-#: inc/helpers.php:3683
+#: inc/helpers.php:3725
 msgid "Github"
 msgstr "Github"
 
-#: inc/helpers.php:3679
+#: inc/helpers.php:3721
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: inc/helpers.php:3675
+#: inc/helpers.php:3717
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: inc/helpers.php:3671
+#: inc/helpers.php:3713
 msgid "Instagram"
 msgstr "Instagram"
 
-#: inc/helpers.php:3667
+#: inc/helpers.php:3709
 msgid "VK"
 msgstr "VK"
 
-#: inc/helpers.php:3663
+#: inc/helpers.php:3705
 msgid "Dribbble"
 msgstr "Dribbble"
 
-#: inc/helpers.php:3659
+#: inc/helpers.php:3701
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: inc/helpers.php:3655
+#: inc/helpers.php:3697
 msgid "Google Plus"
 msgstr "Google Plus"
 
-#: inc/helpers.php:3651
+#: inc/helpers.php:3693
 msgid "Facebook"
 msgstr "Facebook"
 
-#: inc/helpers.php:3647
+#: inc/helpers.php:3689
 msgid "Twitter"
 msgstr "Twitter"
 
-#: inc/helpers.php:3624
+#: inc/helpers.php:3666
 msgid "Copyright [oceanwp_date] - OceanWP Theme by Nick"
 msgstr "Copyright [oceanwp_date] - OceanWP Theme par Nick"
 
-#: inc/helpers.php:3114 inc/helpers.php:3166
+#: inc/helpers.php:3156 inc/helpers.php:3208
 #: inc/woocommerce/woocommerce-config.php:409
 msgid "Older Posts"
 msgstr "Articles plus anciens"
 
-#: inc/helpers.php:3111 inc/helpers.php:3165
+#: inc/helpers.php:3153 inc/helpers.php:3207
 #: inc/woocommerce/woocommerce-config.php:408
 msgid "Newer Posts"
 msgstr "Articles plus récents"
 
-#: inc/helpers.php:2980
+#: inc/helpers.php:3022
 msgid "Your comment is awaiting moderation."
 msgstr "Votre commentaire est en attente de modération."
 
-#: inc/helpers.php:2968
+#: inc/helpers.php:3010
 msgid "edit"
 msgstr "modifier"
 
-#: inc/helpers.php:2959
+#: inc/helpers.php:3001
 msgid "%s "
 msgstr "%s "
 
-#: inc/helpers.php:2941
+#: inc/helpers.php:2983
 msgid "(Edit)"
 msgstr "(modifier)"
 
-#: inc/helpers.php:2941
+#: inc/helpers.php:2983
 msgid "Pingback:"
 msgstr "Ping :"
 
-#: inc/helpers.php:2852
+#: inc/helpers.php:2894
 msgid "Related Posts"
 msgstr "Articles similaires"
 
-#: inc/helpers.php:2851
+#: inc/helpers.php:2893
 msgid "Author Box"
 msgstr "Boîte d’auteur"
 
-#: inc/helpers.php:2850
+#: inc/helpers.php:2892
 msgid "Next/Prev Links"
 msgstr "Liens Préc./Suiv."
 
-#: inc/helpers.php:2849
+#: inc/helpers.php:2891
 msgid "Social Share"
 msgstr "Partage social"
 
-#: inc/helpers.php:2848
+#: inc/helpers.php:2890
 msgid "Tags"
 msgstr "Étiquettes"
 
-#: inc/helpers.php:2763
+#: inc/helpers.php:2805
 msgid "Read More"
 msgstr "Lire la suite"
 
@@ -2675,7 +2679,7 @@ msgstr "Arrière-plan de l’en-tête"
 
 #: inc/customizer/settings/woocommerce.php:2178
 #: inc/customizer/settings/woocommerce.php:4289
-#: inc/woocommerce/woocommerce-config.php:782
+#: inc/woocommerce/woocommerce-config.php:785
 msgid "Cart"
 msgstr "Panier"
 
@@ -2987,8 +2991,8 @@ msgstr "Image alternative"
 
 #: inc/customizer/settings/lifterlms.php:209
 #: inc/customizer/settings/lifterlms.php:240
-#: inc/customizer/settings/woocommerce.php:1404 inc/helpers.php:2759
-#: inc/helpers.php:2844
+#: inc/customizer/settings/woocommerce.php:1404 inc/helpers.php:2801
+#: inc/helpers.php:2886
 msgid "Featured Image"
 msgstr "Image mise en avant"
 
@@ -3013,8 +3017,8 @@ msgstr "Prix/note"
 
 #: inc/customizer/settings/edd.php:837
 #: inc/customizer/settings/woocommerce.php:1382
-#: inc/customizer/settings/woocommerce.php:1625 inc/helpers.php:2760
-#: inc/helpers.php:2845
+#: inc/customizer/settings/woocommerce.php:1625 inc/helpers.php:2802
+#: inc/helpers.php:2887
 msgid "Title"
 msgstr "Titre"
 
@@ -3431,8 +3435,8 @@ msgid "Social"
 msgstr "Réseaux sociaux"
 
 #: inc/customizer/settings/topbar.php:306
-#: inc/customizer/settings/topbar.php:340 inc/helpers.php:2762
-#: inc/helpers.php:2847 inc/third/class-beaver-themer.php:127
+#: inc/customizer/settings/topbar.php:340 inc/helpers.php:2804
+#: inc/helpers.php:2889 inc/third/class-beaver-themer.php:127
 msgid "Content"
 msgstr "Contenu"
 
@@ -3530,7 +3534,7 @@ msgstr "Cible du menu déroulant"
 msgid "Close Menu Button Text"
 msgstr "Texte du bouton fermer le menu"
 
-#: inc/customizer/settings/header.php:3682 inc/helpers.php:3623
+#: inc/customizer/settings/header.php:3682 inc/helpers.php:3665
 #: partials/mobile/mobile-sidr-close.php:20
 msgid "Close Menu"
 msgstr "Fermer le menu"
@@ -3769,7 +3773,7 @@ msgstr "Marge interne des éléments de menu (px)"
 
 #: inc/customizer/settings/header.php:1061
 #: inc/customizer/settings/header.php:2155
-#: inc/customizer/settings/header.php:3486 inc/helpers.php:3621
+#: inc/customizer/settings/header.php:3486 inc/helpers.php:3663
 #: partials/mobile/mobile-icon.php:37
 msgid "Menu"
 msgstr "Menu"
@@ -4611,7 +4615,7 @@ msgid "Single Post"
 msgstr "Article unique"
 
 #: inc/customizer/settings/blog.php:577 inc/customizer/settings/blog.php:976
-#: inc/helpers.php:2853
+#: inc/helpers.php:2895
 msgid "Comments"
 msgstr "Commentaires"
 
@@ -4629,8 +4633,8 @@ msgid "Author"
 msgstr "Auteur"
 
 #: inc/customizer/settings/blog.php:569 inc/customizer/settings/blog.php:968
-#: inc/customizer/settings/lifterlms.php:211 inc/helpers.php:2761
-#: inc/helpers.php:2846
+#: inc/customizer/settings/lifterlms.php:211 inc/helpers.php:2803
+#: inc/helpers.php:2888
 msgid "Meta"
 msgstr "Méta"
 
@@ -5014,15 +5018,15 @@ msgstr "Connecté en tant que"
 msgid "You must be %1$slogged in%2$s to post a comment."
 msgstr "Vous devez être %1$sconnecté%2$s pour publier un commentaire."
 
-#: inc/helpers.php:3014
+#: inc/helpers.php:3056
 msgid "Website"
 msgstr "Site web"
 
-#: inc/helpers.php:3012
+#: inc/helpers.php:3054
 msgid "Email (required)"
 msgstr "E-mail (nécessaire)"
 
-#: inc/helpers.php:3010
+#: inc/helpers.php:3052
 msgid "Name (required)"
 msgstr "Nom (nécessaire)"
 

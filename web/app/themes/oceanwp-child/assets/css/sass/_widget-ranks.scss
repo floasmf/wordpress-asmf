@@ -1,0 +1,32 @@
+.widget_asmf_ranks {
+  background: $primary !important;
+  .widget-title {
+    color: white;
+  }
+  .ranks-menu {
+    .menu-item {
+      float: none;
+      display: block;
+      a {
+        color: white;
+        .nav-arrow {
+          position: absolute;
+          top: 50%;
+          right: 0;
+          padding: 0;
+          @include transform(translateY(-50%));
+        }
+      }
+    }
+    .sub-menu {
+      position: relative;
+      top: auto;
+      left: auto;
+      background-color: transparent;
+      border-top: 0;
+      min-width: 100%;
+      line-height: 1;
+      @include box-shadow(none);
+    }
+  }
+}
