@@ -1,0 +1,15 @@
+.widget_asmf_partners {
+  .slick-slide {
+    & > div {
+      min-height: 100px;
+      @include display();
+      @include align-items(center);
+      .partner {
+        text-align: center;
+        img {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
