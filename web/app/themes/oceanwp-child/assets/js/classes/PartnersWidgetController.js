@@ -18,16 +18,7 @@ var PartnersWidgetController = jQuery.inherit({
             speed: 500,
             cssEase: 'linear',
             arrows: false,
-            rows: 2,
-            responsive: [
-                {
-                    breakpoint: 500,
-                    settings: {
-                        slidesPerRow: 1,
-                        rows: 1,
-                    }
-                }
-            ]
+            rows: 2
         });
     }
 });
