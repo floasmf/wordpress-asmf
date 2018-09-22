@@ -32,9 +32,42 @@ class EventsWidget extends WP_Widget
         if (!empty($title))
             echo $args['before_title'] . $title . $args['after_title'];
 
-// This is where you run the code and display the output
-        echo __('Hello, World!', 'asmf_domain');
-        echo $args['after_widget'];
+        $events = get_posts(array(
+            'numberposts' => -1,
+            'category' => 3
+        ));
+
+        if($events) {
+            $html = '<div id="events-carousel">';
+            foreach ($events as $event) {
+                $date = new DateTime(get_field('date', $event->ID));
+
+                if ($date < new DateTime())
+                    continue;
+
+                setup_postdata($event);
+                $html .= '<div class="event">';
+                // Date
+                $html .= sprintf('<div class="date pull-right">%s</div>', strftime('%e %b %Y', $date->getTimestamp()));
+                // Categories
+                $html .= '<div class="categories">';
+                foreach (wp_get_post_categories($event->ID) as $category) {
+                    $html .= sprintf('<div class="category">%s</div>', get_cat_name($category));
+                }
+                $html .= '</div>';
+                // Titre
+                $html .= sprintf('<h4>%s</h4>', get_the_title());
+                // Extrait
+                $html .= get_the_excerpt();
+                // Image principale
+                $html .= get_the_post_thumbnail($event);
+                $html .= '</div>';
+            }
+            $html .= '</div>';
+            echo $html;
+
+            echo $args['after_widget'];
+        }
     }
 
 // Widget Backend
