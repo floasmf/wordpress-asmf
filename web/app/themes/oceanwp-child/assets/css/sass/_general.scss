@@ -5,3 +5,26 @@
     }
   }
 }
+
+.elementor-heading-title, .widget-title {
+  padding: 0;
+  border: none;
+  &:before, &:after {
+    width: 200px;
+    position: relative;
+    vertical-align: middle;
+    height: 1px;
+    content: '';
+    background-color: black;
+    right: 0;
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
+.widget-title {
+  text-align: center;
+  &:before, &:after {
+    max-width: 13%;
+  }
+}

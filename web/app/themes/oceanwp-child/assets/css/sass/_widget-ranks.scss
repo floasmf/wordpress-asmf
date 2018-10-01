@@ -1,7 +1,10 @@
 .widget_asmf_ranks {
   background: $primary !important;
   .widget-title {
-    color: white;
+    color: white!important;
+    &:before, &:after {
+      background: white;
+    }
   }
   .ranks-menu {
     .menu-item {
