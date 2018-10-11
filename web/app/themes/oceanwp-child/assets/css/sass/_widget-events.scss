@@ -1,0 +1,24 @@
+.widget_asmf_events {
+  .categories {
+    .category {
+      display: inline-block;
+      background: $primary;
+      color: white;
+      font-weight: 600;
+      padding: 0 8px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+  }
+  .date {
+    color: $primary;
+  }
+  .title {
+    text-transform: initial;
+    color: $primary;
+    margin-bottom: 0.3em;
+  }
+  .excerpt {
+    font-size: .9em;
+  }
+}

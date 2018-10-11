@@ -25,29 +25,37 @@ class EventsWidget extends WP_Widget
     // Creating widget front-end
     public function widget($args, $instance)
     {
-        $title = apply_filters('widget_title', $instance['title']);
-
-// before and after widget arguments are defined by themes
-        echo $args['before_widget'];
-        if (!empty($title))
-            echo $args['before_title'] . $title . $args['after_title'];
-
+        $category_event = get_category_by_slug( 'evenement');
         $events = get_posts(array(
             'numberposts' => -1,
-            'category' => 3
+            'category' => $category_event->term_id,
+            'meta_query' => array(
+                'relation' => 'AND',
+                array(
+                    'key' => 'date',
+                    'value' => date('Ymd'),
+                    'type' => 'DATE',
+                    'compare' => '>='
+                )
+            ),
+            'orderby' => 'date',
+            'order' => 'ASC'
         ));
-
         if($events) {
+            $title = apply_filters('widget_title', $instance['title']);
+
+            // before and after widget arguments are defined by themes
+            echo $args['before_widget'];
+            if (!empty($title))
+                echo $args['before_title'] . $title . $args['after_title'];
+
             $html = '<div id="events-carousel">';
             foreach ($events as $event) {
-                $date = new DateTime(get_field('date', $event->ID));
-
-                if ($date < new DateTime())
-                    continue;
-
                 setup_postdata($event);
+
                 $html .= '<div class="event">';
                 // Date
+                $date = new DateTime(get_field('date', $event));
                 $html .= sprintf('<div class="date pull-right">%s</div>', strftime('%e %b %Y', $date->getTimestamp()));
                 // Categories
                 $html .= '<div class="categories">';
@@ -56,9 +64,9 @@ class EventsWidget extends WP_Widget
                 }
                 $html .= '</div>';
                 // Titre
-                $html .= sprintf('<h4>%s</h4>', get_the_title());
+                $html .= sprintf('<h4 class="title">%s</h4>', get_the_title($event));
                 // Extrait
-                $html .= get_the_excerpt();
+                $html .= sprintf('<div class="excerpt">%s</div>',get_the_excerpt());
                 // Image principale
                 $html .= get_the_post_thumbnail($event);
                 $html .= '</div>';
