@@ -33,3 +33,4 @@ require_once 'config/settings.php';
 require_once 'config/custom-widgets.php';
 require_once 'config/logo.php';
 require_once 'config/cptui.php';
+require_once 'config/image-size.php';
