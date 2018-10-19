@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ocean Extra - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-02 21:18:05+0000\n"
+"PO-Revision-Date: 2018-09-20 14:40:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,11 +11,27 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: Plugins - Ocean Extra - Stable (latest release)\n"
 
-#: includes/panel/notice.php:54
+#: includes/panel/notice.php:136
+msgid "Ok, you deserve it"
+msgstr "Ok, vous le méritez"
+
+#: includes/panel/notice.php:136
+msgid "Nope, maybe later"
+msgstr "Non, peut être plus tard"
+
+#: includes/panel/notice.php:136
+msgid "I already did"
+msgstr "Je l’ai déjà fait"
+
+#: includes/panel/notice.php:133
+msgid "Hello! we&rsquo;re grateful that you&rsquo;ve decided to join the OceanWP family.%1$sCould you please do us a BIG favor? If you could take 2 min of your time, we&rsquo;d really appreciate if you could give OceanWP a 5-star rating on WordPress. By spreading the love, we can create even greater free stuff in the future!"
+msgstr "Bonjour ! Nous vous sommes reconnaissants d’avoir décidé de rejoindre la famille OceanWP. %1$s pourriez-vous nous faire une grande faveur ? Si vous pouviez prendre deux minutes de votre temps, nous apprécierons que vous nous donniez une note de 5 étoiles sur WordPress. En diffusant l’amour, nous pourrons créer encore plus de choses gratuites à l’avenir."
+
+#: includes/panel/notice.php:58
 msgid "I want to win"
 msgstr "Je veux gagner"
 
-#: includes/panel/notice.php:51
+#: includes/panel/notice.php:55
 msgid "Thank you for installing OceanWP! As a gesture of our appreciation, here&rsquo;s your chance to win our best-selling %1$sCore Extension Bundle%2$s, which includes more than 14 premium extensions that&rsquo;ll enhance this website with state-of-the-art functionality. 10 winners are selected each month, so sign up today, you&rsquo;ve got nothing to lose!"
 msgstr "Merci d’avoir installé OceanWP ! En guise de remerciement, voici votre chance de gagner notre best-seller %1$sCore Extension Bundle%2$s, qui comprend plus de 14 extensions premium qui enrichiront ce site web avec des fonctionnalités de pointe. 10 gagnants sont sélectionnés chaque mois, alors inscrivez-vous dès aujourd’hui, vous n’avez rien à perdre !"
 
@@ -27,11 +43,11 @@ msgstr "Style du menu déroulant :"
 msgid "Target:"
 msgstr "Cible :"
 
-#: includes/panel/theme-panel.php:69
+#: includes/panel/theme-panel.php:72
 msgid "Good job! Your website is coming together nicely. To complete the functionality, install the %1$sOcean Sticky Header%2$s extension."
 msgstr "Bon travail ! Votre site web s’améliore. Pour compléter les fonctionnalités, installez l’extension %1$sOcean Sticky Header%2$s."
 
-#: includes/panel/theme-panel.php:73
+#: includes/panel/theme-panel.php:76
 msgid "Get It Now"
 msgstr "Obtenez-la maintenant"
 
@@ -47,15 +63,15 @@ msgstr "Au survol"
 msgid "If the Click dropdown style is selected"
 msgstr "Si le style du menu déroulant « Au clic » est sélectionné"
 
-#: includes/panel/theme-panel.php:396
+#: includes/panel/theme-panel.php:408
 msgid "Join the Group"
 msgstr "Rejoignez le groupe"
 
-#: includes/panel/theme-panel.php:395
+#: includes/panel/theme-panel.php:407
 msgid "Become part of the OceanWP VIP Community on Facebook. You will get access to the latest beta releases, get help with issues or simply meet like-minded people."
 msgstr "Devenez membre de la communauté VIP OceanWP sur Facebook. Vous aurez accès aux dernières versions bêta, vous obtiendrez de l’aide pour résoudre des problèmes ou vous rencontrerez simplement des gens qui partagent les mêmes idées."
 
-#: includes/panel/theme-panel.php:388
+#: includes/panel/theme-panel.php:400
 msgid "VIP"
 msgstr "VIP"
 
@@ -195,11 +211,11 @@ msgstr "MailChimp"
 msgid "Integrations"
 msgstr "Intégrations"
 
-#: includes/panel/theme-panel.php:402
+#: includes/panel/theme-panel.php:414
 msgid "How-to Videos"
 msgstr "Vidéos pratiques"
 
-#: includes/panel/theme-panel.php:376
+#: includes/panel/theme-panel.php:388
 msgid "Take your website to the next level.%1$sGain access to all premium extensions with a single purchase. %2$sClick here%3$s for more information."
 msgstr "Faites passer votre site web au niveau supérieur.%1$sAccédez à toutes les extensions premium en un unique achat.. %2$sCliquez ici%3$s pour plus d’information."
 
@@ -243,10 +259,6 @@ msgstr "Récupérez et personnalisez votre flux Instagram pour l’afficher magn
 msgid "Display a popup when a product is added to the cart, perfect to increase conversion."
 msgstr "Afficher une fenêtre surgissante lorsqu’un produit est ajouté au panier, parfait pour augmenter les conversions."
 
-#: includes/panel/theme-panel.php:360
-msgid "I&rsquo;m grateful that you&rsquo;ve decided to join the OceanWP family. If I could take 2 min of your time, I&rsquo;d really appreciate if you could leave a review. By spreading the love, we can create even greater free stuff in the future!"
-msgstr "Je vous suis reconnaissant d’avoir décidé de vous joindre à la famille OceanWP. Si je pouvais prendre deux minutes de votre temps, j’apprécierais vraiment si vous pouviez laisser une évaluation. En répandant l’amour, nous pouvons créer encore plus de choses gratuites dans le futur !"
-
 #: includes/dashboard.php:75
 msgid "News & Updates"
 msgstr "Nouveautés & mises à jour"
@@ -254,6 +266,10 @@ msgstr "Nouveautés & mises à jour"
 #: includes/dashboard.php:43
 msgid "OceanWP Overview"
 msgstr "Vue d’ensemble d’OceanWP"
+
+#: includes/panel/theme-panel.php:369
+msgid "we&rsquo;re grateful that you&rsquo;ve decided to join the OceanWP family. If you could take 2 min of your time, we&rsquo;d really appreciate if you could leave a review. By spreading the love, we can create even greater free stuff in the future!"
+msgstr "Je vous suis reconnaissant d’avoir décidé de vous joindre à la famille OceanWP. Si vous pouviez prendre deux minutes de votre temps, j’apprécierais vraiment si vous pouviez laisser une évaluation. En répandant l’amour, nous pouvons créer encore plus de choses gratuites dans le futur !"
 
 #: includes/dashboard.php:171
 msgid "Untitled"
@@ -322,87 +338,87 @@ msgstr "Commutez pour cocher ou décocher tous les scripts :"
 msgid "WooCommerce Account Links"
 msgstr "Liens de compte WooCommerce"
 
-#: includes/panel/demos.php:1492
+#: includes/panel/demos.php:1502
 msgid "Sample data file appears corrupt or can not be accessed."
 msgstr "Le fichier de données d’exemple apparaît corrompu ou n’est pas accessible."
 
-#: includes/panel/demos.php:1481
+#: includes/panel/demos.php:1491
 msgid "Can not retrieve wordpress-importer.php"
 msgstr "Impossible de récupérer wordpress-importer.php"
 
-#: includes/panel/demos.php:1471
+#: includes/panel/demos.php:1481
 msgid "Can not retrieve class-wp-importer.php"
 msgstr "Impossible de récupérer class-wp-importer.php"
 
-#: includes/panel/demos.php:1434
+#: includes/panel/demos.php:1444
 msgid "The xml import file could not be accessed. Please try again or contact the theme developer."
 msgstr "Le fichier d’imporatation xml n’est pas accessible. Veuillez essayer à nouveau ou contacter le développeur du thème."
 
-#: includes/panel/demos.php:1419
+#: includes/panel/demos.php:1429
 msgid "Can not retrieve sample data xml file. Github may be down at the momment please try again later. If you still have issues contact the theme developer for assistance."
 msgstr "Impossible de récupérer le fichier xml de données d’exemple. Github est peut-être en panne pour le moment, veuillez réessayer plus tard. Si vous avez encore des problèmes, contactez le développeur du thème pour obtenir de l’aide."
 
-#: includes/panel/demos.php:1154
+#: includes/panel/demos.php:1164
 msgid "Importing Widgets"
 msgstr "Importations des widgets"
 
-#: includes/panel/demos.php:1147
+#: includes/panel/demos.php:1157
 msgid "Importing Customizer Settings"
 msgstr "Importation des réglages de l’outil de personnalisation"
 
-#: includes/panel/demos.php:1140
+#: includes/panel/demos.php:1150
 msgid "Importing XML Data"
 msgstr "Importation des données XML"
 
-#: includes/panel/demos.php:1120
+#: includes/panel/demos.php:1130
 msgid "Plugin Successfully Activated"
 msgstr "Extension bien activée"
 
-#: includes/panel/demos.php:1100
+#: includes/panel/demos.php:1110
 msgid "No plugin specified"
 msgstr "Aucune extension spécifiée"
 
-#: includes/panel/demos.php:1026
+#: includes/panel/demos.php:1036
 msgid "See the result"
 msgstr "Voir le résultat"
 
-#: includes/panel/demos.php:1025
+#: includes/panel/demos.php:1035
 msgid "Demo Imported!"
 msgstr "Démo importée !"
 
-#: includes/panel/demos.php:1019
+#: includes/panel/demos.php:1029
 msgid "The import process could take some time, please be patient"
 msgstr "Le processus d’importation peut prendre du temps, veuillez être patient"
 
-#: includes/panel/demos.php:1014
+#: includes/panel/demos.php:1024
 msgid "Install this demo"
 msgstr "Installer cette démo"
 
-#: includes/panel/demos.php:1006
+#: includes/panel/demos.php:1016
 msgid "Import Widgets"
 msgstr "Importer les widgets"
 
-#: includes/panel/demos.php:999
+#: includes/panel/demos.php:1009
 msgid "Import Customizer Settings"
 msgstr "Importer les réglages de l’outil de personnalisation"
 
-#: includes/panel/demos.php:992
+#: includes/panel/demos.php:1002
 msgid "pages, posts, images, menus, etc..."
 msgstr "pages, articles, images, menus, etc&hellip;"
 
-#: includes/panel/demos.php:992
+#: includes/panel/demos.php:1002
 msgid "Import XML Data"
 msgstr "Importer des données XML"
 
-#: includes/panel/demos.php:986
+#: includes/panel/demos.php:996
 msgid "Select what you want to import:"
 msgstr "Sélectionnez ce que vous souhaitez importer :"
 
-#: includes/panel/demos.php:976
+#: includes/panel/demos.php:986
 msgid "Go to the next step"
 msgstr "Aller à la prochaine étape"
 
-#: includes/panel/demos.php:965
+#: includes/panel/demos.php:975
 msgid "Required Plugins"
 msgstr "Extensions nécessaires"
 
@@ -410,15 +426,15 @@ msgstr "Extensions nécessaires"
 msgid "This script is to switch between login/register in your account page."
 msgstr "Ce script est pour commuter entre connexion/inscription dans la page de votre compte."
 
-#: includes/panel/demos.php:966
+#: includes/panel/demos.php:976
 msgid "For your site to look exactly like this demo, the plugins below need to be activated."
 msgstr "Pour que votre site ressemble exactement à cette démo, les extensions ci-dessous doivent être activées."
 
-#: includes/panel/demos.php:959
+#: includes/panel/demos.php:969
 msgid "Importing demo data allow you to quickly edit everything instead of creating content from scratch. It is recommended uploading sample data on a fresh WordPress install to prevent conflicts with your current content. You can use this plugin to reset your site if needed: %1$sWordpress Database Reset%2$s."
 msgstr "L’importation de données de démonstration vous permet de tout modifier rapidement au lieu de créer du contenu à partir de zéro. Il est recommandé de téléverser les données d’exemples sur une nouvelle installation WordPress pour éviter les conflits avec votre contenu actuel. Vous pouvez utiliser cette extension pour réinitialiser votre site si nécessaire : %1$sWordpress Database Reset%2$s."
 
-#: includes/panel/demos.php:953
+#: includes/panel/demos.php:963
 msgid "Import the %1$s demo"
 msgstr "Importer la démo %1$s"
 
@@ -808,10 +824,10 @@ msgstr "Couleur au survol"
 msgid "Background Color Hover"
 msgstr "Couleur d’arrière-plan au survol"
 
-#: includes/shortcodes/shortcodes.php:302
-#: includes/shortcodes/shortcodes.php:452
-#: includes/shortcodes/shortcodes.php:484
-#: includes/shortcodes/shortcodes.php:607
+#: includes/shortcodes/shortcodes.php:300
+#: includes/shortcodes/shortcodes.php:450
+#: includes/shortcodes/shortcodes.php:482
+#: includes/shortcodes/shortcodes.php:663
 msgid "This shortcode only works in front end"
 msgstr "Ce code court fonctionne uniquement sur l’interface publique"
 
@@ -1170,7 +1186,7 @@ msgstr "Modèle"
 msgid "My Library"
 msgstr "Ma bibliothèque"
 
-#: includes/panel/theme-panel.php:358
+#: includes/panel/theme-panel.php:367
 msgid "Are you a helpful person?"
 msgstr "Êtes-vous une personne utile ?"
 
@@ -1392,7 +1408,7 @@ msgstr "Book : 300"
 msgid "Light: 200"
 msgstr "Léger : 200"
 
-#: includes/panel/notice.php:54
+#: includes/panel/notice.php:58
 msgid "No thanks"
 msgstr "Non merci"
 
@@ -1422,11 +1438,11 @@ msgstr "Heure"
 msgid "Year"
 msgstr "Année"
 
-#: includes/panel/theme-panel.php:361
+#: includes/panel/theme-panel.php:370
 msgid "Leave my review"
 msgstr "Laisser mon évaluation"
 
-#: includes/panel/theme-panel.php:362
+#: includes/panel/theme-panel.php:371
 msgid "Thank you very much!"
 msgstr "Merci beaucoup !"
 
@@ -1462,13 +1478,13 @@ msgstr "La clé que vous avez saisie appartient à un paquet, merci d’utilisez
 msgid "There was an error with this license key: %1$s. Please <a href=\"%2$s\">contact our support team</a>."
 msgstr "Une erreur s'est produite avec cette clé de licence : %1$s. Veuillez <a href=\"%2$s\">contacter notre équipe de support</a>."
 
-#: includes/shortcodes/shortcodes.php:524
-#: includes/shortcodes/shortcodes.php:584
+#: includes/shortcodes/shortcodes.php:521
+#: includes/shortcodes/shortcodes.php:597
 msgid "You have Free delivery!"
 msgstr "Vous avez la livraison gratuite !"
 
-#: includes/shortcodes/shortcodes.php:520
-#: includes/shortcodes/shortcodes.php:583
+#: includes/shortcodes/shortcodes.php:517
+#: includes/shortcodes/shortcodes.php:596
 msgid "Buy for %left_to_free% more and get free shipping"
 msgstr "Achetez pour %left_to_free% supplémentaires et obtenez la livraison gratuite"
 
@@ -1544,15 +1560,15 @@ msgstr "Couleur du séparateur"
 msgid "Links Color"
 msgstr "Couleur des liens"
 
-#: includes/panel/theme-panel.php:201
+#: includes/panel/theme-panel.php:204
 msgid "Footer widgets options"
 msgstr "Options des widgets du pied de page"
 
-#: includes/panel/demos.php:1054
+#: includes/panel/demos.php:1064
 msgid "Activate"
 msgstr "Activer"
 
-#: includes/panel/demos.php:1065
+#: includes/panel/demos.php:1075
 msgid "Activated"
 msgstr "Activé"
 
@@ -1584,11 +1600,11 @@ msgstr "Activer ou désactiver le fil d'Ariane du titre de page."
 msgid "Links Color: Hover"
 msgstr "Couleur des liens : au survol"
 
-#: includes/panel/theme-panel.php:177
+#: includes/panel/theme-panel.php:180
 msgid "Add your own logo and retina logo used for retina screens."
 msgstr "Ajoutez vos propres logo et logo rétina utilisés pour les écrans rétina."
 
-#: includes/panel/theme-panel.php:202
+#: includes/panel/theme-panel.php:205
 msgid "Choose the columns number, paddings and colors for the footer widgets."
 msgstr "Choisissez le nombre de colonnes, les marges internes et les couleurs pour les widgets de pied de page."
 
@@ -1612,7 +1628,7 @@ msgstr "Votre %1$s n'est pas active pour cette URL. Veuillez <a href=\"%2$s\" ta
 msgid "This appears to be an invalid license key for %1$s."
 msgstr "Cela semble être une clé de licence non valide pour %1$s."
 
-#: includes/panel/demos.php:1060
+#: includes/panel/demos.php:1070
 msgid "Install Now"
 msgstr "Installer maintenant"
 
@@ -1933,11 +1949,11 @@ msgstr "Bas"
 msgid "Middle"
 msgstr "Milieu"
 
-#: includes/panel/theme-panel.php:473
+#: includes/panel/theme-panel.php:504
 msgid "Customizer Sections"
 msgstr "Sections de l’outil de personnalisation"
 
-#: includes/panel/theme-panel.php:514
+#: includes/panel/theme-panel.php:545
 msgid "Getting started"
 msgstr "Commencer"
 
@@ -6093,15 +6109,15 @@ msgstr "JS"
 msgid "CSS"
 msgstr "CSS"
 
-#: includes/panel/theme-panel.php:185
+#: includes/panel/theme-panel.php:188
 msgid "Replace the default primary and hover color by your own colors."
 msgstr "Remplacez la couleur par défaut et la couleur au survol par vos propres couleurs."
 
-#: includes/panel/theme-panel.php:188
+#: includes/panel/theme-panel.php:191
 msgid "Choose your typography"
 msgstr "Choisissez votre typographie"
 
-#: includes/panel/theme-panel.php:546
+#: includes/panel/theme-panel.php:577
 msgid "Go to the option"
 msgstr "Aller à l’option"
 
@@ -6181,23 +6197,23 @@ msgstr "Page 404"
 msgid "Responsive"
 msgstr "Responsive"
 
-#: includes/panel/theme-panel.php:197
+#: includes/panel/theme-panel.php:200
 msgid "Header options"
 msgstr "Options d’en-tête"
 
-#: includes/panel/theme-panel.php:198
+#: includes/panel/theme-panel.php:201
 msgid "Choose the style, the height and the colors for your site header."
 msgstr "Choisissez le style, la hauteur et les couleurs pour l’en-tête de votre site."
 
-#: includes/panel/theme-panel.php:205
+#: includes/panel/theme-panel.php:208
 msgid "Footer bottom options"
 msgstr "Options du bas de pied de page"
 
-#: includes/panel/theme-panel.php:206
+#: includes/panel/theme-panel.php:209
 msgid "Add your copyright, paddings and colors for the footer bottom."
 msgstr "Ajoutez vos Copyright, marges internes et couleurs pour le bas du pied de page."
 
-#: includes/panel/theme-panel.php:516
+#: includes/panel/theme-panel.php:547
 msgid "Take a look in the options of the Customizer and see yourself how easy and quick to customize your website as you wish."
 msgstr "Jetez un oeil dans les options de l’outil de personnalisation et voyez vous-même comment facilement et rapidement personnaliser votre site web comme vous le souhaitez."
 
@@ -6277,31 +6293,31 @@ msgstr "Sidr"
 msgid "Slick"
 msgstr "Slick"
 
-#: includes/panel/theme-panel.php:176
+#: includes/panel/theme-panel.php:179
 msgid "Upload your logo"
 msgstr "Mettez votre logo en ligne"
 
-#: includes/panel/theme-panel.php:180
+#: includes/panel/theme-panel.php:183
 msgid "Add your favicon"
 msgstr "Ajoutez votre favicon"
 
-#: includes/panel/theme-panel.php:181
+#: includes/panel/theme-panel.php:184
 msgid "The favicon is used as a browser and app icon for your website."
 msgstr "Le favicon est utilisé comme icône de navigateur et d'application pour votre site web."
 
-#: includes/panel/theme-panel.php:184
+#: includes/panel/theme-panel.php:187
 msgid "Choose your primary color"
 msgstr "Choisissez votre couleur principale"
 
-#: includes/panel/theme-panel.php:189
+#: includes/panel/theme-panel.php:192
 msgid "Choose your own typography for any parts of your website."
 msgstr "Choisissez votre propre typographie pour toutes les parties de votre site web."
 
-#: includes/panel/theme-panel.php:193
+#: includes/panel/theme-panel.php:196
 msgid "Top bar options"
 msgstr "Options de barre supérieure"
 
-#: includes/panel/theme-panel.php:194
+#: includes/panel/theme-panel.php:197
 msgid "Enable/Disable the top bar, add your own paddings and colors."
 msgstr "Activez/désactivez la barre supérieure, ajoutez vos propres marges internes et couleurs."
 
@@ -6423,7 +6439,7 @@ msgstr "Ce script utilise la boîte de sélection native et ajoute un élément 
 msgid "This style is to display and hide your WooCommerce cart drop down in the navigation."
 msgstr "Ce style sert à afficher et masquer votre panier WooCommerce déroulant dans la navigation."
 
-#: includes/panel/theme-panel.php:404
+#: includes/panel/theme-panel.php:416
 msgid "Open a Support Ticket"
 msgstr "Ouvrir un ticket de support"
 
@@ -7452,7 +7468,7 @@ msgstr "Clé de licence %1$s"
 msgid "Select a hex color code, ex: #333"
 msgstr "Sélectionnez une couleur hex., ex : #333"
 
-#: includes/panel/theme-panel.php:149
+#: includes/panel/theme-panel.php:152
 msgid "Sidebar Panel"
 msgstr "Panneau de colonne latérale"
 
@@ -7553,7 +7569,7 @@ msgstr "Ajouter une image"
 msgid "Set as image"
 msgstr "Définir comme image"
 
-#: includes/panel/theme-panel.php:158
+#: includes/panel/theme-panel.php:161
 msgid "Custom CSS/JS Panel"
 msgstr "Panneau de CSS/JS personnalisé"
 
@@ -7625,7 +7641,7 @@ msgstr "Ajoutez votre code court à afficher avant le titre de la page."
 msgid "Add a responsive side panel with your preferred widgets inside."
 msgstr "Ajoutez un panneau latéral responsive avec vos widgets préférés à l'intérieur."
 
-#: includes/panel/demos.php:1075
+#: includes/panel/demos.php:1085
 msgid "Get This Addon"
 msgstr "Obtenir ce module"
 
@@ -7641,7 +7657,7 @@ msgstr "Ajoutez plusieurs widgets additionnels au constructeur de page populaire
 msgid "More Details >"
 msgstr "Plus de détails >"
 
-#: includes/panel/theme-panel.php:379
+#: includes/panel/theme-panel.php:391
 msgid "Read More"
 msgstr "Lire plus"
 
@@ -7804,7 +7820,7 @@ msgstr "Couleur pleine et texte blanc"
 msgid "Extensions"
 msgstr "Extensions"
 
-#. #-#-#-#-#  ocean-extra-code.pot (Ocean Extra 1.4.23)  #-#-#-#-#
+#. #-#-#-#-#  ocean-extra-code.pot (Ocean Extra 1.4.29)  #-#-#-#-#
 #. Author of the plugin/theme
 #: includes/dashboard.php:72
 msgid "OceanWP"
@@ -7815,7 +7831,7 @@ msgid "Enable or Disable"
 msgstr "Activer ou désactiver"
 
 #: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:58
-#: includes/panel/theme-panel.php:240 includes/panel/theme-panel.php:241
+#: includes/panel/theme-panel.php:243 includes/panel/theme-panel.php:244
 msgid "General"
 msgstr "Général"
 
@@ -7823,7 +7839,7 @@ msgstr "Général"
 msgid "Licenses"
 msgstr "Licenses"
 
-#: includes/panel/theme-panel.php:403
+#: includes/panel/theme-panel.php:415
 msgid "Documentation"
 msgstr "Documentation"
 
@@ -7831,7 +7847,7 @@ msgstr "Documentation"
 msgid "Save Changes"
 msgstr "Enregistrer les modifications"
 
-#: ocean-extra.php:199 ocean-extra.php:208
+#: ocean-extra.php:217 ocean-extra.php:226
 msgid "Cheatin&#8217; huh?"
 msgstr "Une fausse manipulation ?"
 
@@ -7842,43 +7858,43 @@ msgstr "Une fausse manipulation ?"
 msgid "Upload"
 msgstr "Mettre en ligne"
 
-#: includes/panel/theme-panel.php:134
+#: includes/panel/theme-panel.php:137
 msgid "General Panel"
 msgstr "Panneau général"
 
-#: includes/panel/theme-panel.php:137
+#: includes/panel/theme-panel.php:140
 msgid "Typography Panel"
 msgstr "Panneau de typographie"
 
-#: includes/panel/theme-panel.php:140
+#: includes/panel/theme-panel.php:143
 msgid "Top Bar Panel"
 msgstr "Panneau de barre supérieure"
 
-#: includes/panel/theme-panel.php:143
+#: includes/panel/theme-panel.php:146
 msgid "Header Panel"
 msgstr "Panneau d’en-tête"
 
-#: includes/panel/theme-panel.php:146
+#: includes/panel/theme-panel.php:149
 msgid "Blog Panel"
 msgstr "Panneau de blog"
 
-#: includes/panel/theme-panel.php:152
+#: includes/panel/theme-panel.php:155
 msgid "Footer Widgets Panel"
 msgstr "Panneau de widgets du pied de page"
 
-#: includes/panel/theme-panel.php:155
+#: includes/panel/theme-panel.php:158
 msgid "Footer Bottom Panel"
 msgstr "Panneau de bas de pied de page"
 
-#: includes/panel/theme-panel.php:222 includes/panel/theme-panel.php:425
+#: includes/panel/theme-panel.php:225 includes/panel/theme-panel.php:456
 msgid "Theme Panel"
 msgstr "Panneau du thème"
 
-#: includes/panel/theme-panel.php:443
+#: includes/panel/theme-panel.php:474
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: includes/panel/theme-panel.php:475
+#: includes/panel/theme-panel.php:506
 msgid "Disable the Customizer panels that you do not have or need anymore to load it quickly. Your settings are saved, so do not worry."
 msgstr "Désactivez les panneaux d’outil de personnalisation dont vous n'avez plus besoin pour  lecharger plus rapidement. Vos réglages sont enregistrés, alors ne vous inquiétez pas."
 
