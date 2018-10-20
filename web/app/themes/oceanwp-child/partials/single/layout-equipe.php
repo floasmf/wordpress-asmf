@@ -26,12 +26,16 @@
                         <dd><?php echo $convocation['lieu_du_match'] ?></dd>
                         <dt>Adv.</dt>
                         <dd><?php echo $convocation['equipe_adverse'] ?></dd>
-                        <dt>Terrain</dt>
-                        <dd><?php echo $convocation['type_de_terrain'] ?></dd>
-                        <dt>Début</dt>
-                        <dd><?php echo $convocation['heure_du_match'] ?></dd>
+                        <dt>Date</dt>
+                        <dd><?php echo $convocation['date_du_match'] ?></dd>
                         <dt>RDV</dt>
                         <dd><?php echo $convocation['heure_de_convocation'] ?></dd>
+                        <dt>Début</dt>
+                        <dd><?php echo $convocation['heure_du_match'] ?></dd>
+                        <dt>Terrain</dt>
+                        <dd><?php echo $convocation['type_de_terrain'] ?></dd>
+                        <dt>Info.</dt>
+                        <dd><?php echo $convocation['informations'] ?></dd>
                         <hr>
                         <ul class="players">
                             <?php foreach ($convocation['joueurs'] as $player) {

@@ -1,3 +1,8 @@
+#primary {
+  @media screen and (max-width: $screen-md){
+    padding: 10px 0;
+  }
+}
 .dropdown-menu {
   li {
     a {

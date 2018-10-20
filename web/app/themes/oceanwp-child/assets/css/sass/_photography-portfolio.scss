@@ -1,0 +1,10 @@
+.PP_Archive_Container {
+  background: black;
+  height: auto;
+  .PP_Entry {
+    position: relative!important;
+    width: 100%;
+    top: initial!important;
+    left: initial!important;
+  }
+}

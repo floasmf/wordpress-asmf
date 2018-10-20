@@ -42,10 +42,10 @@ class ContactWidget extends WP_Widget
                     echo '<ul>';
                     foreach ($contact['personne'] as $personne) {
                         $html = '<li>';
-                        $name = '<span class="name">'.$personne['nom'].'</span>';
+                        $lastname = '<span class="lastname">'.$personne['nom'].'</span>';
                         $firstname = '<span class="firstname">'.$personne['prenom'].'</span>';
                         $phone = $personne['telephone'];
-                        $html .= '<strong>'.join(' ', [$name, $firstname]).'</strong>';
+                        $html .= '<strong class="name">'.join(' ', [$lastname, $firstname]).'</strong>';
                         $html .= '<a href="tel:'.$phone.'">'.chunk_split($phone, 2, ' ').'</a>';
                         $html .= '</li>';
                         echo $html;

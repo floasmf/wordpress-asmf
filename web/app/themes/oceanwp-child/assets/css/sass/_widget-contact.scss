@@ -11,7 +11,9 @@
     line-height: 1.4em;
     li {
       .name {
-        text-transform: uppercase;
+        .lastname {
+          text-transform: uppercase;
+        }
       }
       .firstname {
         text-transform: capitalize;
