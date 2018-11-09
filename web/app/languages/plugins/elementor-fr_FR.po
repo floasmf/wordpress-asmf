@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-09-29 20:00:52+0000\n"
+"PO-Revision-Date: 2018-11-05 15:19:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,17 +24,31 @@ msgstr "Chargement progressif"
 msgid "Enter your URL"
 msgstr "Saisissez votre URL"
 
-#: includes/settings/settings.php:524
+#: includes/settings/settings.php:525
 msgid "Show editing handles when hovering over the element edit button"
 msgstr "Afficher les poignées d’édition lors du survol du bouton de modification d’élément"
 
-#: includes/settings/settings.php:516
+#: includes/settings/settings.php:517
 msgid "Editing Handles"
 msgstr "Poignées d’édition"
+
+#. translators: %d: Breakpoint value
+#: includes/settings/settings.php:462
+msgid "Sets the breakpoint between tablet and mobile devices. Below this breakpoint mobile layout will appear (Default: %dpx)."
+msgstr "Définit le point de rupture entre les écrans de tablette et de mobile. En dessous de ce point de rupture, la mise en page mobile apparaît (par défaut : %dpx)."
+
+#. translators: %d: Breakpoint value
+#: includes/settings/settings.php:447
+msgid "Sets the breakpoint between desktop and tablet devices. Below this breakpoint tablet layout will appear (Default: %dpx)."
+msgstr "Définit le point de rupture entre les écrans de bureau et de tablette. En dessous de ce point de rupture, la mise en page tablette apparaît (par défaut :%dpx)."
 
 #: includes/settings/settings.php:212
 msgid "Read the Full Article"
 msgstr "Lire l’article complet"
+
+#: includes/settings/settings.php:200
+msgid "We recommend you watch this 2 minute getting started video, and then try the editor yourself by dragging and dropping elements to create your first page."
+msgstr "Nous vous recommandons de regarder cette vidéo de mise en route de 2 minutes, puis d’essayer l’éditeur vous-même en glissant-déposant des éléments pour créer votre première page."
 
 #: includes/settings/settings.php:199
 msgid "Welcome to Elementor"
@@ -55,6 +69,10 @@ msgstr "Commencer"
 #: includes/editor.php:580
 msgid "Inner Section"
 msgstr "Section interne"
+
+#: includes/editor-templates/navigator.php:53
+msgid "Once you fill your page with content, this window will give you an overview display of all the page elements. This way, you can easily move the different sections, columns, and widgets."
+msgstr "Une fois votre page remplie avec du contenu, cette fenêtre vous donner un aperçu de la disposition de tous les éléments de la page. Ainsi, vous pourrez aisément déplacer les différentes sections, colonnes et widgets."
 
 #: includes/editor-templates/navigator.php:52
 msgid "Easy Navigation is Here!"
@@ -95,6 +113,10 @@ msgstr "Masquer la notification"
 #: core/admin/feedback.php:205
 msgid "Happy To Help"
 msgstr "Ravi d’aider"
+
+#: core/admin/feedback.php:203
+msgid "You created over 10 pages with Elementor. Great job! If you can spare a minute, please help us by leaving a five star review on WordPress.org."
+msgstr "Vous avez créé plus de 10 pages avec Elementor. Bon travail ! Si vous avez le temps, aidez-nous en laissant un avis de cinq étoiles sur WordPress.org."
 
 #: core/admin/feedback.php:203
 msgid "Congrats!"
@@ -165,11 +187,11 @@ msgstr "ID du bouton"
 msgid "Artwork"
 msgstr "Œuvres d’art"
 
-#: includes/settings/settings.php:450
+#: includes/settings/settings.php:451
 msgid "Mobile Breakpoint"
 msgstr "Point de rupture mobile"
 
-#: includes/settings/settings.php:435
+#: includes/settings/settings.php:436
 msgid "Tablet Breakpoint"
 msgstr "Point de rupture tablette"
 
@@ -1043,7 +1065,7 @@ msgstr "Muet"
 msgid "Choose an Elementor template JSON file or a .zip archive of Elementor templates, and add them to the list of templates available in your library."
 msgstr "Choisissez un fichier JSON de modèle Elementor ou une archive .zip de modèles Elementor, puis ajoutez-les à la liste des modèles disponibles dans votre bibliothèque."
 
-#: includes/settings/settings.php:471
+#: includes/settings/settings.php:472
 msgid "You can customize the lightbox design by going to: Top-left hamburger icon > Global Settings > Lightbox."
 msgstr "Vous pouvez personnaliser la conception de la visionneuse en allant à : icône hamburger supérieure gauche > Réglages généraux > Visionneuse."
 
@@ -1057,11 +1079,11 @@ msgstr "Ombre du texte"
 msgid "Enable In Editor"
 msgstr "Activer dans l’éditeur"
 
-#: core/settings/general/model.php:144 includes/settings/settings.php:470
+#: core/settings/general/model.php:144 includes/settings/settings.php:471
 msgid "Open all image links in a lightbox popup window. The lightbox will automatically work on any link that leads to an image file."
 msgstr "Ouvrir tous les liens image dans une fenêtre surgissante de visionneuse. La visionneuse fonctionnera automatiquement sur tout lien qui mène à un fichier image."
 
-#: core/settings/general/model.php:141 includes/settings/settings.php:465
+#: core/settings/general/model.php:141 includes/settings/settings.php:466
 msgid "Image Lightbox"
 msgstr "Visionneuse d’image"
 
@@ -1107,19 +1129,19 @@ msgstr "Vous avez un problème avec la  version %s d’Elementor ?  Revenez à u
 msgid "Version Control"
 msgstr "Contrôle de version"
 
-#: includes/settings/settings.php:505
+#: includes/settings/settings.php:506
 msgid "Switch Editor Loader Method"
 msgstr "Permuter de méthode de chargeur d’éditeur"
 
-#: includes/settings/settings.php:479
+#: includes/settings/settings.php:480
 msgid "Integrations"
 msgstr "Intégrations"
 
-#: core/settings/general/model.php:113 includes/settings/settings.php:409
+#: core/settings/general/model.php:113 includes/settings/settings.php:410
 msgid "Sets the default space between widgets (Default: 20)"
 msgstr "Règle l’espace par défaut entre les widgets (par défaut : 20)"
 
-#: includes/settings/settings.php:401
+#: includes/settings/settings.php:402
 msgid "Space Between Widgets"
 msgstr "Espace entre les widgets"
 
@@ -1220,36 +1242,36 @@ msgstr "Confirmez-vous vouloir réinstaller la version précédente ?"
 msgid "Elementor requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
 msgstr "Elementor nécessite la version %s ou plus de WordPress. Parce que vous utilisez une version antérieure, l’extension ne fonctionne actuellement pas."
 
-#: includes/settings/settings.php:500
+#: includes/settings/settings.php:501
 msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
 msgstr "Utiliser un CSS interne incorporé dans l’en-tête de la page. Pour résoudre les conflits de configuration du serveur et gérer les environnements de développement."
 
-#: includes/settings/settings.php:497
+#: includes/settings/settings.php:498
 msgid "Use external CSS files for all generated stylesheets. Choose this setting for better performance (recommended)."
 msgstr "Utilisez des fichiers CSS externes pour toutes les feuilles de style générées. Choisissez ce réglage pour de meilleures performances (recommandé)."
 
-#: includes/settings/settings.php:494
+#: includes/settings/settings.php:495
 msgid "Internal Embedding"
 msgstr "Intégration interne"
 
-#: includes/settings/settings.php:493
+#: includes/settings/settings.php:494
 msgid "External File"
 msgstr "Fichier externe"
 
-#: includes/settings/settings.php:488
+#: includes/settings/settings.php:489
 msgid "CSS Print Method"
 msgstr "Méthode d’impression CSS"
 
-#: includes/settings/settings.php:512
+#: includes/settings/settings.php:513
 msgid "For troubleshooting server configuration conflicts."
 msgstr "Pour la résolution de conflits de configuration serveur."
 
-#: core/debug/inspector.php:43 includes/settings/settings.php:510
+#: core/debug/inspector.php:43 includes/settings/settings.php:511
 #: includes/settings/tools.php:256
 msgid "Enable"
 msgstr "Activer"
 
-#: core/debug/inspector.php:42 includes/settings/settings.php:509
+#: core/debug/inspector.php:42 includes/settings/settings.php:510
 #: includes/settings/tools.php:255
 msgid "Disable"
 msgstr "Désactiver"
@@ -1266,11 +1288,11 @@ msgstr "Espace"
 msgid "Drop Cap"
 msgstr "Lettrine"
 
-#: core/settings/general/model.php:130 includes/settings/settings.php:431
+#: core/settings/general/model.php:130 includes/settings/settings.php:432
 msgid "Elementor lets you hide the page title. This works for themes that have \"h1.entry-title\" selector. If your theme's selector is different, please enter it above."
 msgstr "Elementor vous permet de masquer le titre de la page. Cela fonctionne pour les thèmes qui ont un sélecteur « h1.entry-title ». Si le sélecteur de votre thème est différent, saisissez-le ci-dessus."
 
-#: core/settings/general/model.php:127 includes/settings/settings.php:424
+#: core/settings/general/model.php:127 includes/settings/settings.php:425
 msgid "Page Title Selector"
 msgstr "Sélecteur de titre de page"
 
@@ -1785,15 +1807,15 @@ msgstr "Sélecteur de couleur"
 msgid "No thanks"
 msgstr "Non merci"
 
-#: core/settings/general/model.php:122 includes/settings/settings.php:420
+#: core/settings/general/model.php:122 includes/settings/settings.php:421
 msgid "Enter parent element selector to which stretched sections will fit to (e.g. #primary / .wrapper / main etc). Leave blank to fit to page width."
 msgstr "Saisissez le sélecteur de l’élément parent auquel s’étendront les sections (ex: #primary/.wrapper /main etc.). Laissez vide pour adapter à la largeur de la page."
 
-#: core/settings/general/model.php:119 includes/settings/settings.php:413
+#: core/settings/general/model.php:119 includes/settings/settings.php:414
 msgid "Stretched Section Fit To"
 msgstr "Section étirée ajustée à"
 
-#: core/settings/general/model.php:103 includes/settings/settings.php:397
+#: core/settings/general/model.php:103 includes/settings/settings.php:398
 msgid "Sets the default width of the content area (Default: 1140)"
 msgstr "Définit la largeur par défaut de la zone de contenu. (Par défaut : 1140)"
 
@@ -3136,7 +3158,7 @@ msgid "Background Color"
 msgstr "Couleur de l’arrière-plan"
 
 #: includes/elements/section.php:1318 includes/elements/section.php:1331
-#: includes/elements/section.php:1344 includes/settings/settings.php:521
+#: includes/elements/section.php:1344 includes/settings/settings.php:522
 #: includes/widgets/alert.php:137 includes/widgets/audio.php:154
 #: includes/widgets/audio.php:165 includes/widgets/audio.php:176
 #: includes/widgets/audio.php:187 includes/widgets/audio.php:201
@@ -3152,7 +3174,7 @@ msgid "Hide"
 msgstr "Masquer"
 
 #: includes/elements/section.php:1319 includes/elements/section.php:1332
-#: includes/elements/section.php:1345 includes/settings/settings.php:522
+#: includes/elements/section.php:1345 includes/settings/settings.php:523
 #: includes/widgets/alert.php:136 includes/widgets/audio.php:155
 #: includes/widgets/audio.php:166 includes/widgets/audio.php:177
 #: includes/widgets/audio.php:188 includes/widgets/audio.php:202
@@ -3565,7 +3587,7 @@ msgstr "Responsive"
 
 #: core/dynamic-tags/tag.php:82 includes/elements/column.php:695
 #: includes/elements/section.php:1141 includes/managers/controls.php:293
-#: includes/settings/settings.php:483 includes/widgets/common.php:58
+#: includes/settings/settings.php:484 includes/widgets/common.php:58
 msgid "Advanced"
 msgstr "Avancé"
 
@@ -3710,13 +3732,13 @@ msgstr "Ajouter une nouvelle section"
 msgid "Loading"
 msgstr "Chargement"
 
-#. #-#-#-#-#  elementor-code.pot (Elementor 2.2.5)  #-#-#-#-#
+#. #-#-#-#-#  elementor-code.pot (Elementor 2.2.7)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: core/admin/admin.php:270 core/admin/admin.php:473 core/admin/admin.php:541
 #: core/documents-manager.php:317
 #: includes/editor-templates/editor-wrapper.php:29 includes/editor.php:564
 #: includes/settings/settings.php:69 includes/settings/settings.php:70
-#: includes/settings/settings.php:545
+#: includes/settings/settings.php:546
 #: includes/template-library/sources/local.php:277
 #: includes/template-library/sources/local.php:278
 msgid "Elementor"

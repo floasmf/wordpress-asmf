@@ -11,21 +11,22 @@
     line-height: 1.4em;
     li {
       .name {
+        &:after {
+          content: ':';
+          margin: 0 5px;
+        }
         .lastname {
           text-transform: uppercase;
         }
-      }
-      .firstname {
-        text-transform: capitalize;
-        &:after {
-          content: ':';
-          margin: 0 2px;
+        .firstname {
+          text-transform: capitalize;
         }
-      }
-      @media screen and (max-width: $screen-xs){
-        strong {
+        @media screen and (max-width: $screen-xs){
           display: block;
         }
+      }
+      .phone {
+        display: inline-block;
       }
     }
   }

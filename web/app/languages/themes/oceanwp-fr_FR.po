@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - OceanWP package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-10-08 16:39:39+0000\n"
+"PO-Revision-Date: 2018-10-23 21:34:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,11 +15,63 @@ msgstr ""
 msgid "OceanWP is the perfect theme for your project. Lightweight and highly extendable, it will enable you to create almost any type of website such a blog, portfolio, business website and WooCommerce storefront with a beautiful & professional design. Very fast, responsive, RTL & translation ready, best SEO practices, unique WooCommerce features to increase conversion and much more. You can even edit the settings on tablet & mobile so your site looks good on every device. Work with the most popular page builders as Elementor, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, etc... Developers will love his extensible codebase making it a joy to customize and extend. Best friend of Elementor & WooCommerce. Looking for a Multi-Purpose theme? Look no further! Check the demos to realize that it's the only theme you will ever need: https://oceanwp.org/demos/"
 msgstr "OceanWP est le thème parfait pour votre projet. Léger et hautement extensible, il vous permettra de créer presque n’importe quel type de site web tel qu’un blog, un portfolio, un site web professionnel ou une vitrine WooCommerce avec une conception superbe et professionnelle. Très rapide, responsive, RTL et prêt à traduire, meilleures pratiques SEO, fonctionnalités uniques WooCommerce pour augmenter la conversion et bien plus encore. Vous pouvez même modifier les réglages sur tablette et mobile pour que votre site soit impeccable sur tous les appareils. Travaillez avec les constructeurs de page les plus populaires comme Elementor, Beaver Builder, Brizy,Visual Composer, Divi, SiteOrigin, etc ... Les développeurs vont adorer sa base de code extensible ce qui en fait un plaisir à personnaliser et à étendre. Meilleur ami d’Elementor & WooCommerce. À la recherche d’un thème polyvalent ? Ne cherchez pas plus loin ! Regardez les démos pour vous rendre compte que c’est l’unique thème dont vous aurez besoin : https://oceanwp.org/demos/"
 
-#. #-#-#-#-#  oceanwp.pot (OceanWP 1.5.28)  #-#-#-#-#
+#. #-#-#-#-#  oceanwp.pot (OceanWP 1.5.31)  #-#-#-#-#
 #. Theme Name of the plugin/theme
 #: inc/helpers.php:3536
 msgid "OceanWP"
 msgstr "OceanWP"
+
+#: inc/third/class-learndash.php:203
+msgid "LearnDash Take Course Button"
+msgstr "Bouton prendre un cours LearnDash"
+
+#: inc/third/class-learndash.php:192
+msgid "LearnDash Table Item"
+msgstr "Élément de tableau LearnDash"
+
+#: inc/third/class-learndash.php:181
+msgid "LearnDash Table Heading"
+msgstr "Titrage de tableau LearnDash"
+
+#: inc/third/class-learndash.php:170
+msgid "LearnDash Titles"
+msgstr "Titres LearnDash"
+
+#: inc/customizer/settings/learndash.php:488
+msgid "Incomplete Color"
+msgstr "Couleur incomplète"
+
+#: inc/customizer/settings/learndash.php:473
+msgid "Complete Color"
+msgstr "Couleur complète"
+
+#: inc/customizer/settings/learndash.php:458
+msgid "Item Hover Color"
+msgstr "Couleur au survol de l’élément"
+
+#: inc/customizer/settings/learndash.php:442
+msgid "Item Color"
+msgstr "Couleur de l’élément"
+
+#: inc/customizer/settings/learndash.php:426
+msgid "Heading Background Color"
+msgstr "Couleur d’arrière-plan de titrage"
+
+#: inc/customizer/settings/learndash.php:410
+msgid "Heading Color"
+msgstr "Couleur de titrage"
+
+#: inc/customizer/settings/learndash.php:396
+msgid "Table"
+msgstr "Tableau"
+
+#: inc/customizer/settings/learndash.php:291
+msgid "Lesson/Topic"
+msgstr "Leçon/sujet"
+
+#: inc/customizer/settings/learndash.php:40
+msgid "LearnDash"
+msgstr "LearnDash"
 
 #: inc/customizer/settings/blog.php:441
 msgid "Date Color"
@@ -127,6 +179,7 @@ msgstr "Arrière-plan de titre de section"
 msgid "Section Title Color"
 msgstr "Couleur de titre de section"
 
+#: inc/customizer/settings/learndash.php:503
 #: inc/customizer/settings/lifterlms.php:1089
 msgid "Progress Bar Color"
 msgstr "Couleur de barre de progression"
@@ -157,11 +210,13 @@ msgstr "Cours/abonnements"
 msgid "Lesson"
 msgstr "Leçon"
 
+#: inc/customizer/settings/learndash.php:196
 #: inc/customizer/settings/lifterlms.php:360
 #: inc/customizer/settings/lifterlms.php:982
 msgid "Course"
 msgstr "Cours"
 
+#: inc/customizer/settings/learndash.php:101
 #: inc/customizer/settings/lifterlms.php:265
 msgid "Global"
 msgstr "Global"
@@ -191,6 +246,7 @@ msgstr "Colonnes d’adhésion"
 msgid "Courses Columns"
 msgstr "Colonnes de cours"
 
+#: inc/customizer/settings/learndash.php:76
 #: inc/customizer/settings/lifterlms.php:92
 msgid "Distraction Free Learning"
 msgstr "Apprentissage sans distraction"
@@ -267,15 +323,15 @@ msgstr "Easy Digital Downloads"
 msgid "Premium Addons Available"
 msgstr "Modules premium disponibles"
 
-#: functions.php:558
+#: functions.php:559
 msgid "Widgets in this area will be displayed in the left or right sidebar area if you choose the Left or Right Sidebar layout."
 msgstr "Les widgets de cette zone seront affichés dans la zone de la colonne latérale gauche ou droite si vous choisissez la mise en page de colonne gauche ou droite."
 
-#: functions.php:556
+#: functions.php:557
 msgid "Default Sidebar"
 msgstr "Colonne latérale par défaut"
 
-#: functions.php:569
+#: functions.php:570
 msgid "Widgets in this area are used in the left sidebar region if you use the Both Sidebars layout."
 msgstr "Les widgets de cette zone sont utilisés dans la région de colonne latérale gauche si vous utilisez la mise en page à deux colonnes latérales."
 
@@ -917,6 +973,9 @@ msgstr "Dernier dans"
 #: inc/customizer/settings/edd.php:716 inc/customizer/settings/edd.php:972
 #: inc/customizer/settings/general.php:590
 #: inc/customizer/settings/general.php:785
+#: inc/customizer/settings/learndash.php:131
+#: inc/customizer/settings/learndash.php:226
+#: inc/customizer/settings/learndash.php:321
 #: inc/customizer/settings/lifterlms.php:295
 #: inc/customizer/settings/lifterlms.php:390
 #: inc/customizer/settings/lifterlms.php:485
@@ -1193,6 +1252,9 @@ msgstr "Défilement infini : texte Dernier"
 #: inc/customizer/settings/edd.php:722 inc/customizer/settings/edd.php:978
 #: inc/customizer/settings/general.php:596
 #: inc/customizer/settings/general.php:791
+#: inc/customizer/settings/learndash.php:137
+#: inc/customizer/settings/learndash.php:232
+#: inc/customizer/settings/learndash.php:327
 #: inc/customizer/settings/lifterlms.php:301
 #: inc/customizer/settings/lifterlms.php:396
 #: inc/customizer/settings/lifterlms.php:491
@@ -1315,6 +1377,9 @@ msgstr "Balise de titrage"
 #: inc/customizer/settings/edd.php:760 inc/customizer/settings/edd.php:1016
 #: inc/customizer/settings/general.php:634
 #: inc/customizer/settings/general.php:829
+#: inc/customizer/settings/learndash.php:175
+#: inc/customizer/settings/learndash.php:270
+#: inc/customizer/settings/learndash.php:365
 #: inc/customizer/settings/lifterlms.php:339
 #: inc/customizer/settings/lifterlms.php:434
 #: inc/customizer/settings/lifterlms.php:529
@@ -1327,6 +1392,9 @@ msgstr "Deux colonnes latérales : largeur des colonnes latérales (%)"
 #: inc/customizer/settings/edd.php:738 inc/customizer/settings/edd.php:994
 #: inc/customizer/settings/general.php:612
 #: inc/customizer/settings/general.php:807
+#: inc/customizer/settings/learndash.php:153
+#: inc/customizer/settings/learndash.php:248
+#: inc/customizer/settings/learndash.php:343
 #: inc/customizer/settings/lifterlms.php:317
 #: inc/customizer/settings/lifterlms.php:412
 #: inc/customizer/settings/lifterlms.php:507
@@ -1339,6 +1407,9 @@ msgstr "Deux colonnes latérales : largeur du contenu (%)"
 #: inc/customizer/settings/edd.php:724 inc/customizer/settings/edd.php:980
 #: inc/customizer/settings/general.php:598
 #: inc/customizer/settings/general.php:793
+#: inc/customizer/settings/learndash.php:139
+#: inc/customizer/settings/learndash.php:234
+#: inc/customizer/settings/learndash.php:329
 #: inc/customizer/settings/lifterlms.php:303
 #: inc/customizer/settings/lifterlms.php:398
 #: inc/customizer/settings/lifterlms.php:493
@@ -1351,6 +1422,9 @@ msgstr "Contenu/colonne latérale/colonne latérale"
 #: inc/customizer/settings/edd.php:723 inc/customizer/settings/edd.php:979
 #: inc/customizer/settings/general.php:597
 #: inc/customizer/settings/general.php:792
+#: inc/customizer/settings/learndash.php:138
+#: inc/customizer/settings/learndash.php:233
+#: inc/customizer/settings/learndash.php:328
 #: inc/customizer/settings/lifterlms.php:302
 #: inc/customizer/settings/lifterlms.php:397
 #: inc/customizer/settings/lifterlms.php:492
@@ -1560,10 +1634,6 @@ msgstr "Activez cette option pour supprimer tous les éléments et avoir le cont
 msgid "Blank Page"
 msgstr "Nouvelle page"
 
-#: inc/customizer/settings/general.php:734
-msgid "Search Posts Per Page"
-msgstr "Rechercher les articles par page"
-
 #: inc/helpers.php:3584
 msgid "3D X"
 msgstr "3D X"
@@ -1571,6 +1641,10 @@ msgstr "3D X"
 #: inc/customizer/settings/header.php:2269
 msgid "Overline & Fixed Underline"
 msgstr "Surligné & souligné fixe"
+
+#: inc/customizer/settings/general.php:734
+msgid "Search Posts Per Page"
+msgstr "Articles par page de recherche"
 
 #: inc/customizer/settings/header.php:2288
 #: inc/customizer/settings/header.php:2305
@@ -1904,31 +1978,31 @@ msgstr "Se déconnecter de ce compte"
 msgid "Log out &raquo;"
 msgstr "Déconnexion &raquo;"
 
-#: functions.php:275
+#: functions.php:276
 msgid "Main"
 msgstr "Principal"
 
-#: functions.php:276 inc/third/class-beaver-themer.php:145
+#: functions.php:277 inc/third/class-beaver-themer.php:145
 msgid "Footer"
 msgstr "Pied de page"
 
-#: functions.php:581
+#: functions.php:582
 msgid "Widgets in this area are used in the search result page."
 msgstr "Les widgets dans cette zone sont utilisés dans la page des résultats de recherche."
 
-#: functions.php:591
+#: functions.php:592
 msgid "Footer 1"
 msgstr "Pied de page 1"
 
-#: functions.php:602
+#: functions.php:603
 msgid "Footer 2"
 msgstr "Pied de page 2"
 
-#: functions.php:613
+#: functions.php:614
 msgid "Footer 3"
 msgstr "Pied de page 3"
 
-#: functions.php:624
+#: functions.php:625
 msgid "Footer 4"
 msgstr "Pied de page 4"
 
@@ -2011,10 +2085,6 @@ msgstr "Taille des images"
 msgid "Grid Columns"
 msgstr "Colonnes de la grille"
 
-#: inc/customizer/settings/blog.php:256
-msgid "Grid Style"
-msgstr "Style de grille"
-
 #: inc/customizer/controls/typo/class-control-typo.php:255
 #: inc/customizer/controls/typo/class-control-typo.php:296
 #: inc/customizer/controls/typo/class-control-typo.php:319
@@ -2043,6 +2113,10 @@ msgstr "Style de grille"
 #: inc/third/class-lifterlms.php:291
 msgid "Default"
 msgstr "Par défaut"
+
+#: inc/customizer/settings/blog.php:256
+msgid "Grid Style"
+msgstr "Style de grille"
 
 #: inc/customizer/settings/blog.php:264
 msgid "Masonry"
@@ -2117,20 +2191,6 @@ msgstr "Catégories"
 msgid "Comments"
 msgstr "Commentaires"
 
-#: inc/customizer/settings/blog.php:600 inc/customizer/settings/edd.php:700
-#: inc/customizer/settings/edd.php:956 inc/customizer/settings/general.php:574
-#: inc/customizer/settings/general.php:769
-#: inc/customizer/settings/general.php:2279
-#: inc/customizer/settings/lifterlms.php:251
-#: inc/customizer/settings/lifterlms.php:279
-#: inc/customizer/settings/lifterlms.php:374
-#: inc/customizer/settings/lifterlms.php:469
-#: inc/customizer/settings/woocommerce.php:1074
-#: inc/customizer/settings/woocommerce.php:1538
-#: inc/third/class-lifterlms.php:288
-msgid "Layout"
-msgstr "Mise en page"
-
 #: inc/customizer/settings/blog.php:716
 msgid "Post Title"
 msgstr "Titre de l’article"
@@ -2175,6 +2235,24 @@ msgstr "Centré à gauche "
 #: inc/customizer/settings/header.php:1947
 msgid "Center Center"
 msgstr "Centré centré"
+
+#: inc/customizer/settings/blog.php:600 inc/customizer/settings/edd.php:700
+#: inc/customizer/settings/edd.php:956 inc/customizer/settings/general.php:574
+#: inc/customizer/settings/general.php:769
+#: inc/customizer/settings/general.php:2279
+#: inc/customizer/settings/learndash.php:87
+#: inc/customizer/settings/learndash.php:115
+#: inc/customizer/settings/learndash.php:210
+#: inc/customizer/settings/learndash.php:305
+#: inc/customizer/settings/lifterlms.php:251
+#: inc/customizer/settings/lifterlms.php:279
+#: inc/customizer/settings/lifterlms.php:374
+#: inc/customizer/settings/lifterlms.php:469
+#: inc/customizer/settings/woocommerce.php:1074
+#: inc/customizer/settings/woocommerce.php:1538
+#: inc/third/class-lifterlms.php:288
+msgid "Layout"
+msgstr "Mise en page"
 
 #: inc/customizer/settings/blog.php:782 inc/customizer/settings/general.php:191
 #: inc/customizer/settings/general.php:1063
@@ -2321,15 +2399,6 @@ msgstr "Copyright"
 msgid "Padding (px)"
 msgstr "Marge interne (px)"
 
-#: inc/customizer/settings/footer-bottom.php:213
-#: inc/customizer/settings/footer-widgets.php:309
-#: inc/customizer/settings/general.php:1279
-#: inc/customizer/settings/general.php:1345
-#: inc/customizer/settings/topbar.php:261
-#: inc/customizer/settings/woocommerce.php:3974
-msgid "Text Color"
-msgstr "Couleur du texte "
-
 #: inc/customizer/settings/edd.php:1463
 #: inc/customizer/settings/footer-bottom.php:196
 #: inc/customizer/settings/footer-widgets.php:292
@@ -2359,6 +2428,15 @@ msgstr "Couleur du texte "
 #: inc/customizer/settings/woocommerce.php:3849
 msgid "Background Color"
 msgstr "Couleur d’arrière-plan"
+
+#: inc/customizer/settings/footer-bottom.php:213
+#: inc/customizer/settings/footer-widgets.php:309
+#: inc/customizer/settings/general.php:1279
+#: inc/customizer/settings/general.php:1345
+#: inc/customizer/settings/topbar.php:261
+#: inc/customizer/settings/woocommerce.php:3974
+msgid "Text Color"
+msgstr "Couleur du texte "
 
 #: inc/customizer/settings/footer-bottom.php:230
 #: inc/customizer/settings/footer-widgets.php:343
@@ -2626,19 +2704,6 @@ msgstr "Couleur de la bordure"
 msgid "Border Color: Hover"
 msgstr "Couleur de la bordure au survol"
 
-#: inc/customizer/settings/general.php:2068
-msgid "Theme Buttons"
-msgstr "Thème des boutons"
-
-#: inc/customizer/settings/edd.php:48 inc/customizer/settings/header.php:49
-#: inc/customizer/settings/lifterlms.php:48
-#: inc/customizer/settings/lifterlms.php:62
-#: inc/customizer/settings/topbar.php:48
-#: inc/customizer/settings/typography.php:268
-#: inc/customizer/settings/woocommerce.php:48
-msgid "General"
-msgstr "Général"
-
 #: inc/customizer/controls/dimensions/class-control-dimensions.php:193
 #: inc/customizer/controls/dimensions/class-control-dimensions.php:197
 #: inc/customizer/controls/dimensions/class-control-dimensions.php:201
@@ -2655,6 +2720,21 @@ msgstr "Général"
 #: inc/customizer/settings/woocommerce.php:1802
 msgid "Left"
 msgstr "À gauche"
+
+#: inc/customizer/settings/general.php:2068
+msgid "Theme Buttons"
+msgstr "Thème des boutons"
+
+#: inc/customizer/settings/edd.php:48 inc/customizer/settings/header.php:49
+#: inc/customizer/settings/learndash.php:48
+#: inc/customizer/settings/learndash.php:62
+#: inc/customizer/settings/lifterlms.php:48
+#: inc/customizer/settings/lifterlms.php:62
+#: inc/customizer/settings/topbar.php:48
+#: inc/customizer/settings/typography.php:268
+#: inc/customizer/settings/woocommerce.php:48
+msgid "General"
+msgstr "Général"
 
 #: inc/customizer/settings/header.php:69
 #: inc/customizer/settings/header.php:2995
@@ -3063,6 +3143,9 @@ msgid "WooCommerce"
 msgstr "WooCommerce"
 
 #: inc/customizer/settings/edd.php:49 inc/customizer/settings/edd.php:95
+#: inc/customizer/settings/learndash.php:49
+#: inc/customizer/settings/learndash.php:88
+#: inc/customizer/settings/learndash.php:383
 #: inc/customizer/settings/lifterlms.php:49
 #: inc/customizer/settings/lifterlms.php:252
 #: inc/customizer/settings/lifterlms.php:547
@@ -3158,6 +3241,7 @@ msgid "Cart"
 msgstr "Panier"
 
 #: inc/customizer/settings/edd.php:1121
+#: inc/customizer/settings/learndash.php:382
 #: inc/customizer/settings/lifterlms.php:546
 #: inc/customizer/settings/woocommerce.php:2426
 msgid "Advanced Styling"
@@ -3967,7 +4051,7 @@ msgstr "Votre commentaire ici…"
 msgid "Post Comment"
 msgstr "Publier le commentaire"
 
-#: functions.php:274 inc/customizer/settings/topbar.php:40
+#: functions.php:275 inc/customizer/settings/topbar.php:40
 #: inc/customizer/settings/typography.php:109
 #: inc/third/class-beaver-themer.php:100
 msgid "Top Bar"
@@ -3978,7 +4062,7 @@ msgstr "Barre supérieure"
 msgid "Sidebar"
 msgstr "Colonne latérale"
 
-#: functions.php:579
+#: functions.php:580
 msgid "Search Results Sidebar"
 msgstr "Colonne latérale de la page de résultats de recherche"
 
@@ -4671,7 +4755,7 @@ msgstr "Hauteur de l'image des articles similaires (px)"
 msgid "Related Posts Image Width (px)"
 msgstr "Largeur de l'image des articles similaires (px)"
 
-#: functions.php:567
+#: functions.php:568
 #: inc/customizer/controls/radio-image/class-control-radio-image.php:109
 #: inc/third/class-lifterlms.php:293
 msgid "Left Sidebar"
@@ -4754,7 +4838,7 @@ msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
 msgstr "Fil d’Ariane"
 
-#: functions.php:277
+#: functions.php:278
 msgid "Mobile (optional)"
 msgstr "Mobile (facultatif)"
 
@@ -4882,19 +4966,19 @@ msgstr "Adresses : couleur du titre de boîte"
 msgid "You must be %1$slogged in%2$s to post a comment."
 msgstr "Vous devez être %1$sconnecté%2$s pour publier un commentaire."
 
-#: functions.php:604
+#: functions.php:605
 msgid "Widgets in this area are used in the second footer region."
 msgstr "Les widgets dans cette zone sont utilisés dans la deuxième région du pied de page."
 
-#: functions.php:593
+#: functions.php:594
 msgid "Widgets in this area are used in the first footer region."
 msgstr "Les widgets dans cette zone sont utilisés dans la première région du pied de page."
 
-#: functions.php:615
+#: functions.php:616
 msgid "Widgets in this area are used in the third footer region."
 msgstr "Les widgets dans cette zone sont utilisés dans la troisième région du pied de page."
 
-#: functions.php:626
+#: functions.php:627
 msgid "Widgets in this area are used in the fourth footer region."
 msgstr "Les widgets dans cette zone sont utilisés dans la quatrième région du pied de page."
 

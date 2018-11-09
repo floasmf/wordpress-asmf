@@ -9,7 +9,7 @@ body.single-equipe {
       opacity: 0.7;
       bottom: 30px;
       left: 30px;
-      padding: 0 10px ;
+      padding: 0 10px;
       margin: 0;
       @media screen and (max-width: $screen-sm) {
         bottom: 10px;
@@ -30,22 +30,24 @@ body.single-equipe {
         color: white;
       }
     }
-    .details {
+    .convocation-content {
       padding: 20px;
       background: white;
       margin-top: 1em;
-      dt {
-        text-align: right;
-        width: 60px;
-        float: left;
-        margin-right: 10px;
-        &:after {
-          content: ':';
-          margin-left: 0.2em;
+      .details {
+        dt {
+          text-align: right;
+          width: 60px;
+          float: left;
+          margin-right: 10px;
+          &:after {
+            content: ':';
+            margin-left: 0.2em;
+          }
         }
-      }
-      dd {
-        margin: 0;
+        dd {
+          margin: 0;
+        }
       }
       .players {
         counter-reset: players;

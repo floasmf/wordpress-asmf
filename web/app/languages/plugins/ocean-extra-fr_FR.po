@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ocean Extra - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-09-20 14:40:58+0000\n"
+"PO-Revision-Date: 2018-10-23 14:49:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1117,10 +1117,6 @@ msgstr "Ce script est utilisé pour l’effet parallaxe de pied de page."
 msgid "Enable or disable the page title heading."
 msgstr "Activer ou désactiver le titrage de titre de page."
 
-#: includes/metabox/metabox.php:1225
-msgid "Display Heading"
-msgstr "Afficher le titrage"
-
 #: includes/metabox/metabox.php:384
 msgid "Select your both sidebars style."
 msgstr "Sélectionnez le style de vos deux collones latérales."
@@ -1133,9 +1129,13 @@ msgstr "Deux colonnes latérales : style"
 msgid "Both Sidebars"
 msgstr "Deux colonnes latérales"
 
+#: includes/metabox/metabox.php:1225
+msgid "Display Heading"
+msgstr "Afficher le titrage"
+
 #: includes/metabox/metabox.php:785 includes/metabox/metabox.php:1646
 msgid "Choose a template created in Theme Panel > My Library."
-msgstr "Choisissez un modèle créé dans Panneau du thème > Ma bibliothèque."
+msgstr "Choisissez un modèle créé dans Theme Panel > Ma bibliothèque."
 
 #: includes/panel/scripts.php:333
 msgid "Search Results"
@@ -1572,17 +1572,9 @@ msgstr "Activer"
 msgid "Activated"
 msgstr "Activé"
 
-#: includes/metabox/metabox.php:548
-msgid "Shortcode Before Header"
-msgstr "Code court avant l'en-tête"
-
 #: includes/metabox/metabox.php:549
 msgid "Add your shortcode to be displayed before the header."
 msgstr "Ajoutez votre code court à afficher avant l'en-tête."
-
-#: includes/metabox/metabox.php:565
-msgid "Shortcode After Header"
-msgstr "Code court après l'en-tête"
 
 #: includes/metabox/metabox.php:566
 msgid "Add your shortcode to be displayed after the header."
@@ -2759,6 +2751,14 @@ msgstr "Explosion : vente"
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:511
 msgid "Notice"
 msgstr "Notification"
+
+#: includes/metabox/metabox.php:548
+msgid "Shortcode Before Header"
+msgstr "Code court avant l’en-tête"
+
+#: includes/metabox/metabox.php:565
+msgid "Shortcode After Header"
+msgstr "Code court après l’en-tête"
 
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:354
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:167
@@ -4167,6 +4167,18 @@ msgstr "Fichier : archive"
 msgid "File: Text"
 msgstr "Fichier : texte"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1144
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1149
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1154
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1159
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1902
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2039
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2044
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2049
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:38
+msgid "Arrows"
+msgstr "Flèches"
+
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1227
 msgid "Thumbnails (List)"
 msgstr "Miniatures (liste)"
@@ -4200,18 +4212,6 @@ msgstr "Feuille"
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:817
 msgid "Heart"
 msgstr "Cœur"
-
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1144
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1149
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1154
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1159
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1902
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2039
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2044
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2049
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:38
-msgid "Arrows"
-msgstr "Flèches"
 
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:897
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2644
@@ -6477,6 +6477,20 @@ msgstr "Capitaliser"
 msgid "Description"
 msgstr "Description"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:234
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:439
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:904
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1169
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1174
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1179
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:617
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:622
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:270
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:621
+#: includes/widgets/video.php:108
+msgid "Video"
+msgstr "Vidéo"
+
 #: includes/widgets/social-share.php:383 includes/widgets/social.php:408
 #: includes/widgets/social.php:414 includes/widgets/social.php:420
 msgid "Example:"
@@ -6523,20 +6537,6 @@ msgstr "Décroissant"
 #: includes/widgets/recent-posts.php:256
 msgid "Order"
 msgstr "Ordre"
-
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:234
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:439
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:904
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1169
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1174
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1179
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:617
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:622
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:270
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:621
-#: includes/widgets/video.php:108
-msgid "Video"
-msgstr "Vidéo"
 
 #: includes/widgets/recent-posts.php:249
 msgid "Terms"
@@ -7894,10 +7894,6 @@ msgstr "Panneau du thème"
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: includes/panel/theme-panel.php:506
-msgid "Disable the Customizer panels that you do not have or need anymore to load it quickly. Your settings are saved, so do not worry."
-msgstr "Désactivez les panneaux d’outil de personnalisation dont vous n'avez plus besoin pour  lecharger plus rapidement. Vos réglages sont enregistrés, alors ne vous inquiétez pas."
-
 #: includes/metabox/metabox.php:1758 includes/widgets/about-me.php:310
 #: includes/widgets/contact-info.php:343 includes/widgets/custom-links.php:106
 #: includes/widgets/custom-links.php:124 includes/widgets/instagram.php:262
@@ -8012,3 +8008,7 @@ msgstr "Titre"
 #: includes/panel/licenses.php:56
 msgid "Licenses Settings"
 msgstr "Réglages des licences"
+
+#: includes/panel/theme-panel.php:506
+msgid "Disable the Customizer panels that you do not have or need anymore to load it quickly. Your settings are saved, so do not worry."
+msgstr "Désactivez les panneaux de l’outil de personnalisation dont vous n’avez plus besoin pour le charger plus rapidement. Vos réglages sont enregistrés, alors ne vous inquiétez pas."
