@@ -33,3 +33,17 @@ require_once 'config/settings.php';
 require_once 'config/custom-widgets.php';
 require_once 'config/cptui.php';
 require_once 'config/image-size.php';
+
+function example_callback($social_options) {
+    return array_merge($social_options, array(
+        'district' => array(
+            'label' => esc_html__( 'District 44', 'oceanwp' ),
+            'icon_class' => 'custom-icon icon-district',
+        ),
+        'fff' => array(
+            'label' => esc_html__( 'FFF', 'oceanwp' ),
+            'icon_class' => 'custom-icon icon-fff',
+        ),
+    ));
+}
+add_filter('ocean_social_options', 'example_callback',10, 1);

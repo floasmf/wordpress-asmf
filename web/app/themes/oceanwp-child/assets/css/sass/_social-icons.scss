@@ -1,0 +1,18 @@
+.oceanwp-social-menu {
+  ul {
+    li {
+      .custom-icon {
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        &.icon-fff {
+          background-image: url($url-image + 'icon/fff.png');
+        }
+        &.icon-district {
+          background-image: url($url-image + 'icon/district.png');
+        }
+      }
+    }
+  }
+}
