@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-06 09:47:18+0000\n"
+"PO-Revision-Date: 2018-11-17 16:20:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -484,7 +484,7 @@ msgstr "%1$sVoix passive%2$s : %3$s des phrases sont à la forme passive, ce qu
 #. end tag.
 #: languages/yoast-seo-js.php:55
 msgid "%1$sPassive voice%2$s: You're using enough active voice. That's great!"
-msgstr "%1$sVoix passive%2$s : Vous utilisez suffisamment la voix active. C‘est super !"
+msgstr "%1$sVoix passive%2$s : Vous utilisez suffisamment la voix active. C’est super !"
 
 #. Translators: %1$s and %5$s expand to a link on yoast.com, %2$s expands to
 #. the anchor end tag, %3$d expands to the 	   number of paragraphs over the
@@ -1231,7 +1231,7 @@ msgstr "Phrase de recherche"
 
 #: inc/class-wpseo-replace-vars.php:1313
 msgid "Term title"
-msgstr "Titre de l’élément"
+msgstr "Titre du terme"
 
 #: inc/class-wpseo-replace-vars.php:1312 languages/wordpress-seojs.php:299
 msgid "Term description"
@@ -1336,7 +1336,7 @@ msgstr "Réglages pour les URL de %s"
 
 #: admin/views/tabs/metas/post-types.php:31
 msgid "The settings on this page allow you to specify what the default search appearance should be for any type of content you have. You can choose which content types appear in search results and what their default description should be."
-msgstr "Les réglages sur cette page vous permettent de définir l’apparence par défaut de vos contenus dans les résultats de recherche. Vous pouvez choisir quels types de contenus seront indexés et comment doit être construite leur description par défaut."
+msgstr "Les réglages sur cette page vous permettent de définir l’apparence par défaut de vos publications dans les résultats de recherche. Vous pouvez choisir quels types de publications seront indexés et comment doit être construite leur description par défaut."
 
 #: languages/yoast-components.php:235
 msgid "Dismiss this notice"
@@ -1444,7 +1444,7 @@ msgstr "Filtrer par type de contenu"
 
 #: admin/class-bulk-editor-list-table.php:405
 msgid "Show All Content Types"
-msgstr "Afficher tous les types de contenu"
+msgstr "Afficher tous les types de publication"
 
 #. translators: %1$s resolves to the opening tag of the link to the comment
 #. setting page, %2$s resolves to the closing tag of the link
@@ -1514,7 +1514,7 @@ msgstr "Yoast SEO n’a pas détecté d’extension dont il peut importer les do
 
 #: admin/statistics/class-statistics-service.php:204
 msgid "Posts that should not show up in search results"
-msgstr "Articles qui devraient apparaître dans les résultats de recherche"
+msgstr "Articles qui ne devraient pas apparaître dans les résultats de recherche"
 
 #. translators: %1$s expands to an opening strong tag, %2$s expands to a
 #. closing strong tag
@@ -1594,7 +1594,7 @@ msgstr "archives de cet auteur"
 #. translators: %s expands to "this author's archives".
 #: admin/views/user-profile.php:12
 msgid "Do not allow search engines to show %s in search results."
-msgstr "Empêcher les moteurs de recherche d’afficher %s dans les résultats de recherche."
+msgstr "Empêcher les moteurs de recherche d’afficher les %s dans les résultats de recherche."
 
 #. translators: 1: link open tag; 2: link close tag., 3: the translated label
 #. of the button
@@ -1843,7 +1843,7 @@ msgstr "Médias"
 
 #: admin/pages/metas.php:22
 msgid "Content Types"
-msgstr "Types de contenu"
+msgstr "Types de publication"
 
 #: admin/notifiers/class-configuration-notifier.php:101
 msgid "Check SEO configuration"
@@ -4399,7 +4399,7 @@ msgstr "Page non trouvée"
 #: frontend/class-frontend.php:501
 #: inc/options/class-wpseo-option-titles.php:265
 msgid "%s Archives"
-msgstr "%s Archives"
+msgstr "Archives des %s"
 
 #. translators: %s expands to the search phrase.
 #: frontend/class-frontend.php:452
@@ -4520,7 +4520,7 @@ msgstr "Archive de type de contenu à afficher dans le fil d’Ariane pour les t
 
 #: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:42
 msgid "Taxonomy to show in breadcrumbs for content types"
-msgstr "Taxonomie à afficher dans le fil d’Ariane pour les types de contenu"
+msgstr "Taxonomie à afficher dans le fil d’Ariane pour les types de publications"
 
 #: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:21
 msgid "Breadcrumb for 404 Page"

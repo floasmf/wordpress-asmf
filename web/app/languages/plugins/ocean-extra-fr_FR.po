@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ocean Extra - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-10-23 14:49:31+0000\n"
+"PO-Revision-Date: 2018-11-14 11:44:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5624,10 +5624,6 @@ msgstr "Pouces vers le bas"
 msgid "Thumbs Up"
 msgstr "Pouces vers le haut"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1124
-msgid "Sticky"
-msgstr "Epinglé"
-
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:929
 msgid "Awards"
 msgstr "Récompenses"
@@ -6007,6 +6003,10 @@ msgstr "Corbeille d’article"
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:789
 msgid "Dismiss"
 msgstr "Ignorer"
+
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1124
+msgid "Sticky"
+msgstr "Épinglé"
 
 #: includes/widgets/tags.php:322
 msgid "Link Color:"

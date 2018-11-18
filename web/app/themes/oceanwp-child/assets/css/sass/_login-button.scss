@@ -1,0 +1,16 @@
+.oceanwp-login, .oceanwp-logout {
+  &:before {
+    font-family: "FontAwesome";
+    margin-right: .2em;
+  }
+}
+.oceanwp-login {
+  &:before {
+    content: "\f090";
+  }
+}
+.oceanwp-logout {
+  &:before {
+    content: "\f08b";
+  }
+}

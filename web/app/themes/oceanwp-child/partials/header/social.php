@@ -95,13 +95,21 @@ $link_target = get_theme_mod( 'ocean_menu_social_target', 'blank' ); ?>
 		// Display social
 		} else { ?>
 
-            <ul>
-                <li><a href="<?php echo is_user_logged_in() ? wp_logout_url(home_url()) : wp_login_url() ?>">
-                        <span class="fa <?php echo is_user_logged_in() ? "fa-unlock" : "fa-lock" ?>"></span>
-                        <?php echo is_user_logged_in() ? __('Se déconnecter', 'asmf_domain') : __('Se connecter', 'asmf_domain') ?>
-                    </a>
+            <ul class="login-shop-menu">
+                <li>
+                    <?php echo oceanwp_login_shortcode(array()); ?>
                 </li>
-                <li><a href="">Boutique</a></li>
+                <?php
+                $options_general_page = acf_get_options_page('asmf-options-general');
+                $url = get_field('fichier_boutique', $options_general_page['post_id']);
+                if($url) {
+                    ?>
+                    <li>
+                        <a href="<?php echo $url ?>" target="_blank"><?php echo __('Boutique', 'asmf_domain'); ?></a>
+                    </li>
+                    <?php
+                }
+                ?>
             </ul>
             <ul>
 
