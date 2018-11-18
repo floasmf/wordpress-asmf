@@ -1,4 +1,4 @@
-.widget_asmf_ranks {
+#ocean_custom_menu-2 {
   background: $primary !important;
   .widget-title {
     color: white!important;
@@ -6,30 +6,22 @@
       background: white;
     }
   }
-  .ranks-menu {
-    .menu-item {
-      float: none;
-      display: block;
+  #menu-classements {
+    margin: 0 -30px;
+    li {
+      border-bottom: none;
       a {
-        color: white;
-        .nav-arrow {
-          position: absolute;
-          top: 50%;
-          right: 0;
-          padding: 0;
-          @include transform(translateY(-50%));
+        padding: 10px 30px;
+        &:hover {
+          background: $secondary;
+        }
+        .open-this {
+          margin-right: 30px;
         }
       }
-    }
-    .sub-menu {
-      position: relative;
-      top: auto;
-      left: auto;
-      background-color: transparent;
-      border-top: 0;
-      min-width: 100%;
-      line-height: 1;
-      @include box-shadow(none);
+      .sub-menu {
+        border-top: none;
+      }
     }
   }
 }
