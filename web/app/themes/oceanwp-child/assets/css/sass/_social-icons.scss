@@ -15,6 +15,12 @@
           }
         }
       }
+      &:not(.login-shop-menu) {
+        margin-left: 1em;
+        @media screen and (max-width: $screen-xl){
+          margin-top: 10px;
+        }
+      }
     }
   }
 }
