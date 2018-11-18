@@ -8,6 +8,7 @@ web/app/uploads/*
 web/app/themes/*
 web/app/languages/*
 !web/app/themes/oceanwp-child/
+web/app/ai1wm-backups
 
 
 # WordPress
