@@ -6,19 +6,55 @@
         li {
           a {
             font-weight: 500;
-            background: $grey;
-            color: #000;
-            &:hover {
-              background: darken($grey, 1%);
-              color: inherit!important;
-            }
           }
         }
       }
       &:not(.login-shop-menu) {
         margin-left: 1em;
-        @media screen and (max-width: $screen-xl){
+        @media screen and (max-width: $screen-xl) {
           margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+#site-header {
+  .oceanwp-social-menu {
+    &.simple-social {
+      ul {
+        &.login-shop-menu {
+          li {
+            a {
+              background: $background-shop-btn-header;
+              color: inherit !important;
+              &:hover {
+                background: darken($background-shop-btn-header, 1%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#footer {
+  .oceanwp-social-menu {
+    float: none;
+    &.simple-social {
+      right: 0;
+      ul {
+        &.login-shop-menu {
+          li {
+            a {
+              background: $background-shop-btn-footer;
+              &:hover {
+                background: darken($background-shop-btn-footer, 1%);
+                color: inherit !important;
+              }
+            }
+          }
         }
       }
     }
