@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - OceanWP package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-15 16:01:51+0000\n"
+"PO-Revision-Date: 2018-12-09 21:09:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,7 @@ msgstr ""
 msgid "OceanWP is the perfect theme for your project. Lightweight and highly extendable, it will enable you to create almost any type of website such a blog, portfolio, business website and WooCommerce storefront with a beautiful & professional design. Very fast, responsive, RTL & translation ready, best SEO practices, unique WooCommerce features to increase conversion and much more. You can even edit the settings on tablet & mobile so your site looks good on every device. Work with the most popular page builders as Elementor, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, etc... Developers will love his extensible codebase making it a joy to customize and extend. Best friend of Elementor & WooCommerce. Looking for a Multi-Purpose theme? Look no further! Check the demos to realize that it's the only theme you will ever need: https://oceanwp.org/demos/"
 msgstr "OceanWP est le thème parfait pour votre projet. Léger et hautement extensible, il vous permettra de créer presque n’importe quel type de site web tel qu’un blog, un portfolio, un site web professionnel ou une vitrine WooCommerce avec une conception superbe et professionnelle. Très rapide, responsive, RTL et prêt à traduire, meilleures pratiques SEO, fonctionnalités uniques WooCommerce pour augmenter la conversion et bien plus encore. Vous pouvez même modifier les réglages sur tablette et mobile pour que votre site soit impeccable sur tous les appareils. Travaillez avec les constructeurs de page les plus populaires comme Elementor, Beaver Builder, Brizy,Visual Composer, Divi, SiteOrigin, etc ... Les développeurs vont adorer sa base de code extensible ce qui en fait un plaisir à personnaliser et à étendre. Meilleur ami d’Elementor & WooCommerce. À la recherche d’un thème polyvalent ? Ne cherchez pas plus loin ! Regardez les démos pour vous rendre compte que c’est l’unique thème dont vous aurez besoin : https://oceanwp.org/demos/"
 
-#. #-#-#-#-#  oceanwp.pot (OceanWP 1.5.31)  #-#-#-#-#
+#. #-#-#-#-#  oceanwp.pot (OceanWP 1.5.32)  #-#-#-#-#
 #. Theme Name of the plugin/theme
 #: inc/helpers.php:3536
 msgid "OceanWP"
@@ -97,45 +97,45 @@ msgstr "Original"
 msgid "Side by Side"
 msgstr "Côte à côte"
 
-#: inc/woocommerce/woocommerce-config.php:1921
+#: inc/woocommerce/woocommerce-config.php:1922
 msgid "%s"
 msgstr "%s"
 
-#: inc/woocommerce/woocommerce-config.php:1925
+#: inc/woocommerce/woocommerce-config.php:1926
 msgid "Sale!"
 msgstr "Promo !"
 
 #. translators: %s: field name
-#: inc/woocommerce/woocommerce-config.php:2157
+#: inc/woocommerce/woocommerce-config.php:2158
 msgid "%s is a required field."
 msgstr "%s est un champ obligatoire."
 
 #. translators: 1: state field 2: valid states
-#: inc/woocommerce/woocommerce-config.php:2150
+#: inc/woocommerce/woocommerce-config.php:2151
 msgid "%1$s is not valid. Please enter one of the following: %2$s"
 msgstr "%1$s n’est pas valide. Veuillez saisir un des suivants : %2$s"
 
 #. translators: %s: email address
-#: inc/woocommerce/woocommerce-config.php:2130
+#: inc/woocommerce/woocommerce-config.php:2131
 msgid "%s is not a valid email address."
 msgstr "%s n’est pas une adresse de messagerie valide."
 
 #. translators: %s: phone number
-#: inc/woocommerce/woocommerce-config.php:2121
+#: inc/woocommerce/woocommerce-config.php:2122
 msgid "%s is not a valid phone number."
 msgstr "%s n’est pas un numéro de téléphone valide."
 
-#: inc/woocommerce/woocommerce-config.php:2112
+#: inc/woocommerce/woocommerce-config.php:2113
 msgid "%s is not a valid postcode / ZIP."
 msgstr "%s n’est pas un code postal valide."
 
 #. translators: %s: field name
-#: inc/woocommerce/woocommerce-config.php:2103
+#: inc/woocommerce/woocommerce-config.php:2104
 msgid "Billing %s"
 msgstr "Facturation %s"
 
 #. translators: %s: field name
-#: inc/woocommerce/woocommerce-config.php:2099
+#: inc/woocommerce/woocommerce-config.php:2100
 msgid "Shipping %s"
 msgstr "Livraison %s"
 
@@ -511,15 +511,15 @@ msgstr "Sous-total"
 msgid "Remove this item"
 msgstr "Retirer cet article"
 
-#: inc/woocommerce/woocommerce-config.php:1977
+#: inc/woocommerce/woocommerce-config.php:1978
 msgid "Register"
 msgstr "S’enregistrer"
 
-#: inc/woocommerce/woocommerce-config.php:1975
+#: inc/woocommerce/woocommerce-config.php:1976
 msgid "Or"
 msgstr "Ou"
 
-#: inc/woocommerce/woocommerce-config.php:1962
+#: inc/woocommerce/woocommerce-config.php:1963
 #: woocommerce/checkout/checkout-timeline.php:42
 msgid "Login"
 msgstr "Se connecter"
@@ -933,7 +933,7 @@ msgstr "Ce champ contrôle la largeur à laquelle vous voulez réduire l'en-têt
 msgid "Collapse Width (px)"
 msgstr "Réduire la largeur (px)"
 
-#: inc/woocommerce/woocommerce-config.php:2255
+#: inc/woocommerce/woocommerce-config.php:2256
 msgid "WooCommerce Product Price"
 msgstr "Prix de produit WooCommerce"
 
@@ -989,7 +989,7 @@ msgstr "Deux colonnes latérales : style"
 msgid "Add To Cart Border: Style"
 msgstr "Bordure Ajouter au panier : style"
 
-#: inc/woocommerce/woocommerce-config.php:2265
+#: inc/woocommerce/woocommerce-config.php:2266
 msgid "WooCommerce Product Add To Cart"
 msgstr "Ajouter le produit WooCommerce au panier"
 
@@ -3528,25 +3528,11 @@ msgstr[0] "Tout <span class=\"count\">(%s)</span>"
 msgstr[1] "Tous <span class=\"count\">(%s)</span>"
 
 #. translators: 1: number of plugins.
-#: inc/plugins/class-tgm-plugin-activation.php:2392
-msgid "To Install <span class=\"count\">(%s)</span>"
-msgid_plural "To Install <span class=\"count\">(%s)</span>"
-msgstr[0] "Pour installer <span class=\"count\">(%s)</span>"
-msgstr[1] "Pour installer <span class=\"count\">(%s)</span>"
-
-#. translators: 1: number of plugins.
 #: inc/plugins/class-tgm-plugin-activation.php:2396
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] "Mise à jour disponible <span class=\"count\">(%s)</span>"
 msgstr[1] "Mises à jour disponibles <span class=\"count\">(%s)</span>"
-
-#. translators: 1: number of plugins.
-#: inc/plugins/class-tgm-plugin-activation.php:2400
-msgid "To Activate <span class=\"count\">(%s)</span>"
-msgid_plural "To Activate <span class=\"count\">(%s)</span>"
-msgstr[0] "Pour activer <span class=\"count\">(%s)</span>"
-msgstr[1] "Pour activer <span class=\"count\">(%s)</span>"
 
 #: inc/plugins/class-tgm-plugin-activation.php:2490
 msgid "Installed version:"
@@ -3682,7 +3668,7 @@ msgstr "Bienvenue !"
 msgid "Logout"
 msgstr "Déconnexion"
 
-#: inc/edd/edd-config.php:372 inc/woocommerce/woocommerce-config.php:1798
+#: inc/edd/edd-config.php:372 inc/woocommerce/woocommerce-config.php:1799
 msgid "Your cart"
 msgstr "Votre panier"
 
@@ -4010,7 +3996,7 @@ msgstr "Saisissez votre texte et appuyez sur Entrée pour rechercher"
 msgid "Placeholder Image"
 msgstr "Image indicative"
 
-#: inc/woocommerce/woocommerce-config.php:2244
+#: inc/woocommerce/woocommerce-config.php:2245
 msgid "WooCommerce Product Title"
 msgstr "Titre de produit WooCommerce"
 
@@ -5155,6 +5141,20 @@ msgstr "Avertissements : couleur de lien au survol"
 #: inc/customizer/settings/header.php:76
 msgid "Custom Header"
 msgstr "En-tête personnalisé"
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "A installer <span class=\"count\">(%s)</span>"
+msgstr[1] "A installer <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/plugins/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "A activer <span class=\"count\">(%s)</span>"
+msgstr[1] "A activer <span class=\"count\">(%s)</span>"
 
 #. Author URI of the plugin/theme
 msgid "https://oceanwp.org/about-me/"

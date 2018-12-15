@@ -6,10 +6,9 @@ web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/themes/*
-web/app/languages/*
 !web/app/themes/oceanwp-child/
 web/app/ai1wm-backups
-
+web/app/languages
 
 # WordPress
 web/wp

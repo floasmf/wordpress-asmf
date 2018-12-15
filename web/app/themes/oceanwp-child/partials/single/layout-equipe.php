@@ -10,7 +10,7 @@
             <?php
             $convocations = get_field('convocation');
             $count_convocations = count($convocations);
-            if($count_convocations <= 2 || $count_convocations % 2 == 0) {
+            if ($count_convocations <= 2 || $count_convocations % 2 == 0) {
                 $class = 'span_1_of_2';
             } else {
                 $class = 'span_1_of_3';
@@ -55,7 +55,25 @@
         </div>
     </div>
     <h2>Actualités</h2>
-    <div>
-        TODO!!!!!
-    </div>
+    <div id="blog-entries" class="<?php oceanwp_blog_wrap_classes(); ?>">
+        <?php
+        global $paged, $post;
+        $base = get_permalink();
+        $paged = ( get_query_var('page') ) ? get_query_var('page') : 1;
+        $query = new WP_Query(array(
+            'posts_per_page' => get_option('posts_per_page'),
+            'paged' => $paged
+        ));
+
+        if ( $query->have_posts() ) {
+            foreach ( $query->get_posts() as $post ) {
+                get_template_part('partials/entry/layout', $post->post_type);
+            }
+
+            if (function_exists('pagination')) {
+                pagination($base, $query->max_num_pages);
+            }
+            wp_reset_postdata();
+        }
+        ?>
 </article>
