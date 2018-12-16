@@ -2,6 +2,8 @@
 @import "../../../oceanwp/sass/mixins";
 @import "../../../oceanwp/sass/config";
 
+@import "sass/mixins";
+
 /******* VARIABLES *******/
 @import "sass/variables";
 
@@ -31,3 +33,6 @@
 
 /******* PORTFOLIO *******/
 @import "sass/photography-portfolio";
+
+/****** POSTS SLIDER *****/
+@import "sass/posts-slider";

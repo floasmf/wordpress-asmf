@@ -1,4 +1,9 @@
 <article id="post-<?php the_ID(); ?>">
+    <?php
+        global $paged, $post;
+        $paged = ( get_query_var('page') ) ? get_query_var('page') : 1;
+        if($paged == 1 ) {
+    ?>
     <div id="post-thumbnail-team">
         <?php the_post_thumbnail('thumbnail-team'); ?>
         <h1 class="title"><?php the_title(); ?></h1>
@@ -54,12 +59,11 @@
             ?>
         </div>
     </div>
+    <?php } ?>
     <h2>Actualités</h2>
     <div id="blog-entries" class="<?php oceanwp_blog_wrap_classes(); ?>">
         <?php
-        global $paged, $post;
         $base = get_permalink();
-        $paged = ( get_query_var('page') ) ? get_query_var('page') : 1;
         $query = new WP_Query(array(
             'posts_per_page' => get_option('posts_per_page'),
             'paged' => $paged
