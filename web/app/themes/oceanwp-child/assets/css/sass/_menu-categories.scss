@@ -7,14 +7,20 @@
     li {
       margin-right: 20px;
       display: inline-block;
-      background: $primary;
-      &:hover {
-        background: $secondary;
+      span, a {
+        text-transform: uppercase;
+        color: white;
+        padding: 20px;
+        font-weight: bold;
       }
       a {
-        display: block;
-        padding: 20px;
-        color: white;
+        background: $primary;
+        &:hover {
+          background: $secondary;
+        }
+      }
+      span {
+        background: $secondary;
       }
     }
   }

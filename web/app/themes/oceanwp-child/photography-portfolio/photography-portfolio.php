@@ -23,15 +23,28 @@ get_header(); ?>
             $taxonomy = 'phort_post_category';
             $portfolio_categories = get_terms(array('taxonomy' => $taxonomy, 'hide_empty ' => false));
             if ($portfolio_categories) {
+                $active_category = get_queried_object()->slug;
                 $html = '<div id="portfolio-categories" class="menu-categories"><ul>';
                 foreach ($portfolio_categories as $portfolio_categorie) {
-                    $html .= sprintf('<li><a href="%s">%s</a></li>', get_term_link($portfolio_categorie->slug, $taxonomy), $portfolio_categorie->name);
+                    $html .= '<li>';
+                    if($active_category == $portfolio_categorie->slug) {
+                        $html .= sprintf('<span>%s</span>', $portfolio_categorie->name);
+
+                    } else {
+                        $html .= sprintf('<a href="%s">%s</a>', get_term_link($portfolio_categorie->slug, $taxonomy), $portfolio_categorie->name);
+                    }
+                    $html .= '</li>';
                 }
                 $html .= '</ul></div>';
                 echo $html;
             }
-
             ?>
+
+            <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                <div class="elementor-widget-container">
+                    <h1 class="elementor-heading-title elementor-size-default"><?php echo phort_get_archive_title() ?></h1>
+                </div>
+            </div>
 
             <?php phort_load_view(); ?>
 

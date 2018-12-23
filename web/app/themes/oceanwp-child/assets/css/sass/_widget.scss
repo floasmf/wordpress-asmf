@@ -3,5 +3,9 @@
     @media screen and (max-width: $screen-md) {
       padding: 10px!important;
     }
+    .sidebar-box {
+      background-color: transparent;
+      margin-bottom: 0;
+    }
   }
 }
