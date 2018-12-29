@@ -15,10 +15,10 @@ class SocialIconsWidget extends WP_Widget
         // Base ID of your widget
             'asmf_social_icons',
 // Widget name will appear in UI
-            __('Icônes sociaux + boutique', 'asmf_domain'),
+            __('Icônes sociaux + boutique', 'asmf'),
 
             // Widget description
-            array('description' => __('Widget pour afficher les icônes sociaux et le bouton de la boutique', 'asmf_domain'),)
+            array('description' => __('Widget pour afficher les icônes sociaux et le bouton de la boutique', 'asmf'),)
         );
     }
 
@@ -71,7 +71,7 @@ class SocialIconsWidget extends WP_Widget
                 if($url) {
                     ?>
                     <li>
-                        <a href="<?php echo $url ?>" target="_blank"><?php echo __('Boutique', 'asmf_domain'); ?></a>
+                        <a href="<?php echo $url ?>" target="_blank"><?php echo __('Boutique', 'asmf'); ?></a>
                     </li>
                     <?php
                 }

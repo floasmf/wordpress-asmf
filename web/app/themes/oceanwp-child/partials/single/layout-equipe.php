@@ -11,7 +11,7 @@
 
     <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="heading.default">
         <div class="elementor-widget-container">
-            <h2 class="elementor-heading-title elementor-size-default"><?php echo __('Convocations') ?></h2>
+            <h2 class="elementor-heading-title elementor-size-default"><?php echo __('Convocations', 'asmf') ?></h2>
         </div>
     </div>
     <div id="convocations">
@@ -66,30 +66,27 @@
     <?php } ?>
     <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="heading.default">
         <div class="elementor-widget-container">
-            <h2 class="elementor-heading-title elementor-size-default"><?php echo __('Actualités') ?></h2>
+            <h2 class="elementor-heading-title elementor-size-default"><?php echo __('Actualités', 'asmf') ?></h2>
         </div>
     </div>
-    TODDDOOOOOOOOOOOOO Catégorie in equipe + evenements !!!!!!!!!!!!!
     <div id="blog-entries" class="<?php oceanwp_blog_wrap_classes(); ?>">
         <?php
         $category_blog = get_field('categorie_article_equipe');
         $category_event = get_category_by_slug('evenement');
-        var_dump(array($category_blog, $category_event->term_id));
         $base = get_permalink();
         $query = new WP_Query(array(
             'posts_per_page' => get_option('posts_per_page'),
             'paged' => $paged,
             'category__in' => array(
                 $category_event->term_id,
-                $category_blog,
+                $category_blog
             ),
         ));
 
         if ( $query->have_posts() ) {
-            foreach ( $query->get_posts() as $post ) {
+            foreach ( $query->posts as $post ) {
                 get_template_part('partials/entry/layout', $post->post_type);
             }
-
             if (function_exists('pagination')) {
                 pagination($base, $query->max_num_pages);
             }

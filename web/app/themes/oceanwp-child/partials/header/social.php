@@ -105,7 +105,7 @@ $link_target = get_theme_mod( 'ocean_menu_social_target', 'blank' ); ?>
                 if($url) {
                     ?>
                     <li>
-                        <a href="<?php echo $url ?>" target="_blank"><?php echo __('Boutique', 'asmf_domain'); ?></a>
+                        <a href="<?php echo $url ?>" target="_blank"><?php echo __('Boutique', 'asmf'); ?></a>
                     </li>
                     <?php
                 }

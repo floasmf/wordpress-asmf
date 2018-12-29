@@ -22,3 +22,9 @@ require_once get_stylesheet_directory().'/config/image-size.php';
 require_once get_stylesheet_directory().'/config/social-options.php';
 require_once get_stylesheet_directory().'/config/pagination.php';
 require_once get_stylesheet_directory().'/config/gutenberg.php';
+
+add_action( 'elementor/widgets/widgets_registered', function() {
+    require_once get_stylesheet_directory().'/config/classes/PostsElementorWidget.php';
+
+    \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new PostsElementorWidget() );
+} );

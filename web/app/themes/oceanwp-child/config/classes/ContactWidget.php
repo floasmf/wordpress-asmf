@@ -15,10 +15,10 @@ class ContactWidget extends WP_Widget
         // Base ID of your widget
             'asmf_contact',
 // Widget name will appear in UI
-            __('Contact équipe', 'asmf_domain'),
+            __('Contact équipe', 'asmf'),
 
             // Widget description
-            array('description' => __('Widget pour afficher les contacts de chaque équipe', 'asmf_domain'),)
+            array('description' => __('Widget pour afficher les contacts de chaque équipe', 'asmf'),)
         );
     }
 
@@ -64,7 +64,7 @@ class ContactWidget extends WP_Widget
         if (isset($instance['title'])) {
             $title = $instance['title'];
         } else {
-            $title = __('Contact', 'asmf_domain');
+            $title = __('Contact', 'asmf');
         }
 // Widget admin form
         ?>

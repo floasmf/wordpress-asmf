@@ -15,10 +15,10 @@ class EventsWidget extends WP_Widget
         // Base ID of your widget
             'asmf_events',
 // Widget name will appear in UI
-            __('Evénements à venir', 'asmf_domain'),
+            __('Evénements à venir', 'asmf'),
 
             // Widget description
-            array('description' => __('Widget pour afficher les événements à venir', 'asmf_domain'),)
+            array('description' => __('Widget pour afficher les événements à venir', 'asmf'),)
         );
     }
 
@@ -84,7 +84,7 @@ class EventsWidget extends WP_Widget
         if (isset($instance['title'])) {
             $title = $instance['title'];
         } else {
-            $title = __('Évènements', 'asmf_domain');
+            $title = __('Évènements', 'asmf');
         }
 // Widget admin form
         ?>

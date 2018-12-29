@@ -15,10 +15,10 @@ class PartnersWidget extends WP_Widget
         // Base ID of your widget
             'asmf_partners',
 // Widget name will appear in UI
-            __('Partenaires', 'asmf_domain'),
+            __('Partenaires', 'asmf'),
 
             // Widget description
-            array('description' => __('Widget pour afficher les partenaires du club', 'asmf_domain'),)
+            array('description' => __('Widget pour afficher les partenaires du club', 'asmf'),)
         );
     }
 
@@ -56,7 +56,7 @@ class PartnersWidget extends WP_Widget
         if (isset($instance['title'])) {
             $title = $instance['title'];
         } else {
-            $title = __('Nos partenaires', 'asmf_domain');
+            $title = __('Nos partenaires', 'asmf');
         }
 // Widget admin form
         ?>
