@@ -1,24 +1,56 @@
 .widget_asmf_events {
-  .categories {
-    .category {
-      display: inline-block;
-      background: $primary;
-      color: white;
-      font-weight: 600;
-      padding: 0 8px;
-      margin-right: 5px;
-      margin-bottom: 5px;
+  #events-carousel {
+    position: relative;
+    @include box-shadow(gray 2px 2px 5px);
+    &:before {
+      content: '';
+      position: absolute;
+      left: -30px;
+      right: -30px;
+      height: 80%;
+      background: black;
+      top: 50%;
+      @include transform(translateY(-50%));
+
     }
-  }
-  .date {
-    color: $primary;
-  }
-  .title {
-    text-transform: initial;
-    color: $primary;
-    margin-bottom: 0.3em;
-  }
-  .excerpt {
-    font-size: .9em;
+    .slick-track {
+      background-color: white;
+      .event {
+        padding: 20px;
+        .categories {
+          .category {
+            display: inline-block;
+            background: $primary;
+            color: white;
+            font-weight: 600;
+            padding: 0 8px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+          }
+        }
+        .date {
+          color: $primary;
+        }
+        .title {
+          text-transform: initial;
+          color: $primary;
+          margin-bottom: 0.3em;
+        }
+        .excerpt {
+          font-size: .9em;
+        }
+      }
+    }
+    .slick-arrow {
+      font-size: 3em;
+      bottom: 50%;
+      @include transform(translateY(50%));
+      &.slick-prev {
+        left: -30px;
+      }
+      &.slick-next {
+        right: -30px;
+      }
+    }
   }
 }

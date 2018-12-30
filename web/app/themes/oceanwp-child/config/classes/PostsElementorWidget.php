@@ -109,16 +109,39 @@ class PostsElementorWidget extends \Elementor\Widget_Base
      * @access protected
      */
     protected function render() {
-
+        global $paged, $post;
+        $paged = ( get_query_var('page') ) ? get_query_var('page') : 1;
         $settings = $this->get_settings_for_display();
 
-        $html = wp_oembed_get( $settings['url'] );
+        $categories = $settings['categories'];
 
-        echo '<div class="oembed-elementor-widget">';
+        ?>
+        <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="heading.default">
+            <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default"><?php echo __('Actualités', 'asmf') ?></h2>
+            </div>
+        </div>
+        <div id="blog-entries" class="<?php oceanwp_blog_wrap_classes(); ?>">
+        <?php
+        $base = get_permalink();
+        $query = new WP_Query(array(
+            'posts_per_page' => get_option('posts_per_page'),
+            'paged' => $paged,
+            'category__in' => $categories,
+        ));
 
-        echo ( $html ) ? $html : $settings['url'];
-
-        echo '</div>';
+        if ( $query->have_posts() ) {
+            foreach ( $query->posts as $post ) {
+                get_template_part('partials/entry/layout', $post->post_type);
+            }
+            if (function_exists('pagination')) {
+                pagination($base, $query->max_num_pages);
+            }
+            wp_reset_postdata();
+        }
+        ?>
+    </div>
+    <?php
 
     }
 

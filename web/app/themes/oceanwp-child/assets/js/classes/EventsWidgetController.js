@@ -16,7 +16,9 @@ var EventsWidgetController = jQuery.inherit({
             infinite: true,
             speed: 500,
             cssEase: 'linear',
-            arrows: false
+            prevArrow: '<button type="button" class="slick-prev"><span class="fa fa-angle-left"></span></button>',
+            nextArrow: '<button type="button" class="slick-next"><span class="fa fa-angle-right"></span></button>'
+
         });
     }
 });

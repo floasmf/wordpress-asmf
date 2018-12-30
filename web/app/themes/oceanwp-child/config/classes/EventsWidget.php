@@ -66,7 +66,7 @@ class EventsWidget extends WP_Widget
                 // Titre
                 $html .= sprintf('<h4 class="title">%s</h4>', get_the_title($event));
                 // Extrait
-                $html .= sprintf('<div class="excerpt">%s</div>',get_the_excerpt());
+                $html .= sprintf('<div class="excerpt">%s</div>', get_the_excerpt());
                 // Image principale
                 $html .= get_the_post_thumbnail($event);
                 $html .= '</div>';

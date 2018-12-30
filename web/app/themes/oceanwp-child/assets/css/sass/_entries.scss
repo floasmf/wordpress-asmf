@@ -1,0 +1,26 @@
+.entries {
+  position: relative;
+  padding-left: $padding-entries;
+  padding-right: $padding-entries;
+  margin-bottom: $padding-entries;
+  &:before {
+    content: '';
+    position: absolute;
+    background: black;
+    top: $padding-entries;
+    left: 0;
+    right: 0;
+    bottom: -$padding-entries;
+    margin-top: $padding-entries;
+  }
+  article {
+    &.blog-entry {
+      border: 1px solid #c1c1c1;
+      padding: $padding-entries;
+      background: white;
+      .entry-title {
+        text-transform: none;
+      }
+    }
+  }
+}
