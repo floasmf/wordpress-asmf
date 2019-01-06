@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "75a1563c0a6f78cb25ac34b0b59bf7fd",
+    "content-hash": "07edd73130fdc539cdccdce503f833c1",
     "packages": [
         {
             "name": "composer/installers",
@@ -582,6 +582,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ocean-posts-slider/"
+        },
+        {
+            "name": "wpackagist-plugin/ocean-social-sharing",
+            "version": "1.0.13",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ocean-social-sharing/",
+                "reference": "tags/1.0.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ocean-social-sharing.1.0.13.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ocean-social-sharing/"
         },
         {
             "name": "wpackagist-plugin/photography-portfolio",

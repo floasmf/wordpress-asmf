@@ -25,9 +25,11 @@ class PartnersWidget extends WP_Widget
     // Creating widget front-end
     public function widget($args, $instance)
     {
-        $options_partners_page = acf_get_options_page('asmf-options-partners');
-        $fields = get_fields($options_partners_page['post_id']);
-        if ($fields['partenaires']) {
+        $partners = get_posts(array(
+            'numberposts' => -1,
+            'post_type' => 'partenaire'
+        ));
+        if ($partners) {
             $title = apply_filters('widget_title', $instance['title']);
             // before and after widget arguments are defined by themes
             echo $args['before_widget'];
@@ -35,14 +37,17 @@ class PartnersWidget extends WP_Widget
                 echo $args['before_title'] . $title . $args['after_title'];
 
             $html = '<div id="partners-carousel">';
-            foreach ($fields['partenaires'] as $partner) {
-                $logo = wp_get_attachment_image_src( $partner['logo'], 'medium' );
+            foreach ($partners as $partner) {
+                $id = $partner->ID;
+                $logo = get_the_post_thumbnail_url( $id, 'medium' );
+                $website =  get_field('website', $id);
 
                 $html .= '<div class="partner">';
-                $html .= sprintf('<a href="%s" target="_blank">', $partner['site_web']);
-                $html .= sprintf('<img src="%s" alt="%s">', $logo[0], $partner['nom']);
+                $html .= sprintf('<a href="%s" target="_blank">', $website);
+                $html .= sprintf('<img src="%s" alt="%s">', $logo, $partner->post_title);
                 $html .= '</a>';
                 $html .= '</div>';
+
             }
             $html .= '</div>';
             echo $html;

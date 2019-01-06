@@ -28,15 +28,4 @@ if( function_exists('acf_add_options_page') ) {
         'icon_url' => false,
         'update_button' => __( 'Update' ),
     ));
-
-    acf_add_options_sub_page(array(
-        'page_title' => 'Partenaires',
-        'menu_title' => 'Partenaires',
-        'menu_slug' => 'asmf-options-partners',
-        'capability' => 'manage_options',
-        'parent_slug' => 'asmf-options',
-        'position' => false,
-        'icon_url' => false,
-        'update_button' => __( 'Update' ),
-    ));
 }

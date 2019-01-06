@@ -5,8 +5,44 @@
       .line {
         display: none;
       }
-      .oceanwp-post-date {
+      .slide-overlay-wrap {
+        text-align: left;
+        @media screen and (max-width: $screen-sm) {
+          padding: 20px;
+        }
+        padding: 50px;
+        .slide-overlay  {
+          vertical-align: bottom;
+          .oceanwp-post-date {
+            display: none;
+          }
+          .oceanwp-post-category {
+            &:hover {
+              background-color: $secondary;
+              color: white;
+              a {
+                color: white;
+              }
+            }
+          }
+          h2 {
+            text-shadow: 0 0 3px #3b3b3b;
+            @media screen and (max-width: $screen-sm) {
+              font-size: 1.4em;
+            }
+          }
+          .readmore {
+            @include border-radius(0);
+            background-color: $primary;
+            color: white;
+            border: none;
 
+            &:hover {
+              background-color: $secondary;
+            }
+          }
+
+        }
       }
     }
     .slick-dots {

@@ -11,7 +11,11 @@
     li {
       border-bottom: none;
       a {
-        padding: 10px 30px;
+        font-weight: 500;
+        padding: 10px 60px;
+        @media screen and (max-width: $screen-sm){
+          padding: 10px 30px;
+        }
         &:hover {
           background: $secondary;
         }

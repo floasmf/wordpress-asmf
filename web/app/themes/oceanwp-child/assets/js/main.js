@@ -9,4 +9,5 @@ jQuery(document).ready(function() {
             return c;
         } );
     }, 0);
+    jQuery('#menu-classements li a').attr('target', '_blank');
 });
