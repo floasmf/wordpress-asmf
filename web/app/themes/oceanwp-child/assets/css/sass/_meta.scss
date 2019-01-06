@@ -1,0 +1,27 @@
+ul.meta {
+  li {
+    color: $primary;
+    a {
+      color: $primary;
+      &:hover {
+        color: $secondary;
+      }
+    }
+    padding: 5px;
+    &:after {
+      display: none;
+    }
+    &.meta-date {
+      float: right;
+    }
+    &.meta-cat {
+      font-weight: 600;
+      text-transform: uppercase;
+      color: white;
+      background-color: $primary;
+      a {
+        color: white!important;
+      }
+    }
+  }
+}
