@@ -24,3 +24,5 @@ require_once get_stylesheet_directory().'/config/pagination.php';
 require_once get_stylesheet_directory().'/config/gutenberg.php';
 require_once get_stylesheet_directory().'/config/excerpt.php';
 require_once get_stylesheet_directory().'/config/elementor-widget.php';
+require_once get_stylesheet_directory().'/config/login.php';
+require_once get_stylesheet_directory().'/config/sidebar.php';

@@ -1,9 +1,12 @@
 #ocean_custom_menu-2 {
   background: $primary !important;
-  .widget-title {
-    color: white!important;
-    &:before, &:after {
-      background: white;
+  .container-widget-title {
+    &:before {
+      background-color: white;
+    }
+    .widget-title {
+      color: white !important;
+      background-color: $primary;
     }
   }
   #menu-classements {

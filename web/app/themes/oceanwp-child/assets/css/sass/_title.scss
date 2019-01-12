@@ -1,0 +1,40 @@
+.elementor-widget-heading, .sidebar-box {
+  .elementor-widget-container, .container-widget-title {
+    position: relative;
+    text-align: center;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      height: 1px;
+      left: 0;
+      right: 0;
+      background-color: black;
+      @include transform(translateY(-50%));
+    }
+    .elementor-heading-title, .widget-title {
+      position: relative;
+      display: inline-block;
+      border: none;
+      padding: 0 1em;
+    }
+  }
+}
+
+.elementor-widget-heading {
+  margin-top: 30px;
+  .elementor-widget-container {
+    .elementor-heading-title {
+      background-color: white;
+    }
+  }
+}
+
+.container-widget-title {
+  margin-bottom: 20px;
+  .widget-title {
+    margin: 0;
+    background-color: $background-sidebar;
+  }
+}

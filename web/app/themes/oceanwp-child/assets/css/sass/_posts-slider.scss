@@ -17,6 +17,8 @@
             display: none;
           }
           .oceanwp-post-category {
+            @include border-radius(0);
+            font-weight: 500;
             &:hover {
               background-color: $secondary;
               color: white;
@@ -32,6 +34,7 @@
             }
           }
           .readmore {
+            font-weight: 500;
             @include border-radius(0);
             background-color: $primary;
             color: white;
