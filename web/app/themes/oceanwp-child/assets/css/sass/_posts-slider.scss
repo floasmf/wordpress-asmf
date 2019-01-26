@@ -7,10 +7,13 @@
       }
       .slide-overlay-wrap {
         text-align: left;
+        padding: 50px;
+        @media screen and (max-width: $screen-md) {
+          padding: 30px;
+        }
         @media screen and (max-width: $screen-sm) {
           padding: 20px;
         }
-        padding: 50px;
         .slide-overlay  {
           vertical-align: bottom;
           .oceanwp-post-date {
@@ -26,10 +29,16 @@
                 color: white;
               }
             }
+            @media screen and (max-width: $screen-sm) {
+              padding: 3px 7px;
+            }
           }
           h2 {
             text-shadow: 0 0 3px #3b3b3b;
             @media screen and (max-width: $screen-sm) {
+              font-size: 1.2em;
+            }
+            @media screen and (max-width: $screen-md) {
               font-size: 1.4em;
             }
           }
@@ -39,12 +48,13 @@
             background-color: $primary;
             color: white;
             border: none;
-
             &:hover {
               background-color: $secondary;
             }
+            @media screen and (max-width: $screen-sm) {
+              padding: 4px 10px;
+            }
           }
-
         }
       }
     }

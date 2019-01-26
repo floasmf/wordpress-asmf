@@ -24,7 +24,7 @@ get_header(); ?>
             $portfolio_categories = get_terms(array('taxonomy' => $taxonomy, 'hide_empty ' => false));
             if ($portfolio_categories) {
                 $active_category = get_queried_object()->slug;
-                $html = '<div id="portfolio-categories" class="menu-categories"><ul>';
+                $html = '<section id="portfolio-categories" class="menu-categories elementor-section"><ul>';
                 foreach ($portfolio_categories as $portfolio_categorie) {
                     $html .= '<li>';
                     if($active_category == $portfolio_categorie->slug) {
@@ -35,18 +35,20 @@ get_header(); ?>
                     }
                     $html .= '</li>';
                 }
-                $html .= '</ul></div>';
+                $html .= '</ul></section>';
                 echo $html;
             }
             ?>
 
-            <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                <div class="elementor-widget-container">
-                    <h1 class="elementor-heading-title elementor-size-default"><?php echo phort_get_archive_title() ?></h1>
+            <section class="elementor-section">
+                <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                    <div class="elementor-widget-container">
+                        <h1 class="elementor-heading-title elementor-size-default"><?php echo phort_get_archive_title() ?></h1>
+                    </div>
                 </div>
-            </div>
 
-            <?php phort_load_view(); ?>
+                <?php phort_load_view(); ?>
+            </section>
 
             <?php do_action( 'ocean_after_content_inner' ); ?>
 

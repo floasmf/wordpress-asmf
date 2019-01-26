@@ -13,3 +13,12 @@
     }
   }
 }
+
+.elementor-element-populated {
+  padding: 0!important;
+}
+.elementor-section {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}

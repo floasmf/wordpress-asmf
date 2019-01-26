@@ -60,11 +60,11 @@ class EventsWidget extends WP_Widget
                 // Categories
                 $html .= '<div class="categories">';
                 foreach (wp_get_post_categories($event->ID) as $category) {
-                    $html .= sprintf('<div class="category">%s</div>', get_cat_name($category));
+                    $html .= sprintf('<a href="%s" class="category">%s</a>', get_category_link($category), get_cat_name($category));
                 }
                 $html .= '</div>';
                 // Titre
-                $html .= sprintf('<h4 class="title">%s</h4>', get_the_title($event));
+                $html .= sprintf('<h4 class="title"><a href="%s">%s</a></h4>', get_the_permalink($event), get_the_title($event));
                 // Extrait
                 $html .= sprintf('<div class="excerpt">%s</div>', get_the_excerpt());
                 // Image principale
