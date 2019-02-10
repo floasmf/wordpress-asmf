@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
     new PartnersWidgetController();
-    new EventsWidgetController();
+    new CarouselController();
 
     setTimeout(function() {
         // Replace Custom icon

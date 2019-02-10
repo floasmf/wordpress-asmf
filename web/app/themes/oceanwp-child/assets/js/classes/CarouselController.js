@@ -1,11 +1,11 @@
-var EventsWidgetController = jQuery.inherit({
+var CarouselController = jQuery.inherit({
     __constructor:function() {
         this.initContainer();
         this.initCarousel();
     },
 
     initContainer: function () {
-        this.$partners = jQuery('#events-carousel');
+        this.$partners = jQuery('.carousel');
     },
 
     initCarousel: function () {

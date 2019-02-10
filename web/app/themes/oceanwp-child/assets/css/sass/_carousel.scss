@@ -1,0 +1,29 @@
+.carousel {
+    position: relative;
+    @include box-shadow(gray 2px 2px 5px);
+    &:before {
+      content: '';
+      position: absolute;
+      left: -30px;
+      right: -30px;
+      height: 80%;
+      background: black;
+      top: 50%;
+      @include transform(translateY(-50%));
+
+    }
+    .slick-track {
+      background-color: white;
+    }
+    .slick-arrow {
+      font-size: 3em;
+      bottom: 50%;
+      @include transform(translateY(50%));
+      &.slick-prev {
+        left: -30px;
+      }
+      &.slick-next {
+        right: -30px;
+      }
+    }
+  }

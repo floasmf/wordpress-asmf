@@ -49,7 +49,7 @@ class EventsWidget extends WP_Widget
             if (!empty($title))
                 echo $args['before_title'] . $title . $args['after_title'];
 
-            $html = '<div id="events-carousel">';
+            $html = '<div id="events-carousel" class="carousel">';
             foreach ($events as $event) {
                 setup_postdata($event);
 

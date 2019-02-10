@@ -24,7 +24,7 @@ add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' , 10);
 function add_styles_scripts() {
     wp_enqueue_script('jquery.inherit', get_stylesheet_directory_uri().'/assets/lib/jquery.inherit.js', array('oceanwp-main'));
     wp_enqueue_script('PartnersWidgetsController', get_stylesheet_directory_uri().'/assets/js/classes/PartnersWidgetController.js', array('jquery.inherit'));
-    wp_enqueue_script('EventsWidgetsController', get_stylesheet_directory_uri().'/assets/js/classes/EventsWidgetController.js', array('jquery.inherit'));
+    wp_enqueue_script('CarouselController', get_stylesheet_directory_uri().'/assets/js/classes/CarouselController.js', array('jquery.inherit'));
     wp_enqueue_script('main', get_stylesheet_directory_uri().'/assets/js/main.js', array('jquery.inherit'));
     wp_dequeue_script( 'ops-js-scripts');
     wp_deregister_script('ops-js-scripts');

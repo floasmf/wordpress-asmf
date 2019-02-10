@@ -6,6 +6,7 @@
  * Time: 12:16
  */
 
+include_once 'classes/CalendarWidget.php';
 include_once 'classes/ContactWidget.php';
 include_once 'classes/EventsWidget.php';
 include_once 'classes/PartnersWidget.php';
@@ -13,6 +14,7 @@ include_once 'classes/SocialIconsWidget.php';
 
 // Enregistrement et chargement des widgets
 function load_widgets() {
+    register_widget( 'CalendarWidget' );
     register_widget( 'ContactWidget' );
     register_widget( 'EventsWidget' );
     register_widget( 'PartnersWidget' );
