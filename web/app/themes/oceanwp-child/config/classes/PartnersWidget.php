@@ -27,7 +27,8 @@ class PartnersWidget extends WP_Widget
     {
         $partners = get_posts(array(
             'numberposts' => -1,
-            'post_type' => 'partenaire'
+            'post_type' => 'partenaire',
+            'orderby' => 'rand',
         ));
         if ($partners) {
             $title = apply_filters('widget_title', $instance['title']);
@@ -43,9 +44,15 @@ class PartnersWidget extends WP_Widget
                 $website =  get_field('website', $id);
 
                 $html .= '<div class="partner">';
-                $html .= sprintf('<a href="%s" target="_blank">', $website);
+
+                if($website) {
+                    $html .= sprintf('<a href="%s" target="_blank">', $website);
+                }
                 $html .= sprintf('<img src="%s" alt="%s">', $logo, $partner->post_title);
-                $html .= '</a>';
+                if($website) {
+                    $html .= '</a>';
+                }
+
                 $html .= '</div>';
 
             }

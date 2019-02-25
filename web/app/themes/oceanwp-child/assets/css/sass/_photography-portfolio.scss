@@ -1,10 +1,61 @@
-.PP_Archive_Container {
-  background: black;
+.PP_Archive_Container.PP_Masonry {
+  position: relative;
   height: auto!important;
+  width: 100%!important;
+  margin-left: 0!important;
+  margin-top: $padding-entries;
+  padding: 0 $padding-entries;
+  transition:none!important;
+  &:before {
+    content: '';
+    position: absolute;
+    top: $padding-entries;
+    left: 0;
+    right: 0;
+    bottom: -$padding-entries;
+    background: black;
+  }
   .PP_Entry {
     position: relative!important;
+    top: auto!important;
+    left: auto!important;
     width: 100%;
-    top: initial!important;
-    left: initial!important;
+    border: 1px solid #c1c1c1;
+    margin-bottom: $padding-entries;
+    padding: $padding-entries;
+    background-color: white;
+    .PP_Entry__thumbnail {
+      img {
+        display: initial;
+        width: 100%;
+      }
+    }
+    .PP_Entry__thumbnail--replacement {
+      background-color: $primary;
+      background: -webkit-linear-gradient(bottom, $primary, white);
+      background: linear-gradient(to top, $primary, white);
+    }
+    .PP_Entry__header {
+      top: 50%;
+      left: 50%;
+      bottom: auto;
+      text-transform: uppercase;
+      @include transform(translate(-50%, -50%));
+      background-color: rgba($primary, .7);
+      color: white;
+      padding: 5px 20px;
+
+      .PP_Entry__title {
+        margin: 0;
+      }
+    }
+    .PP_Entry__more {
+      padding: $padding-entries;
+      .PP_Entry__view {
+        left: 0;
+        right: 0;
+        text-align: center;
+      }
+    }
   }
 }

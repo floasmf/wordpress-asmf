@@ -1,5 +1,5 @@
-.elementor-widget-heading, .sidebar-box {
-  .elementor-widget-container, .container-widget-title {
+.elementor-widget-heading, .sidebar-box, .PP_Description {
+  .elementor-widget-container, .container-widget-title, .PP_Description__inner {
     position: relative;
     text-align: center;
     &:before {
@@ -13,11 +13,24 @@
       background-color: black;
       @include transform(translateY(-50%));
     }
-    .elementor-heading-title, .widget-title {
+    .elementor-heading-title, .widget-title, .PP_Description__title {
       position: relative;
       display: inline-block;
       border: none;
       padding: 0 1em;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.PP_Description {
+  width: 100%!important;
+  max-width: none!important;
+  margin-bottom: 20px;
+  .PP_Description__inner {
+    .PP_Description__title {
+      background-color: white;
+      margin-bottom: 0;
     }
   }
 }

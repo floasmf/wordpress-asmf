@@ -39,13 +39,14 @@ get_header(); ?>
                 echo $html;
             }
             ?>
-
             <section class="elementor-section">
+                <?php if (phort_get_archive_title()) { ?>
                 <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="heading.default">
                     <div class="elementor-widget-container">
                         <h1 class="elementor-heading-title elementor-size-default"><?php echo phort_get_archive_title() ?></h1>
                     </div>
                 </div>
+                <?php } ?>
 
                 <?php phort_load_view(); ?>
             </section>
