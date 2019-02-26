@@ -44,15 +44,20 @@ class CalendarWidget extends WP_Widget
 
                 $html .= '<div class="slide-match">';
                 foreach (get_field('matchs', $slide_match->ID) as $match) {
+                    $html .= sprintf('<div class="slide-match-title">%s</div>', $slide_match->post_title);
                     $html .= '<div class="match">';
                     $html .= sprintf('<div class="date">%s</div>', $match['date']);
-                    $html .= '<div>';
+                    $html .= '<div class="teams">';
                     $html .= sprintf('<span class="team team-1">%s</span>', $match['team_1']);
-                    $html .= _('vs');
+                    $html .= '<span class="versus">'._('vs').'</span>';
                     $html .= sprintf('<span class="team team-2">%s</span>', $match['team_2']);
                     $html .= '</div>';
                     if($match['score_team_1'] != '' && $match['score_team_2'] != '') {
-                        $html .= sprintf('<div class="score">%s - %s</div>', $match['score_team_1'], $match['score_team_2']);
+                        $html .= '<div class="scores">';
+                        $html .= sprintf('<span class="score score-1">%s</span>', $match['score_team_1']);
+                        $html .= '-';
+                        $html .= sprintf('<span class="score score-2">%s</span>', $match['score_team_2']);
+                        $html .= '</div>';
                     }
                     $html .= '</div>';
                 }

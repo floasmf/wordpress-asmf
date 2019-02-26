@@ -17,8 +17,8 @@
   }
   .PP_Entry {
     position: relative!important;
-    top: auto!important;
-    left: auto!important;
+    top: initial!important;
+    left: initial!important;
     width: 100%;
     border: 1px solid #c1c1c1;
     margin-bottom: $padding-entries;
@@ -55,6 +55,8 @@
         left: 0;
         right: 0;
         text-align: center;
+        font-weight: 600;
+        font-size: 1.2em;
       }
     }
   }

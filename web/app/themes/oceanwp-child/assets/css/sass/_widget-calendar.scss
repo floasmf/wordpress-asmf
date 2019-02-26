@@ -14,20 +14,66 @@
     }
     .slick-track {
       .slide-match {
+        position: relative;
         padding: 20px;
+        .slide-match-title {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          @include transform(translateX(-50%) translateY(-50%));
+          background-color: $primary;
+          color: white;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
         .match {
+          text-align: center;
           &:not(:last-child) {
+            padding-bottom: 10px;
+            margin-bottom: 10px;
             border-bottom: 1px solid $primary;
           }
-          .team {
-            font-weight: 600;
+          .teams {
+            position: relative;
             text-transform: uppercase;
-          }
-          .score {
-            display: inline-block;
             font-weight: 600;
+            .versus {
+              font-size: .5em;
+            }
+            .team {
+              position: absolute;
+              top: 0;
+              white-space: nowrap;
+              &.team-1 {
+                right: 50%;
+                text-align: right;
+                padding-right: 1em;
+              }
+              &.team-2 {
+                left: 50%;
+                text-align: left;
+                padding-left: 1em;
+              }
+            }
+          }
+          .scores {
+            position: relative;
+            display: inline-block;
+            font-weight: bold;
             color: white;
             background: $primary;
+            padding: 0 2em;
+            .score {
+              position: absolute;
+              left: 50%;
+              &.score-1 {
+                @include transform(translateX(-100%));
+                padding-right: 1em;
+              }
+              &.score-2 {
+                padding-left: 1em;
+              }
+            }
           }
         }
       }

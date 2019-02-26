@@ -704,15 +704,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "9.6",
+            "version": "9.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/9.6"
+                "reference": "tags/9.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.9.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.9.7.zip",
                 "reference": null,
                 "shasum": null
             },

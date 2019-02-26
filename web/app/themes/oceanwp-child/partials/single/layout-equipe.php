@@ -80,10 +80,7 @@
         $query = new WP_Query(array(
             'posts_per_page' => get_option('posts_per_page'),
             'paged' => $paged,
-            'category__in' => array(
-                $category_event->term_id,
-                $category_blog
-            ),
+            'category__in' => $category_blog,
         ));
 
         if ( $query->have_posts() ) {
