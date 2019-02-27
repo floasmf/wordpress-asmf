@@ -1,0 +1,10 @@
+#footer {
+  #footer-widgets {
+    @media screen and (max-width: $screen-xs){
+      text-align: center;
+    }
+    .footer-box {
+      margin-bottom: 0!important;
+    }
+  }
+}

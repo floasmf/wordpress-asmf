@@ -21,6 +21,10 @@ $heading = apply_filters( 'ocean_blog_entries_heading', $heading ); ?>
 	<<?php echo esc_attr( $heading ); ?> class="blog-entry-title entry-title">
 		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 	</<?php echo esc_attr( $heading ); ?>><!-- .blog-entry-title -->
+    <?php $event_date = get_field('date');
+    if($event_date) { ?>
+        <p class="event-date no-margin"><?php echo $event_date ?></p>
+    <?php } ?>
 </header><!-- .blog-entry-header -->
 
 <?php do_action( 'ocean_after_blog_entry_title' ); ?>

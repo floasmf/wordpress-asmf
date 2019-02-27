@@ -55,8 +55,8 @@ class EventsWidget extends WP_Widget
 
                 $html .= '<div class="event">';
                 // Date
-                $date = new DateTime(get_field('date', $event));
-                $html .= sprintf('<div class="date pull-right">%s</div>', strftime('%e %b %Y', $date->getTimestamp()));
+                $date = get_field('date', $event);
+                $html .= sprintf('<div class="date pull-right">%s</div>', $date);
                 // Categories
                 $html .= '<div class="categories">';
                 foreach (wp_get_post_categories($event->ID) as $category) {
