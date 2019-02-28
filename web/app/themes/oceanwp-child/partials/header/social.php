@@ -95,7 +95,7 @@ $link_target = get_theme_mod( 'ocean_menu_social_target', 'blank' ); ?>
 		// Display social
 		} else { ?>
 
-            <ul class="login-shop-menu">
+            <ul>
                 <li>
                     <?php echo oceanwp_login_shortcode(array()); ?>
                 </li>
@@ -105,15 +105,10 @@ $link_target = get_theme_mod( 'ocean_menu_social_target', 'blank' ); ?>
                 if($url) {
                     ?>
                     <li>
-                        <a href="<?php echo $url ?>" target="_blank"><?php echo __('Boutique', 'asmf'); ?></a>
+                        <a class="shop-link" href="<?php echo $url ?>" target="_blank"><?php echo __('Boutique', 'asmf'); ?></a>
                     </li>
                     <?php
                 }
-                ?>
-            </ul>
-            <ul>
-
-                <?php
 				// Loop through social options
 				foreach ( $social_options as $key => $val ) {
 

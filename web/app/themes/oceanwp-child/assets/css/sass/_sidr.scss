@@ -1,0 +1,15 @@
+#sidr {
+  .sidr-class-social-menu-inner {
+    ul {
+      @include display();
+      @include flex-wrap(wrap);
+      li {
+        width: 50%;
+        &[class*="sidr-class-oceanwp-"] {
+          width: auto;
+          @include flex(1 0 auto);
+        }
+      }
+    }
+  }
+}

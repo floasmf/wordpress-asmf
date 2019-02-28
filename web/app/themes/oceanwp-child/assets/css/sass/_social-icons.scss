@@ -2,17 +2,10 @@
   &.simple-social {
     ul {
       display: inline-block;
-      &.login-shop-menu {
-        li {
-          a {
-            font-weight: 500;
-          }
-        }
-      }
-      &:not(.login-shop-menu) {
-        margin-left: 1em;
-        @media screen and (max-width: $screen-xl) {
-          margin-top: 10px;
+      li {
+        margin-bottom: 10px;
+        a {
+          font-weight: 500;
         }
       }
     }
@@ -23,13 +16,14 @@
   .oceanwp-social-menu {
     &.simple-social {
       ul {
-        &.login-shop-menu {
-          li {
-            a {
+        li {
+          a {
+            &.oceanwp-logout, &.oceanwp-login, &.shop-link {
               background: $background-shop-btn-header;
               color: inherit !important;
+
               &:hover {
-                background: darken($background-shop-btn-header, 1%);
+                background: darken($background-shop-btn-header, 10%);
               }
             }
           }
@@ -41,16 +35,22 @@
 
 #footer {
   .oceanwp-social-menu {
+    display: block !important;
     float: none;
     &.simple-social {
       right: 0;
-      ul {
-        &.login-shop-menu {
+      .social-menu-inner {
+        height: auto;
+        @media screen and (max-width: $screen-xs) {
+          @include justify-content(center);
+        }
+        ul {
           li {
-            a {
+            .shop-link {
               background: $background-shop-btn-footer;
+
               &:hover {
-                background: darken($background-shop-btn-footer, 1%);
+                background: darken($background-shop-btn-footer, 10%);
                 color: inherit !important;
               }
             }

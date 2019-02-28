@@ -1,30 +1,18 @@
 .widget_asmf_calendar {
   #calendar-carousel {
-    position: relative;
-    @include box-shadow(gray 2px 2px 5px);
-    &:before {
-      content: '';
-      position: absolute;
-      left: -30px;
-      right: -30px;
-      height: 80%;
-      background: black;
-      top: 50%;
-      @include transform(translateY(-50%));
-    }
     .slick-track {
       .slide-match {
-        position: relative;
-        padding: 20px;
         .slide-match-title {
-          position: absolute;
-          top: 0;
-          left: 50%;
-          @include transform(translateX(-50%) translateY(-50%));
-          background-color: $primary;
-          color: white;
-          font-weight: 600;
-          text-transform: uppercase;
+          margin-bottom: 1em;
+          text-align: center;
+          span {
+            display: inline-block;
+            padding: 0 10px;
+            background-color: $primary;
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+          }
         }
         .match {
           text-align: center;

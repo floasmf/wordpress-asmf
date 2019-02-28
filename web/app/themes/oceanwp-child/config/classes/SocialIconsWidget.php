@@ -66,20 +66,15 @@ class SocialIconsWidget extends WP_Widget
         <div class="<?php echo esc_attr( $classes ); ?>">
 
         <div class="<?php echo esc_attr( $inner_classes ); ?>">
-            <ul class="login-shop-menu">
+            <ul>
                 <?php
                 if($url) {
                     ?>
                     <li>
-                        <a href="<?php echo $url ?>" target="_blank"><?php echo __('Boutique', 'asmf'); ?></a>
+                        <a class="shop-link" href="<?php echo $url ?>" target="_blank"><?php echo __('Boutique', 'asmf'); ?></a>
                     </li>
                     <?php
                 }
-                ?>
-            </ul>
-            <ul>
-
-                <?php
                 // Loop through social options
                 foreach ( $social_options as $key => $val ) {
 

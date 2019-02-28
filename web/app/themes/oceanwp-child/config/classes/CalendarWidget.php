@@ -43,8 +43,8 @@ class CalendarWidget extends WP_Widget
             foreach ($slide_matchs as $slide_match) {
 
                 $html .= '<div class="slide-match">';
+                $html .= sprintf('<div class="slide-match-title"><span>%s</span></div>', $slide_match->post_title);
                 foreach (get_field('matchs', $slide_match->ID) as $match) {
-                    $html .= sprintf('<div class="slide-match-title">%s</div>', $slide_match->post_title);
                     $html .= '<div class="match">';
                     $html .= sprintf('<div class="date">%s</div>', $match['date']);
                     $html .= '<div class="teams">';
