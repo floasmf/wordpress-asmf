@@ -64,7 +64,7 @@ class EventsWidget extends WP_Widget
                 }
                 $html .= '</div>';
                 // Titre
-                $html .= sprintf('<h4 class="title"><a href="%s">%s</a></h4>', get_the_permalink($event), get_the_title($event));
+                $html .= sprintf('<p class="title"><a href="%s">%s</a></p>', get_the_permalink($event), get_the_title($event));
                 // Extrait
                 $html .= sprintf('<div class="excerpt">%s</div>', get_the_excerpt());
                 // Image principale

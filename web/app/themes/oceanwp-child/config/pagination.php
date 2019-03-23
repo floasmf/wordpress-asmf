@@ -19,14 +19,14 @@ function pagination($base, $max_num_pages) {
         'prev_next'       => True,
         'prev_text'       => __('«'),
         'next_text'       => __('»'),
-        'type'            => 'plain',
+        'type'            => 'list',
         'add_args'        => false,
         'add_fragment'    => ''
     ));
 
     if ($paginate_links) {
         ?>
-        <nav class='custom-pagination'><?php echo $paginate_links ?></nav>
+        <nav class='oceanwp-pagination'><?php echo $paginate_links ?></nav>
         <?php
     }
 }

@@ -1,10 +1,7 @@
-.custom-pagination {
-  position: relative;
-  text-align: right;
+.oceanwp-pagination {
   .page-numbers {
-    padding: 5px 10px;
-    &:hover {
-      color: #ffffff;
+    &.current {
+      cursor: initial;
       background-color: $secondary;
     }
   }

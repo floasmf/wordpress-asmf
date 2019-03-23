@@ -14,8 +14,8 @@
   }
   article {
     &.blog-entry {
-      border: 1px solid #c1c1c1;
-      padding: $padding-entries;
+      border: 1px solid #c1c1c1!important;
+      padding: $padding-entries!important;
       background: white;
     }
   }

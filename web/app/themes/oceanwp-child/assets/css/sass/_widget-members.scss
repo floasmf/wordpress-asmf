@@ -1,0 +1,19 @@
+.elementor-widget-asmf_members {
+  table {
+    tr {
+      transition: .4s;
+      &:hover {
+        background-color: rgba($primary,.2);
+      }
+      td {
+        padding: 10px;
+        &.name {
+          font-weight: 500;
+          .lastname {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}

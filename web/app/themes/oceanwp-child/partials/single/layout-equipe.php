@@ -87,11 +87,12 @@
             foreach ( $query->posts as $post ) {
                 get_template_part('partials/entry/layout', $post->post_type);
             }
-            if (function_exists('pagination')) {
-                pagination($base, $query->max_num_pages);
-            }
-            wp_reset_postdata();
         }
         ?>
     </section>
 </article>
+<?php
+if (function_exists('pagination')) {
+    pagination($base, $query->max_num_pages);
+}
+wp_reset_postdata();

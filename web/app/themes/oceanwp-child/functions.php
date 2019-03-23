@@ -26,3 +26,4 @@ require_once get_stylesheet_directory().'/config/excerpt.php';
 require_once get_stylesheet_directory().'/config/elementor-widget.php';
 require_once get_stylesheet_directory().'/config/login.php';
 require_once get_stylesheet_directory().'/config/sidebar.php';
+require_once get_stylesheet_directory().'/config/category.php';

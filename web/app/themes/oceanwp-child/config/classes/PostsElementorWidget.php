@@ -6,7 +6,9 @@
  * Time: 18:20
  */
 
-class PostsElementorWidget extends \Elementor\Widget_Base
+namespace Elementor;
+
+class PostsElementorWidget extends Widget_Base
 {
     /**
      * Get widget name.
@@ -78,7 +80,7 @@ class PostsElementorWidget extends \Elementor\Widget_Base
             'options',
             [
                 'label' => __( 'Options', 'asmf' ),
-                'tab' => \Elementor\Controls_Manager::TAB_CONTENT,
+                'tab' => Controls_Manager::TAB_CONTENT,
             ]
         );
 
@@ -91,7 +93,7 @@ class PostsElementorWidget extends \Elementor\Widget_Base
             'categories',
             [
                 'label' => __( 'Catégories', 'asmf' ),
-                'type' => \Elementor\Controls_Manager::SELECT2,
+                'type' => Controls_Manager::SELECT2,
                 'multiple' => true,
                 'options' => $categories,
                 'default' => array_keys($categories),
@@ -124,7 +126,7 @@ class PostsElementorWidget extends \Elementor\Widget_Base
         <div id="blog-entries" class="<?php oceanwp_blog_wrap_classes(); ?>">
         <?php
         $base = get_permalink();
-        $query = new WP_Query(array(
+        $query = new \WP_Query(array(
             'posts_per_page' => get_option('posts_per_page'),
             'paged' => $paged,
             'category__in' => $categories,
