@@ -28,6 +28,14 @@
       }
       .sub-menu {
         border-top: none;
+        li {
+          a {
+            padding-left: 80px;
+            @media screen and (max-width: $screen-sm){
+              padding-left: 50px;
+            }
+          }
+        }
       }
     }
   }

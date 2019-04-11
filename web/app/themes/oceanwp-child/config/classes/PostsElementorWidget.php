@@ -129,22 +129,22 @@ class PostsElementorWidget extends Widget_Base
         $query = new \WP_Query(array(
             'posts_per_page' => get_option('posts_per_page'),
             'paged' => $paged,
-            'category__in' => $categories,
+            'cat' => $categories,
         ));
+
+        var_dump($categories);
 
         if ( $query->have_posts() ) {
             foreach ( $query->posts as $post ) {
                 get_template_part('partials/entry/layout', $post->post_type);
             }
-            if (function_exists('pagination')) {
-                pagination($base, $query->max_num_pages);
-            }
-            wp_reset_postdata();
         }
         ?>
-    </div>
-    <?php
-
+        </div>
+        <?php
+        if (function_exists('pagination')) {
+            pagination($base, $query->max_num_pages);
+        }
+        wp_reset_postdata();
     }
-
 }

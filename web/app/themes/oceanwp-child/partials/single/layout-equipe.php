@@ -8,7 +8,10 @@
         <?php the_post_thumbnail('thumbnail-team'); ?>
         <h1 class="title"><?php the_title(); ?></h1>
     </section>
-
+    <?php
+        $convocations = get_field('convocation');
+        $count_convocations = $convocations ? count($convocations) : 0;
+        if($count_convocations) { ?>
     <section id="convocations" class="elementor-section">
         <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="heading.default">
             <div class="elementor-widget-container">
@@ -18,8 +21,6 @@
         <div class="container-convocation">
             <div class="oceanwp-row clr">
                 <?php
-                $convocations = get_field('convocation');
-                $count_convocations = count($convocations);
                 if ($count_convocations <= 2 || $count_convocations % 2 == 0) {
                     $class = 'span_1_of_2';
                 } else {
@@ -65,6 +66,7 @@
             </div>
         </div>
     </section>
+    <?php } ?>
     <?php } ?>
 
     <section id="blog-entries" class="<?php oceanwp_blog_wrap_classes(); ?> elementor-section">

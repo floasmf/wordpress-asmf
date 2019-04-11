@@ -25,13 +25,13 @@ get_header(); ?>
             if ($portfolio_categories) {
                 $active_category = get_queried_object()->slug;
                 $html = '<section id="portfolio-categories" class="menu-categories elementor-section"><ul>';
-                foreach ($portfolio_categories as $portfolio_categorie) {
+                foreach ($portfolio_categories as $portfolio_category) {
                     $html .= '<li>';
-                    if($active_category == $portfolio_categorie->slug) {
-                        $html .= sprintf('<span>%s</span>', $portfolio_categorie->name);
+                    if($active_category == $portfolio_category->slug) {
+                        $html .= sprintf('<span>%s</span>', $portfolio_category->name);
 
                     } else {
-                        $html .= sprintf('<a href="%s">%s</a>', get_term_link($portfolio_categorie->slug, $taxonomy), $portfolio_categorie->name);
+                        $html .= sprintf('<a href="%s">%s</a>', get_term_link($portfolio_category->slug, $taxonomy), $portfolio_category->name);
                     }
                     $html .= '</li>';
                 }
