@@ -132,8 +132,6 @@ class PostsElementorWidget extends Widget_Base
             'cat' => $categories,
         ));
 
-        var_dump($categories);
-
         if ( $query->have_posts() ) {
             foreach ( $query->posts as $post ) {
                 get_template_part('partials/entry/layout', $post->post_type);

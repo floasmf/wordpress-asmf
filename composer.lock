@@ -485,15 +485,15 @@
         },
         {
             "name": "wpackagist-plugin/all-in-one-wp-migration",
-            "version": "6.90",
+            "version": "6.91",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
-                "reference": "tags/6.90"
+                "reference": "tags/6.91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.6.90.zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.6.91.zip",
                 "reference": null,
                 "shasum": null
             },
