@@ -27,3 +27,4 @@ require_once get_stylesheet_directory().'/config/elementor-widget.php';
 require_once get_stylesheet_directory().'/config/login.php';
 require_once get_stylesheet_directory().'/config/sidebar.php';
 require_once get_stylesheet_directory().'/config/category.php';
+require_once get_stylesheet_directory().'/config/timeline-express.php';

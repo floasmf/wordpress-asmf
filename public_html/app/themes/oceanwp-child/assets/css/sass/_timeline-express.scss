@@ -1,0 +1,16 @@
+#cd-timeline {
+  .cd-timeline-item-title {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1.2;
+  }
+  .cd-timeline-img {
+    .fa {
+      line-height: 50px;
+      @media screen and (min-width: 822px) {
+        line-height: 60px;
+      }
+    }
+  }
+}

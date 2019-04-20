@@ -3,6 +3,21 @@
     padding: 10px 0;
   }
 }
+.text-primary {
+  color: $primary
+}
+.text-secondary {
+  color: $secondary
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
 .dropdown-menu {
   li {
     &.menu-item {

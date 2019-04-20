@@ -11,5 +11,31 @@
         color: $primary;
       }
     }
+    &.acceptance {
+      label {
+        text-align: justify;
+        font-size: .7em;
+      }
+    }
+    .wpcf7-submit {
+      margin-bottom: 10px;
+    }
+  }
+  .col {
+    &.span_1_of_1 {
+      margin-bottom: 0;
+    }
+  }
+  p {
+    text-align: justify;
+    margin-bottom: 0;
+    font-size: .7em;
+  }
+  .ajax-loader {
+    display: none;
+    &.is-active {
+      display: inline-block;
+      margin-left: -16px;
+    }
   }
 }

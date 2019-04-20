@@ -1,0 +1,10 @@
+#cookie-notice {
+  @media screen and (max-width: $screen-sm) {
+    .cn-button {
+      padding: 10px 15px;
+      &.cn-set-cookie {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
