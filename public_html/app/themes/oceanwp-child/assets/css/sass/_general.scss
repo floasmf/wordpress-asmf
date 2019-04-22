@@ -37,3 +37,11 @@
     margin-bottom: 30px;
   }
 }
+button {
+  &.mfp-close {
+    &:hover {
+      background: none;
+      cursor: pointer!important;
+    }
+  }
+}
