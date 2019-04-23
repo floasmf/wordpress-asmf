@@ -43,7 +43,6 @@
     "wpackagist-plugin/enable-media-replace": ">=3.2.7",
     "wpackagist-plugin/custom-post-type-ui": ">=1.5.8",
     "wpackagist-plugin/wordpress-seo": ">=8.1",
-    "wpackagist-plugin/all-in-one-wp-migration": ">=6.75",
     "wpackagist-plugin/redirection": ">=3.4",
     "wpackagist-plugin/photography-portfolio": ">=1.4.8",
     "wpackagist-plugin/ocean-posts-slider": ">=1.0.12",
