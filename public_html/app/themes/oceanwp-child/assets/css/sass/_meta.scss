@@ -12,7 +12,9 @@ ul.meta {
       display: none;
     }
     &.meta-date {
-      float: right;
+      @media screen and (min-width: $screen-xs) {
+        float: right;
+      }
     }
     &.meta-cat {
       font-weight: 500;

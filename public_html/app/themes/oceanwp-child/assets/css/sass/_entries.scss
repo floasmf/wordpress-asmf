@@ -3,20 +3,32 @@
   padding-left: $padding-entries;
   padding-right: $padding-entries;
   margin-bottom: $padding-entries;
+  @media screen and (min-width: $screen-sm) {
+    padding-left: $padding-entries-sm;
+    padding-right: $padding-entries-sm;
+    margin-bottom: $padding-entries-sm;
+  }
   &:before {
     content: '';
     position: absolute;
     background: black;
-    top: $padding-entries;
     left: 0;
     right: 0;
+    top: $padding-entries;
     bottom: -$padding-entries;
+    @media screen and (min-width: $screen-sm) {
+      top: $padding-entries-sm;
+      bottom: -$padding-entries-sm;
+    }
   }
   article {
     &.blog-entry {
       border: 1px solid #c1c1c1!important;
-      padding: $padding-entries!important;
       background: white;
+      padding: $padding-entries!important;
+      @media screen and (min-width: $screen-sm) {
+        padding: $padding-entries-sm!important;
+      }
     }
   }
 }

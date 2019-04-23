@@ -3,17 +3,25 @@
   height: auto!important;
   width: 100%!important;
   margin-left: 0!important;
+  transition:none!important;
   margin-top: $padding-entries;
   padding: 0 $padding-entries;
-  transition:none!important;
+  @media screen and (min-width: $screen-sm) {
+    margin-top: $padding-entries-sm;
+    padding: 0 $padding-entries-sm;
+  }
   &:before {
     content: '';
     position: absolute;
-    top: $padding-entries;
     left: 0;
     right: 0;
+    top: $padding-entries;
     bottom: -$padding-entries;
     background: black;
+    @media screen and (min-width: $screen-sm) {
+      top: $padding-entries-sm;
+      bottom: -$padding-entries-sm;
+    }
   }
   .PP_Entry {
     position: relative!important;
@@ -21,9 +29,13 @@
     left: initial!important;
     width: 100%;
     border: 1px solid #c1c1c1;
+    background-color: white;
     margin-bottom: $padding-entries;
     padding: $padding-entries;
-    background-color: white;
+    @media screen and (min-width: $screen-sm) {
+      margin-bottom: $padding-entries-sm;
+      padding: $padding-entries-sm;
+    }
     .PP_Entry__thumbnail {
       img {
         display: initial;
@@ -44,13 +56,15 @@
       background-color: rgba($primary, .7);
       color: white;
       padding: 5px 20px;
-
       .PP_Entry__title {
         margin: 0;
       }
     }
     .PP_Entry__more {
       padding: $padding-entries;
+      @media screen and (min-width: $screen-sm) {
+        padding: $padding-entries-sm;
+      }
       .PP_Entry__view {
         left: 0;
         right: 0;
