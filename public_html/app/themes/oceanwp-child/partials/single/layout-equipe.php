@@ -79,13 +79,13 @@
     ));
 
     if ($query->have_posts()) { ?>
-        <section id="blog-entries" class="<?php oceanwp_blog_wrap_classes(); ?> elementor-section">
-            <div class="elementor-element elementor-widget elementor-widget-heading"
-                 data-element_type="heading.default">
-                <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default"><?php echo __('Actualités', 'asmf') ?></h2>
-                </div>
+        <div class="elementor-element elementor-widget elementor-widget-heading"
+             data-element_type="heading.default">
+            <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default"><?php echo __('Actualités', 'asmf') ?></h2>
             </div>
+        </div>
+        <section id="blog-entries" class="<?php oceanwp_blog_wrap_classes(); ?> elementor-section">
             <?php
 
             foreach ($query->posts as $post) {
