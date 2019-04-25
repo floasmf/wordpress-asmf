@@ -1,35 +1,48 @@
 .widget_asmf_contact {
-  .team {
-    display: inline-block;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    background: $primary;
-    padding: 0 10px;
-  }
-  ul {
-    line-height: 1.4em;
-    li {
-      .name {
-        &:after {
-          content: ':';
-          margin: 0 5px;
+  .contact {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+    .team {
+      display: inline-block;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: white;
+      background: $primary;
+      padding: 0 10px;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      line-height: 1.4em;
+
+      li {
+        .name {
+          &:after {
+            content: ':';
+            margin: 0 5px;
+          }
+
+          .lastname {
+            text-transform: uppercase;
+          }
+
+          .firstname {
+            text-transform: capitalize;
+          }
+
+          @media screen and (max-width: $screen-xs) {
+            display: block;
+          }
         }
-        .lastname {
-          text-transform: uppercase;
-        }
-        .firstname {
-          text-transform: capitalize;
-        }
-        @media screen and (max-width: $screen-xs){
-          display: block;
-        }
-      }
-      .phone {
-        color: inherit;
-        display: inline-block;
-        &:hover {
-          color: $primary;
+
+        .phone {
+          color: inherit;
+          display: inline-block;
+
+          &:hover {
+            color: $primary;
+          }
         }
       }
     }

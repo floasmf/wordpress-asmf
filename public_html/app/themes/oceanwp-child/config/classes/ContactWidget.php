@@ -37,8 +37,8 @@ class ContactWidget extends WP_Widget
 
 
                 foreach ($contact_equipe as $contact) {
+                    echo '<div class="contact">';
                     echo '<div class="team">'.$contact['equipe'].'</div>';
-
                     echo '<ul>';
                     foreach ($contact['personne'] as $personne) {
                         $html = '<li>';
@@ -51,6 +51,7 @@ class ContactWidget extends WP_Widget
                         echo $html;
                     }
                     echo '</ul>';
+                    echo '</div>';
                 }
 
                 echo $args['after_widget'];
