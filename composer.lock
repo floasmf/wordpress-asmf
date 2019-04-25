@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd0733f7bdd3b7f7988df0d537d421c9",
+    "content-hash": "1a588bb901af2a3d3cba5a0d3bbbb6ec",
     "packages": [
         {
             "name": "composer/installers",
@@ -502,6 +502,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bootstrap-for-contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/co-authors-plus",
+            "version": "3.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/co-authors-plus/",
+                "reference": "tags/3.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/co-authors-plus.3.3.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/co-authors-plus/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
