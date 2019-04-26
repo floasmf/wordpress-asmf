@@ -2,6 +2,11 @@ jQuery(document).ready(function() {
     new PartnersWidgetController();
     new CarouselController();
 
+    if (typeof TeamController === 'function') {
+        new TeamController();
+        console.log('team')
+    }
+
     setTimeout(function() {
         // Replace Custom icon
         jQuery( '#sidr [class*="sidr-class-custom-icon"]' ).attr( 'class', function( i, c ) {

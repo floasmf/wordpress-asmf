@@ -4,8 +4,12 @@
     $paged = (get_query_var('page')) ? get_query_var('page') : 1;
     if ($paged == 1) {
         ?>
-        <section id="post-thumbnail-team" class="elementor-section">
-            <?php the_post_thumbnail('thumbnail-team'); ?>
+        <section id="carousel-thumbnail-team" class="elementor-section">
+            <div>
+                <?php foreach (get_field('images') as $image) {
+                    echo '<img src="'.$image['sizes']['thumbnail-team'].'">';
+                }?>
+            </div>
             <h1 class="title"><?php the_title(); ?></h1>
         </section>
         <?php
