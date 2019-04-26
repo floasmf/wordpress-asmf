@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a588bb901af2a3d3cba5a0d3bbbb6ec",
+    "content-hash": "41b4df880db454ba6043f61f9690a7ec",
     "packages": [
         {
             "name": "composer/installers",
@@ -504,16 +504,16 @@
             "homepage": "https://wordpress.org/plugins/bootstrap-for-contact-form-7/"
         },
         {
-            "name": "wpackagist-plugin/co-authors-plus",
-            "version": "3.3.1",
+            "name": "wpackagist-plugin/capability-manager-enhanced",
+            "version": "1.7.3",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/co-authors-plus/",
-                "reference": "tags/3.3.1"
+                "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/co-authors-plus.3.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.zip?timestamp=1554836472",
                 "reference": null,
                 "shasum": null
             },
@@ -521,7 +521,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/co-authors-plus/"
+            "homepage": "https://wordpress.org/plugins/capability-manager-enhanced/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
