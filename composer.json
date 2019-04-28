@@ -54,7 +54,8 @@
     "wpackagist-plugin/ocean-social-sharing": "^1.0",
     "wpackagist-plugin/cookie-notice": "^1.2",
     "wpackagist-plugin/timeline-express": "^1.8",
-    "wpackagist-plugin/capability-manager-enhanced": "^1.7"
+    "wpackagist-plugin/capability-manager-enhanced": "^1.7",
+    "wpackagist-plugin/recaptcha-in-wp-comments-form": "^9.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

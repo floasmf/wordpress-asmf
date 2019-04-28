@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "41b4df880db454ba6043f61f9690a7ec",
+    "content-hash": "068a6eeeb4cc8eaae421db9a4379cbde",
     "packages": [
         {
             "name": "composer/installers",
@@ -702,6 +702,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/photography-portfolio/"
+        },
+        {
+            "name": "wpackagist-plugin/recaptcha-in-wp-comments-form",
+            "version": "9.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/recaptcha-in-wp-comments-form/",
+                "reference": "tags/9.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/recaptcha-in-wp-comments-form.9.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/recaptcha-in-wp-comments-form/"
         },
         {
             "name": "wpackagist-plugin/redirection",

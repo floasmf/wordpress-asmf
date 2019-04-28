@@ -6,8 +6,12 @@
         ?>
         <section id="carousel-thumbnail-team" class="elementor-section">
             <div>
-                <?php foreach (get_field('images') as $image) {
-                    echo '<img src="'.$image['sizes']['thumbnail-team'].'">';
+                <?php
+                $images = get_field('images');
+                if($images) {
+                    foreach ($images as $image) {
+                        echo '<img src="' . $image['sizes']['thumbnail-team'] . '">';
+                    }
                 }?>
             </div>
             <h1 class="title"><?php the_title(); ?></h1>
