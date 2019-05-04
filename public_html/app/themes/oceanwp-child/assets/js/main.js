@@ -1,10 +1,10 @@
 jQuery(document).ready(function() {
     new PartnersWidgetController();
     new CarouselController();
+    new MenuCategories();
 
     if (typeof TeamController === 'function') {
         new TeamController();
-        console.log('team')
     }
 
     setTimeout(function() {

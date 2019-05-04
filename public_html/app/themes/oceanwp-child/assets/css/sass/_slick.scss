@@ -5,3 +5,29 @@
   -ms-user-select: initial!important;
   user-select: initial!important;
 }
+.menu-categories {
+  .slick-dots {
+    @include justify-content(center);
+    li {
+      button {
+        &:hover {
+          background-color: transparent;
+          &:before {
+            color: $secondary;
+          }
+        }
+        &:before {
+          opacity: 1;
+          color: $primary;
+        }
+      }
+      &.slick-active {
+        button {
+          &:before {
+            color: $secondary;
+          }
+        }
+      }
+    }
+  }
+}

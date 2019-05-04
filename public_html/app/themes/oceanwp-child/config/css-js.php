@@ -21,6 +21,7 @@ function add_styles_scripts() {
     wp_enqueue_script('jquery.inherit', get_stylesheet_directory_uri().'/assets/lib/jquery.inherit.js', array('oceanwp-main'));
     wp_enqueue_script('PartnersWidgetsController', get_stylesheet_directory_uri().'/assets/js/classes/PartnersWidgetController.js', array('jquery.inherit'), filemtime(get_stylesheet_directory().'/assets/js/classes/PartnersWidgetController.js'));
     wp_enqueue_script('CarouselController', get_stylesheet_directory_uri().'/assets/js/classes/CarouselController.js', array('jquery.inherit'),  filemtime(get_stylesheet_directory().'/assets/js/classes/CarouselController.js'));
+    wp_enqueue_script('MenuCategories', get_stylesheet_directory_uri().'/assets/js/classes/MenuCategories.js', array('jquery.inherit'),  filemtime(get_stylesheet_directory().'/assets/js/classes/MenuCategories.js'));
     if (is_singular('equipe')) {
         wp_enqueue_script('TeamController', get_stylesheet_directory_uri().'/assets/js/classes/TeamController.js', array('jquery.inherit'),  filemtime(get_stylesheet_directory().'/assets/js/classes/TeamController.js'));
     }

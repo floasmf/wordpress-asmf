@@ -16,7 +16,7 @@ var TeamController = jQuery.inherit({
             infinite: true,
             speed: 500,
             cssEase: 'linear',
-            arrows: false,
+            arrows: false
         });
     }
 });
