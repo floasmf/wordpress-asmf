@@ -505,7 +505,7 @@
         },
         {
             "name": "wpackagist-plugin/capability-manager-enhanced",
-            "version": "1.7.3",
+            "version": "1.7.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
@@ -513,7 +513,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.zip?timestamp=1554836472",
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.zip?timestamp=1556686530",
                 "reference": null,
                 "shasum": null
             },
@@ -765,15 +765,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "11.0",
+            "version": "11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/11.0"
+                "reference": "tags/11.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.1.zip",
                 "reference": null,
                 "shasum": null
             },
