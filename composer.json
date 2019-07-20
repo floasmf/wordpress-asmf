@@ -55,7 +55,6 @@
     "wpackagist-plugin/cookie-notice": "^1.2",
     "wpackagist-plugin/timeline-express": "^1.8",
     "wpackagist-plugin/capability-manager-enhanced": "^1.7",
-    "wpackagist-plugin/recaptcha-in-wp-comments-form": "^9.1",
     "wpackagist-plugin/wp-security-pro": "^3.1",
     "wpackagist-plugin/ga-google-analytics": "20190501"
   },
