@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "efe449ad73cfca21f8d22197885e2f24",
+    "content-hash": "9ed772a594d0854d1c3f16e0ce8e5e85",
     "packages": [
         {
             "name": "composer/installers",
@@ -585,15 +585,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.5.16",
+            "version": "2.6.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.5.16"
+                "reference": "tags/2.6.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.5.16.zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -605,15 +605,15 @@
         },
         {
             "name": "wpackagist-plugin/enable-media-replace",
-            "version": "3.3.1",
+            "version": "3.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enable-media-replace/",
-                "reference": "tags/3.3.1"
+                "reference": "tags/3.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.3.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -622,6 +622,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/enable-media-replace/"
+        },
+        {
+            "name": "wpackagist-plugin/ga-google-analytics",
+            "version": 20190501,
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ga-google-analytics/",
+                "reference": "tags/20190501"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ga-google-analytics.20190501.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ga-google-analytics/"
         },
         {
             "name": "wpackagist-plugin/ocean-extra",
@@ -765,15 +785,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "11.5",
+            "version": "11.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/11.5"
+                "reference": "tags/11.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.6.zip",
                 "reference": null,
                 "shasum": null
             },
