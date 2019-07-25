@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0d804abda49ca4c695a8abd92c5c523",
+    "content-hash": "6487e58959823cee0cea456dbd7fe90b",
     "packages": [
         {
             "name": "composer/installers",
@@ -585,15 +585,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.6.5",
+            "version": "2.6.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.6.5"
+                "reference": "tags/2.6.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -605,15 +605,15 @@
         },
         {
             "name": "wpackagist-plugin/enable-media-replace",
-            "version": "3.3.3",
+            "version": "3.3.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/enable-media-replace/",
-                "reference": "tags/3.3.3"
+                "reference": "tags/3.3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.3.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.3.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -764,16 +764,76 @@
             "homepage": "https://wordpress.org/plugins/timeline-express/"
         },
         {
-            "name": "wpackagist-plugin/wordpress-seo",
-            "version": "11.6",
+            "name": "wpackagist-plugin/wordfence",
+            "version": "7.3.5",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/11.6"
+                "url": "https://plugins.svn.wordpress.org/wordfence/",
+                "reference": "tags/7.3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence.7.3.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordfence/"
+        },
+        {
+            "name": "wpackagist-plugin/wordfence-assistant",
+            "version": "1.0.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordfence-assistant/",
+                "reference": "tags/1.0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence-assistant.1.0.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordfence-assistant/"
+        },
+        {
+            "name": "wpackagist-plugin/wordfence-login-security",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordfence-login-security/",
+                "reference": "tags/1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence-login-security.1.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordfence-login-security/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "11.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/11.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.11.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -782,26 +842,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-security-pro",
-            "version": "3.1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-security-pro/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-security-pro.zip?timestamp=1560246642",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-security-pro/"
         },
         {
             "name": "wpackagist-theme/oceanwp",
