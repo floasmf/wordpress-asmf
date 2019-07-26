@@ -9,6 +9,7 @@ public_html/app/themes/*
 !public_html/app/themes/oceanwp-child/
 public_html/app/ai1wm-backups
 public_html/app/languages
+public_html/app/wflogs
 
 # WordPress
 public_html/wp
