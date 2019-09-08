@@ -55,7 +55,7 @@
     "wpackagist-plugin/cookie-notice": "^1.2",
     "wpackagist-plugin/timeline-express": "^1.8",
     "wpackagist-plugin/capability-manager-enhanced": "^1.7",
-    "wpackagist-plugin/ga-google-analytics": "20190501",
+    "wpackagist-plugin/ga-google-analytics": ">=20190501",
     "wpackagist-plugin/wordfence-assistant": "^1.0",
     "wpackagist-plugin/wordfence-login-security": "^1.0",
     "wpackagist-plugin/wordfence": "^7.4"
