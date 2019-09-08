@@ -56,9 +56,9 @@
     "wpackagist-plugin/timeline-express": "^1.8",
     "wpackagist-plugin/capability-manager-enhanced": "^1.7",
     "wpackagist-plugin/ga-google-analytics": "20190501",
-    "wpackagist-plugin/wordfence": "^7.3",
     "wpackagist-plugin/wordfence-assistant": "^1.0",
-    "wpackagist-plugin/wordfence-login-security": "^1.0"
+    "wpackagist-plugin/wordfence-login-security": "^1.0",
+    "wpackagist-plugin/wordfence": "^7.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
