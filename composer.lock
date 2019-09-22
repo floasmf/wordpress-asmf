@@ -587,15 +587,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.6.8",
+            "version": "2.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.6.8"
+                "reference": "tags/2.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.6.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -647,15 +647,15 @@
         },
         {
             "name": "wpackagist-plugin/ocean-extra",
-            "version": "1.5.15",
+            "version": "1.5.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ocean-extra/",
-                "reference": "tags/1.5.15"
+                "reference": "tags/1.5.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ocean-extra.1.5.15.zip",
+                "url": "https://downloads.wordpress.org/plugin/ocean-extra.1.5.16.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -727,15 +727,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "4.3.3",
+            "version": "4.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/4.3.3"
+                "reference": "tags/4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.4.3.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.4.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -827,15 +827,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.0",
+            "version": "12.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.0"
+                "reference": "tags/12.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.1.zip",
                 "reference": null,
                 "shasum": null
             },

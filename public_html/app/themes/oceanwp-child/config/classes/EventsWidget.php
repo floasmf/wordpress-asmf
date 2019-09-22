@@ -51,8 +51,6 @@ class EventsWidget extends WP_Widget
 
             $html = '<div id="events-carousel" class="carousel">';
             foreach ($events as $event) {
-                setup_postdata($event);
-
                 $html .= '<div class="event">';
                 // Date
                 $date = get_field('date', $event);
@@ -66,7 +64,7 @@ class EventsWidget extends WP_Widget
                 // Titre
                 $html .= sprintf('<p class="title"><a href="%s">%s</a></p>', get_the_permalink($event), get_the_title($event));
                 // Extrait
-                $html .= sprintf('<div class="excerpt">%s</div>', get_the_excerpt());
+                $html .= sprintf('<div class="excerpt">%s</div>', get_the_excerpt($event));
                 // Image principale
                 $html .= get_the_post_thumbnail($event);
                 $html .= '</div>';
