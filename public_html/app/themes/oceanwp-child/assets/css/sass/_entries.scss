@@ -22,13 +22,12 @@
     }
   }
   article {
-    &.blog-entry {
-      border: 1px solid #c1c1c1!important;
-      background: white;
-      padding: $padding-entries!important;
-      @media screen and (min-width: $screen-sm) {
-        padding: $padding-entries-sm!important;
-      }
+    position: relative;
+    border: 1px solid #c1c1c1!important;
+    background: white;
+    padding: $padding-entries!important;
+    @media screen and (min-width: $screen-sm) {
+      padding: $padding-entries-sm!important;
     }
   }
 }
